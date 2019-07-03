@@ -1,0 +1,562 @@
+<!DOCTYPE html>
+
+<html lang="ru" >
+<head>
+<title>Изменить Категория | Административный сайт Django</title>
+<link rel="stylesheet" type="text/css" href="/static/admin/css/base.css" />
+<link rel="stylesheet" type="text/css" href="/static/admin/css/forms.css" />
+
+
+<script type="text/javascript" src="/admin/jsi18n/"></script>
+<script type="text/javascript" src="/static/admin/js/core.js"></script>
+<script type="text/javascript" src="/static/admin/js/vendor/jquery/jquery.min.js"></script>
+<script type="text/javascript" src="/static/admin/js/jquery.init.js"></script>
+<script type="text/javascript" src="/static/admin/js/admin/RelatedObjectLookups.js"></script>
+<script type="text/javascript" src="/static/admin/js/actions.min.js"></script>
+<script type="text/javascript" src="/static/admin/js/urlify.js"></script>
+<script type="text/javascript" src="/static/admin/js/prepopulate.min.js"></script>
+<script type="text/javascript" src="/static/admin/js/vendor/xregexp/xregexp.min.js"></script>
+
+<meta name="robots" content="NONE,NOARCHIVE" />
+</head>
+
+
+<body class=" app-catalogue model-category change-form"
+  data-admin-utc-offset="10800">
+
+<!-- Container -->
+<div id="container">
+
+    
+    <!-- Header -->
+    <div id="header">
+        <div id="branding">
+        
+<h1 id="site-name"><a href="/admin/">Администрирование Django</a></h1>
+
+        </div>
+        
+        
+        <div id="user-tools">
+            
+                Добро пожаловать,
+                <strong>Зарема</strong>.
+            
+            
+                
+                    <a href="/">Открыть сайт</a> /
+                
+                
+                    
+                    
+                
+                
+                <a href="/admin/password_change/">Изменить пароль</a> /
+                
+                <a href="/admin/logout/">Выйти</a>
+            
+        </div>
+        
+        
+        
+    </div>
+    <!-- END Header -->
+    
+<div class="breadcrumbs">
+<a href="/admin/">Начало</a>
+&rsaquo; <a href="/admin/catalogue/">Каталог</a>
+&rsaquo; <a href="/admin/catalogue/category/">Категории</a>
+&rsaquo; Садовая мебель &gt; Столы
+</div>
+
+    
+
+    
+        
+    
+
+    <!-- Content -->
+    <div id="content" class="colM">
+        
+        <h1>Изменить Категория</h1>
+        <div id="content-main">
+
+
+  <ul class="object-tools">
+    
+    <li>
+        
+        <a href="/admin/catalogue/category/300/history/" class="historylink">История</a>
+    </li>
+    <li><a href="/admin/r/19/300/" class="viewsitelink">Смотреть на сайте</a></li>
+    
+  </ul>
+
+
+<form enctype="multipart/form-data" action="" method="post" id="category_form" novalidate><input type='hidden' name='csrfmiddlewaretoken' value='essWv6idU6Elo7uPZEX8MIMpYwtWMtXCIVqIToxdOMnr2wDEK9OfpQ9vyz0rP6JL' />
+<div>
+
+
+
+
+
+
+
+  <fieldset class="module aligned ">
+    
+    
+    
+        <div class="form-row field-name">
+            
+            
+                <div>
+                    
+                    
+                        <label class="required" for="id_name">Название:</label>
+                        
+                            <input type="text" name="name" value="Столы" required maxlength="255" id="id_name" class="vTextField" />
+                        
+                    
+                    
+                </div>
+            
+        </div>
+    
+        <div class="form-row field-description">
+            
+            
+                <div>
+                    
+                    
+                        <label for="id_description">Описание:</label>
+                        
+                            <textarea name="description" rows="10" id="id_description" class="vLargeTextField" cols="40">
+</textarea>
+                        
+                    
+                    
+                </div>
+            
+        </div>
+    
+        <div class="form-row field-image">
+            
+            
+                <div>
+                    
+                    
+                        <label for="id_image">Изображение:</label>
+                        
+                            <input type="file" name="image" id="id_image" />
+                        
+                    
+                    
+                </div>
+            
+        </div>
+    
+        <div class="form-row field-slug">
+            
+            
+                <div>
+                    
+                    
+                        <label class="required" for="id_slug">Имя в URL:</label>
+                        
+                            <input type="text" name="slug" value="stoly" required maxlength="255" id="id_slug" class="vTextField" />
+                        
+                    
+                    
+                </div>
+            
+        </div>
+    
+        <div class="form-row field-_position">
+            
+            
+                <div>
+                    
+                    
+                        <label class="required" for="id__position">Позиция:</label>
+                        
+                            <select name="_position" id="id__position">
+  <option value="first-child">Первый вложенный</option>
+
+  <option value="left">До</option>
+
+  <option value="right" selected>После</option>
+
+</select>
+                        
+                    
+                    
+                </div>
+            
+        </div>
+    
+        <div class="form-row field-_ref_node_id">
+            
+            
+                <div>
+                    
+                    
+                        <label for="id__ref_node_id">Относительно:</label>
+                        
+                            <select name="_ref_node_id" id="id__ref_node_id">
+  <option value="0">-- корень --</option>
+
+  <option value="298">Садовая мебель</option>
+
+  <option value="313">&nbsp;&nbsp;&nbsp;&nbsp;Садовая мебель &gt; Распродажа</option>
+
+  <option value="307">&nbsp;&nbsp;&nbsp;&nbsp;Садовая мебель &gt; Комплекты для сада</option>
+
+  <option value="309">&nbsp;&nbsp;&nbsp;&nbsp;Садовая мебель &gt; Мебель из ротанга</option>
+
+  <option value="308">&nbsp;&nbsp;&nbsp;&nbsp;Садовая мебель &gt; Гамаки</option>
+
+  <option value="306">&nbsp;&nbsp;&nbsp;&nbsp;Садовая мебель &gt; Качели для сада</option>
+
+  <option value="305">&nbsp;&nbsp;&nbsp;&nbsp;Садовая мебель &gt; Подвесные кресла</option>
+
+  <option value="304">&nbsp;&nbsp;&nbsp;&nbsp;Садовая мебель &gt; Раскладные кровати</option>
+
+  <option value="303">&nbsp;&nbsp;&nbsp;&nbsp;Садовая мебель &gt; Пуфы</option>
+
+  <option value="302">&nbsp;&nbsp;&nbsp;&nbsp;Садовая мебель &gt; Кресла-качалки</option>
+
+  <option value="301" selected>&nbsp;&nbsp;&nbsp;&nbsp;Садовая мебель &gt; Стулья садовые</option>
+
+  <option value="231">PROVANCE</option>
+
+  <option value="154">&nbsp;&nbsp;&nbsp;&nbsp;PROVANCE &gt; Бюро</option>
+
+  <option value="153">&nbsp;&nbsp;&nbsp;&nbsp;PROVANCE &gt; Банкетки и Пуфы</option>
+
+  <option value="248">&nbsp;&nbsp;&nbsp;&nbsp;PROVANCE &gt; Диваны</option>
+
+  <option value="157">&nbsp;&nbsp;&nbsp;&nbsp;PROVANCE &gt; Журнальные столики</option>
+
+  <option value="194">&nbsp;&nbsp;&nbsp;&nbsp;PROVANCE &gt; Зеркало</option>
+
+  <option value="224">&nbsp;&nbsp;&nbsp;&nbsp;PROVANCE &gt; Консоли и Подставки</option>
+
+  <option value="202">&nbsp;&nbsp;&nbsp;&nbsp;PROVANCE &gt; Комоды</option>
+
+  <option value="251">&nbsp;&nbsp;&nbsp;&nbsp;PROVANCE &gt; Кресла</option>
+
+  <option value="217">&nbsp;&nbsp;&nbsp;&nbsp;PROVANCE &gt; Кровати</option>
+
+  <option value="218">&nbsp;&nbsp;&nbsp;&nbsp;PROVANCE &gt; Прикроватные тумбы</option>
+
+  <option value="249">&nbsp;&nbsp;&nbsp;&nbsp;PROVANCE &gt; Столы обеденные</option>
+
+  <option value="191">&nbsp;&nbsp;&nbsp;&nbsp;PROVANCE &gt; Столы письменные</option>
+
+  <option value="237">&nbsp;&nbsp;&nbsp;&nbsp;PROVANCE &gt; Столики кофейные</option>
+
+  <option value="220">&nbsp;&nbsp;&nbsp;&nbsp;PROVANCE &gt; Столики туалетные</option>
+
+  <option value="169">&nbsp;&nbsp;&nbsp;&nbsp;PROVANCE &gt; Стулья</option>
+
+  <option value="253">&nbsp;&nbsp;&nbsp;&nbsp;PROVANCE &gt; ТВ Тумбы</option>
+
+  <option value="204">&nbsp;&nbsp;&nbsp;&nbsp;PROVANCE &gt; Стеллажи и Витрины</option>
+
+  <option value="188">&nbsp;&nbsp;&nbsp;&nbsp;PROVANCE &gt; Шкафы</option>
+
+  <option value="230">Мебель из Массива</option>
+
+  <option value="227">&nbsp;&nbsp;&nbsp;&nbsp;Мебель из Массива &gt; Стулья</option>
+
+  <option value="168">&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;Мебель из Массива &gt; Стулья &gt; Стулья</option>
+
+  <option value="159">&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;Мебель из Массива &gt; Стулья &gt; Стулья &gt; Стулья</option>
+
+  <option value="172">&nbsp;&nbsp;&nbsp;&nbsp;Мебель из Массива &gt; Бюро</option>
+
+  <option value="176">&nbsp;&nbsp;&nbsp;&nbsp;Мебель из Массива &gt; Банкетки и пуфы</option>
+
+  <option value="178">&nbsp;&nbsp;&nbsp;&nbsp;Мебель из Массива &gt; Вешалки</option>
+
+  <option value="244">&nbsp;&nbsp;&nbsp;&nbsp;Мебель из Массива &gt; Газетницы</option>
+
+  <option value="167">&nbsp;&nbsp;&nbsp;&nbsp;Мебель из Массива &gt; Журнальные столики</option>
+
+  <option value="143">&nbsp;&nbsp;&nbsp;&nbsp;Мебель из Массива &gt; Зеркала</option>
+
+  <option value="174">&nbsp;&nbsp;&nbsp;&nbsp;Мебель из Массива &gt; Консоли и подставки</option>
+
+  <option value="180">&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;Мебель из Массива &gt; Консоли и подставки &gt; Подставки под цветы</option>
+
+  <option value="173">&nbsp;&nbsp;&nbsp;&nbsp;Мебель из Массива &gt; Комоды и Тумбы</option>
+
+  <option value="155">&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;Мебель из Массива &gt; Комоды и Тумбы &gt; Комоды</option>
+
+  <option value="192">&nbsp;&nbsp;&nbsp;&nbsp;Мебель из Массива &gt; Кресла</option>
+
+  <option value="175">&nbsp;&nbsp;&nbsp;&nbsp;Мебель из Массива &gt; Мебель для Дачи</option>
+
+  <option value="189">&nbsp;&nbsp;&nbsp;&nbsp;Мебель из Массива &gt; Обеденные Столы</option>
+
+  <option value="170">&nbsp;&nbsp;&nbsp;&nbsp;Мебель из Массива &gt; Обувницы</option>
+
+  <option value="187">&nbsp;&nbsp;&nbsp;&nbsp;Мебель из Массива &gt; Стеллажи и Этажерки</option>
+
+  <option value="183">&nbsp;&nbsp;&nbsp;&nbsp;Мебель из Массива &gt; Столики кофейные</option>
+
+  <option value="184">&nbsp;&nbsp;&nbsp;&nbsp;Мебель из Массива &gt; Столики сервировочные</option>
+
+  <option value="185">&nbsp;&nbsp;&nbsp;&nbsp;Мебель из Массива &gt; Столики туалетные</option>
+
+  <option value="182">&nbsp;&nbsp;&nbsp;&nbsp;Мебель из Массива &gt; Столы письменные</option>
+
+  <option value="148">&nbsp;&nbsp;&nbsp;&nbsp;Мебель из Массива &gt; Сундуки</option>
+
+  <option value="145">&nbsp;&nbsp;&nbsp;&nbsp;Мебель из Массива &gt; Табуреты</option>
+
+  <option value="177">&nbsp;&nbsp;&nbsp;&nbsp;Мебель из Массива &gt; Тумбы ТВ</option>
+
+  <option value="156">&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;Мебель из Массива &gt; Тумбы ТВ &gt; Тумбы ТВ</option>
+
+  <option value="181">&nbsp;&nbsp;&nbsp;&nbsp;Мебель из Массива &gt; Шкафы и Витрины</option>
+
+  <option value="193">&nbsp;&nbsp;&nbsp;&nbsp;Мебель из Массива &gt; Часы</option>
+
+  <option value="228">Диваны и кресла</option>
+
+  <option value="293">&nbsp;&nbsp;&nbsp;&nbsp;Диваны и кресла &gt; РАСПРОДАЖА</option>
+
+  <option value="254">&nbsp;&nbsp;&nbsp;&nbsp;Диваны и кресла &gt; Офисные диваны</option>
+
+  <option value="200">&nbsp;&nbsp;&nbsp;&nbsp;Диваны и кресла &gt; Классические диваны</option>
+
+  <option value="149">&nbsp;&nbsp;&nbsp;&nbsp;Диваны и кресла &gt; Мини-диваны</option>
+
+  <option value="201">&nbsp;&nbsp;&nbsp;&nbsp;Диваны и кресла &gt; Диваны для Кухни</option>
+
+  <option value="211">&nbsp;&nbsp;&nbsp;&nbsp;Диваны и кресла &gt; Диваны Детские</option>
+
+  <option value="203">&nbsp;&nbsp;&nbsp;&nbsp;Диваны и кресла &gt; Диваны Модульные</option>
+
+  <option value="209">&nbsp;&nbsp;&nbsp;&nbsp;Диваны и кресла &gt; Диваны Угловые</option>
+
+  <option value="213">&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;Диваны и кресла &gt; Диваны Угловые &gt; Диваны и кресла с оттоманкой</option>
+
+  <option value="208">&nbsp;&nbsp;&nbsp;&nbsp;Диваны и кресла &gt; Диваны Прямые</option>
+
+  <option value="212">&nbsp;&nbsp;&nbsp;&nbsp;Диваны и кресла &gt; Диваны Книжки (Клик-кляк)</option>
+
+  <option value="197">&nbsp;&nbsp;&nbsp;&nbsp;Диваны и кресла &gt; Диваны- Аккордеоны</option>
+
+  <option value="207">&nbsp;&nbsp;&nbsp;&nbsp;Диваны и кресла &gt; Кушетки /Тахта</option>
+
+  <option value="186">&nbsp;&nbsp;&nbsp;&nbsp;Диваны и кресла &gt; Кресла</option>
+
+  <option value="161">&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;Диваны и кресла &gt; Кресла &gt; Кресло глайдер</option>
+
+  <option value="206">&nbsp;&nbsp;&nbsp;&nbsp;Диваны и кресла &gt; Кресла-кровати</option>
+
+  <option value="210">&nbsp;&nbsp;&nbsp;&nbsp;Диваны и кресла &gt; Кресла качалки</option>
+
+  <option value="162">&nbsp;&nbsp;&nbsp;&nbsp;Диваны и кресла &gt; Пуфы</option>
+
+  <option value="226">Спальни</option>
+
+  <option value="299">&nbsp;&nbsp;&nbsp;&nbsp;Спальни &gt; Распродажа</option>
+
+  <option value="297">&nbsp;&nbsp;&nbsp;&nbsp;Спальни &gt; Зеркала</option>
+
+  <option value="295">&nbsp;&nbsp;&nbsp;&nbsp;Спальни &gt; Шкафы</option>
+
+  <option value="274">&nbsp;&nbsp;&nbsp;&nbsp;Спальни &gt; Комоды и тумбы</option>
+
+  <option value="144">&nbsp;&nbsp;&nbsp;&nbsp;Спальни &gt; Спальни</option>
+
+  <option value="260">&nbsp;&nbsp;&nbsp;&nbsp;Спальни &gt; Кресла для спальни</option>
+
+  <option value="259">&nbsp;&nbsp;&nbsp;&nbsp;Спальни &gt; Подушки</option>
+
+  <option value="195">&nbsp;&nbsp;&nbsp;&nbsp;Спальни &gt; Кровати Интерьерные</option>
+
+  <option value="146">&nbsp;&nbsp;&nbsp;&nbsp;Спальни &gt; Пуфы и банкетки</option>
+
+  <option value="196">&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;Спальни &gt; Пуфы и банкетки &gt; ПУФ</option>
+
+  <option value="232">Стенки</option>
+
+  <option value="164">&nbsp;&nbsp;&nbsp;&nbsp;Стенки &gt; Гостиные</option>
+
+  <option value="272">&nbsp;&nbsp;&nbsp;&nbsp;Стенки &gt; Модули гостиной Ника</option>
+
+  <option value="271">&nbsp;&nbsp;&nbsp;&nbsp;Стенки &gt; Модули гостиной Европа</option>
+
+  <option value="270">&nbsp;&nbsp;&nbsp;&nbsp;Стенки &gt; Модули гостиной Рада</option>
+
+  <option value="269">&nbsp;&nbsp;&nbsp;&nbsp;Стенки &gt; Модули гостиной Дана</option>
+
+  <option value="268">&nbsp;&nbsp;&nbsp;&nbsp;Стенки &gt; Модули гостиной Виктория</option>
+
+  <option value="267">&nbsp;&nbsp;&nbsp;&nbsp;Стенки &gt; Модули гостиной Тия</option>
+
+  <option value="266">&nbsp;&nbsp;&nbsp;&nbsp;Стенки &gt; Модули гостиной Лара</option>
+
+  <option value="265">&nbsp;&nbsp;&nbsp;&nbsp;Стенки &gt; Модули гостиной Аида</option>
+
+  <option value="225">Прихожие</option>
+
+  <option value="312">&nbsp;&nbsp;&nbsp;&nbsp;Прихожие &gt; Распродажа</option>
+
+  <option value="139">&nbsp;&nbsp;&nbsp;&nbsp;Прихожие &gt; Банкетки</option>
+
+  <option value="250">&nbsp;&nbsp;&nbsp;&nbsp;Прихожие &gt; Вешалки напольные</option>
+
+  <option value="140">&nbsp;&nbsp;&nbsp;&nbsp;Прихожие &gt; Вешалки настенные</option>
+
+  <option value="243">&nbsp;&nbsp;&nbsp;&nbsp;Прихожие &gt; Газетницы</option>
+
+  <option value="138">&nbsp;&nbsp;&nbsp;&nbsp;Прихожие &gt; Прихожие модульные</option>
+
+  <option value="238">&nbsp;&nbsp;&nbsp;&nbsp;Прихожие &gt; Консоли и Подставки</option>
+
+  <option value="141">&nbsp;&nbsp;&nbsp;&nbsp;Прихожие &gt; Обувницы</option>
+
+  <option value="147">&nbsp;&nbsp;&nbsp;&nbsp;Прихожие &gt; Скамьи</option>
+
+  <option value="242">&nbsp;&nbsp;&nbsp;&nbsp;Прихожие &gt; Стеллажи и Этажерки</option>
+
+  <option value="142">&nbsp;&nbsp;&nbsp;&nbsp;Прихожие &gt; Тумбы для обуви</option>
+
+  <option value="241">&nbsp;&nbsp;&nbsp;&nbsp;Прихожие &gt; Шкафы</option>
+
+  <option value="229">Столы и стулья</option>
+
+  <option value="317">&nbsp;&nbsp;&nbsp;&nbsp;Столы и стулья &gt; Распродажа</option>
+
+  <option value="316">&nbsp;&nbsp;&nbsp;&nbsp;Столы и стулья &gt; Столовые группы</option>
+
+  <option value="315">&nbsp;&nbsp;&nbsp;&nbsp;Столы и стулья &gt; Стулья</option>
+
+  <option value="314">&nbsp;&nbsp;&nbsp;&nbsp;Столы и стулья &gt; Распродажа</option>
+
+  <option value="296">&nbsp;&nbsp;&nbsp;&nbsp;Столы и стулья &gt; Столы письменные</option>
+
+  <option value="275">&nbsp;&nbsp;&nbsp;&nbsp;Столы и стулья &gt; Туалетные столики</option>
+
+  <option value="264">&nbsp;&nbsp;&nbsp;&nbsp;Столы и стулья &gt; Банкетки</option>
+
+  <option value="198">&nbsp;&nbsp;&nbsp;&nbsp;Столы и стулья &gt; Столы Обеденные</option>
+
+  <option value="158">&nbsp;&nbsp;&nbsp;&nbsp;Столы и стулья &gt; Журнальные столики</option>
+
+  <option value="245">&nbsp;&nbsp;&nbsp;&nbsp;Столы и стулья &gt; Столы сервировочные</option>
+
+  <option value="233">Детские</option>
+
+  <option value="252">&nbsp;&nbsp;&nbsp;&nbsp;Детские &gt; Кровати детские</option>
+
+  <option value="216">&nbsp;&nbsp;&nbsp;&nbsp;Детские &gt; Кровати-машинки</option>
+
+  <option value="205">&nbsp;&nbsp;&nbsp;&nbsp;Детские &gt; Детские комнаты</option>
+
+  <option value="276">Фабрики</option>
+
+  <option value="311">&nbsp;&nbsp;&nbsp;&nbsp;Фабрики &gt; МЕБЕЛЬ-ИМПЕКС</option>
+
+  <option value="283">&nbsp;&nbsp;&nbsp;&nbsp;Фабрики &gt; АТРИК</option>
+
+  <option value="284">&nbsp;&nbsp;&nbsp;&nbsp;Фабрики &gt; ВАШ ДЕНЬ</option>
+
+  <option value="285">&nbsp;&nbsp;&nbsp;&nbsp;Фабрики &gt; ДОБРЫЙ ДИВАН</option>
+
+  <option value="286">&nbsp;&nbsp;&nbsp;&nbsp;Фабрики &gt; КАЧКАНАР-МЕБЕЛЬ</option>
+
+  <option value="288">&nbsp;&nbsp;&nbsp;&nbsp;Фабрики &gt; Мебель Братьев Баженовых</option>
+
+  <option value="291">&nbsp;&nbsp;&nbsp;&nbsp;Фабрики &gt; Фабрика Мирлачева</option>
+
+  <option value="287">&nbsp;&nbsp;&nbsp;&nbsp;Фабрики &gt; Мебель WOODS</option>
+
+  <option value="289">&nbsp;&nbsp;&nbsp;&nbsp;Фабрики &gt; СЕМЬ ВЕТРОВ</option>
+
+  <option value="292">&nbsp;&nbsp;&nbsp;&nbsp;Фабрики &gt; ФЛОРЕНЦИЯ</option>
+
+  <option value="290">&nbsp;&nbsp;&nbsp;&nbsp;Фабрики &gt; УфаМебель</option>
+
+  <option value="278">&nbsp;&nbsp;&nbsp;&nbsp;Фабрики &gt; BONO</option>
+
+  <option value="277">&nbsp;&nbsp;&nbsp;&nbsp;Фабрики &gt; KAVELIO</option>
+
+  <option value="280">&nbsp;&nbsp;&nbsp;&nbsp;Фабрики &gt; MULTO</option>
+
+  <option value="279">&nbsp;&nbsp;&nbsp;&nbsp;Фабрики &gt; Maria &amp; Stefania</option>
+
+  <option value="282">&nbsp;&nbsp;&nbsp;&nbsp;Фабрики &gt; Romack Mobel</option>
+
+  <option value="281">&nbsp;&nbsp;&nbsp;&nbsp;Фабрики &gt; RIVALLI</option>
+
+</select>
+                        
+                    
+                    
+                </div>
+            
+        </div>
+    
+</fieldset>
+
+
+
+
+
+
+
+
+
+
+
+
+
+<div class="submit-row">
+<input type="submit" value="Сохранить" class="default" name="_save" />
+
+    
+    <p class="deletelink-box"><a href="/admin/catalogue/category/300/delete/" class="deletelink">Удалить</a></p>
+
+
+<input type="submit" value="Сохранить и добавить другой объект" name="_addanother" />
+<input type="submit" value="Сохранить и продолжить редактирование" name="_continue" />
+</div>
+
+
+
+    <script type="text/javascript"
+            id="django-admin-form-add-constants"
+            src="/static/admin/js/change_form.js"
+            >
+    </script>
+
+
+
+
+<script type="text/javascript"
+        id="django-admin-prepopulated-fields-constants"
+        src="/static/admin/js/prepopulate_init.js"
+        data-prepopulated-fields="[]">
+</script>
+
+
+</div>
+</form></div>
+
+        
+        <br class="clear" />
+    </div>
+    <!-- END Content -->
+
+    <div id="footer"></div>
+</div>
+<!-- END Container -->
+
+</body>
+</html>

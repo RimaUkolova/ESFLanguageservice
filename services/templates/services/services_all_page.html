@@ -1,0 +1,54 @@
+{% extends 'base.html' %}
+{% load wagtailcore_tags main_tags %}
+{% block container_class %}container page-content{% endblock %}
+{% block extra_js %}
+<script>
+(function($) {
+$(function() {
+
+  $('.scroll_up').click(function() {
+    $('html, body').animate({scrollTop: 0},500);
+    return false;
+  })
+
+})
+})(jQuery)
+</script>
+{% endblock %}
+{% block container %}
+<!-- Page Heading/Breadcrumbs -->
+      <h1 class="mt-4 mb-3">Servizi
+
+      </h1>
+
+      <ol class="breadcrumb">
+        <li class="breadcrumb-item">
+          <a href="/">Pagina iniziale</a>
+        </li>
+        <li class="breadcrumb-item active">{{ page.title }}</li>
+      </ol>
+
+ <!-- SERVICES Section -->
+      {% all_services %}
+	  <!-- /.row -->
+
+<!---text--->
+<div class="row bottom-block">
+
+<h2 class="h2 center">Tutti i Nostri Servizi </h2>
+{{ page.text|richtext }}
+<div class="col-md-12 more center">
+             <button class="btn btn-primary" type="button" data-toggle="collapse" data-target="#collapseExample" aria-expanded="false" aria-controls="collapseExample">
+                Leggi di piu
+              </button>
+                </div>
+                <div class="collapse" id="collapseExample">
+  <div class="card card-body">
+{{ page.hidden_text|richtext }}
+</div>
+</div>
+</div>
+<!---end text---->
+
+{% include "home/partials/banner_row.html" %}
+{% endblock %}

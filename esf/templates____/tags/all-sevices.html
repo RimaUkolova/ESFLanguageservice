@@ -1,0 +1,26 @@
+{% load static wagtailimages_tags %}
+{% if category %}
+<div class="service-list row">
+{% for one in category.all %}
+    {% image one.feed_image width-300 as img%}
+        <div class="col-lg-3 col-md-6 col-sm-6 col-12 item">
+				<a href="{{ one.url }}"></a>
+					<span class="img">
+					<img src="{{ img.url }}" alt="" title="">
+					</span>
+
+					<span class="desc">
+					<a href="{{ one.url }}">
+						<span class="title">{{ one.title|upper }}</span>
+						</a>
+						<span class="announce">
+                            {% for item in one.get_children.all %}
+						<a href="{{ item.url }}">{{ item.title }} </a>
+                                {% endfor %}
+						</span>
+					</span>
+        </div>
+    {% cycle '' '' '' '</div><div class="service-list row">' %}
+    {% endfor %}
+      </div>
+       {% endif %}

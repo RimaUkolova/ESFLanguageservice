@@ -1,0 +1,147 @@
+<div class="modal fade" id="firstModal">
+    <div class="modal-dialog">
+     <div class="modal-content">
+     <div class="modal-header">
+     <h5 class="modal-title">Ti richiamo tra 15 minuti!</h5>
+         <p style="color:red; text-align: center" id="err1"></p>
+     <button class="close" data-dismiss="modal" id="formclose1">×</button>
+     </div>
+     <div class="modal-body">
+     <form class="form" role="form" action="{% url 'callback' %}" method="post" id="feedback1">
+            {% csrf_token %}
+            <div class="col-lg-6 col-sm-12 name" style="">
+            <div class="control-group form-group">
+            <label class="sr-only" for="fname1">Nome</label>
+            {{ form.name }}
+            </div>
+            </div>
+            <div class="col-lg-6 col-sm-12 tel" style="">
+            <div class="control-group form-group">
+            <label class="sr-only" for="fphone1">Telefono</label>
+            {{ form.phone }}
+            </div>
+            </div>
+
+                <div class="col-lg-12 col-sm-12">
+                    <div class="captcha">         
+                {% comment %}    {{ form.captcha }} {% endcomment %}
+                    <button class='captcha-refresh'>
+    <img src="/static/sident/img/reload.jpg">
+</button>
+                    {{ form.captcha.errors }}
+                    </div>
+                  <label>
+                    <input class="checkbox" type="checkbox" name="checkbox-test" checked="" id="check_feed1">
+                    <span class="checkbox-custom"></span>
+                    <span class="label"><a href="#" data-toggle="modal" data-target="#agreementModal">Acconsento al trattamento dei dati personali per ricevere la risposta alla mia richiesta</a></span>
+                </label>
+            <button type="submit" class="btn btn-primary" id="subb1">Ordina una chiamata
+                <i class="fa fa-angle-double-right" aria-hidden="true"></i></button>
+
+                    </div>
+            </form>
+<script>
+
+ function getCookie(name) {
+        var cookieValue = null;
+        if (document.cookie && document.cookie !== '') {
+            var cookies = document.cookie.split(';');
+            for (var i = 0; i < cookies.length; i++) {
+                var cookie = jQuery.trim(cookies[i]);
+                // Does this cookie string begin with the name we want?
+                if (cookie.substring(0, name.length + 1) === (name + '=')) {
+                    cookieValue = decodeURIComponent(cookie.substring(name.length + 1));
+                    break;
+                }
+            }
+        }
+        return cookieValue;
+    }
+ function csrfSafeMethod(method) {
+    // these HTTP methods do not require CSRF protection
+    return (/^(GET|HEAD|OPTIONS|TRACE)$/.test(method));
+}
+
+
+    $(function(){
+
+       $('#subb1').click(function(event){
+
+           event.preventDefault();
+           var csrftoken = getCookie('csrftoken');
+
+           var $feedback_form = $('#feedback1');
+
+           var namecb1 = $('#fname1').val();
+           var phonecb1 = $('#fphone1').val();
+           var chbox1 = document.getElementById('check_feed1');
+            var capcha1 = document.getElementById('captcha2_id_captcha_1').value;
+           var flag = true;
+           if(!chbox1.checked){
+
+               $('#err1').append('Per procedere è necessario accettare<br>');
+               flag = false;
+           }
+           if(namecb1 ===''){
+
+               $('#err1').append('Il nome è un campo richiesto<br>');
+               flag = false;
+           }
+           if(phonecb1 ===''){
+                         event.preventDefault();
+               $('#err1').append('Il telefono è un campo richiesto<br>');
+               flag = false;
+           }
+           if(capcha1 ===''){
+
+               $('#err1').append('Compila il campo captcha<br>');
+               flag = false;
+               
+           }
+               if(flag){
+
+           $.ajax({
+               beforeSend: function(xhr, settings) {
+        if (!csrfSafeMethod(settings.type) && !this.crossDomain) {
+            xhr.setRequestHeader("X-CSRFToken", csrftoken);
+            }
+        },
+            method: 'post',
+            url: $feedback_form.attr('action'),
+            data: $feedback_form.serialize(),
+
+        });
+            $("#formclose1").click();
+       }
+       });
+    });
+</script>
+<script type="text/javascript">
+
+$(document).ready(function() {
+    // Add refresh button after field (this can be done in the template as well)
+    // {#$('img.captcha').after(#}
+    // {#        $('<a href="#void" class="captcha-refresh">Refresh</a>')#}
+    // {#        );#}
+
+    // Click-handler for the refresh-link
+    $('.captcha-refresh').click(function(){
+        var $form = $(this).parents('form');
+        var url = location.protocol + "//" + window.location.hostname + ":"
+                  + location.port + "/captcha/refresh/";
+
+        // Make the AJAX-call
+        $.getJSON(url, {}, function(json) {
+            $form.find('input[name="captcha_0"]').val(json.key);
+            $form.find('img.captcha').attr('src', json.image_url);
+        });
+
+        return false;
+    });
+});
+
+</script>
+     </div>
+     </div>
+    </div>
+    </div>

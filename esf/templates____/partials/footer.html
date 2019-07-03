@@ -1,0 +1,56 @@
+{% load static form_tags %}
+<footer class="pt-3 bg-dark">
+      <div class="container">
+	  <div class="col-lg-4 col-md-6 col-12 footer-block">
+	      
+	        <ul class="menu-footer">
+	            <li><a class="" href="/services/">Servizi</a></li>
+		    <li><a class="" href="/tutti-le-notizie/">Le Nostre Notizie</a></li>
+		    <li><a class="" href="/recensioni/">Recensioni</a></li>
+		    <li><a class="" href="/informativa-sui-cookie/">Informativa sui cookie</a></li>
+		    </ul>
+		</div>
+		<div class="mt-2 col-lg-4 col-md-6 col-12 footer-block">
+        <ul class="social-links-footer list-inline">
+              <li class="list-inline-item">
+                <a href="https://www.facebook.com/esflanguageservice/"><i class="fa fa-facebook"></i></a>
+              </li>
+			  <li class="list-inline-item">
+                <a href="https://www.youtube.com/channel/UCZsc61gp48IPkcv-AK4kL8g/"><i class="fa fa-youtube"></i></a>
+              </li>
+              <li class="list-inline-item">
+                <a href="https://www.instagram.com/luigiapalmiero/"><i class="fa fa-instagram"></i></a>
+              </li>
+            </ul>
+		</div>
+		<div class="mt-2 col-lg-4 col-md-6 col-12 footer-block">
+		 <p class="m-0 text-right" style="color: #ffc107; font-size: 22px; list-style-type: none; line-height: 20px;">
+		<span style="display:block;">+39 338 9228520</span>
+		<a class="" href="mailto:info@esflanguageservice.com">info@esflanguageservice.com</a>
+        <p class="mt-2 text-right text-white">
+Via Milano, 28, 81022 Casagiove Caserta, Italia</p>
+		</div>
+      </div>
+
+	  <!---BackCall---->
+	  <div class="container">
+  <div class="row mt-3">
+   <div class="col-12 call_back_block">
+   <img class="call_back_button_image" src="{% static "sident/img/call-back.png" %}" alt="ORDINA UNA CHIAMATA" />
+   <button class="btn btn-success call_back_button" id="call_back_button" data-toggle="modal" data-target="#firstModal">ORDINA UNA CHIAMATA!</button>
+   <!-- modal form -->
+{% feedback1 %}
+       <!-- modal form -->
+   </div>
+  </div>
+</div>
+      <!-- end BC -->
+
+    </footer>
+<footer class="pt-2 pb-2 bg-light">
+      <div class="container">
+          <div class="col-12 footer-block">
+              <p class="mt-2 text-center">Copyright &copy; ESF Language Service (Servizi Linguistici) – Traduzioni, Corsi di Lingue Inglese, Spagnolo, Francese, Italiano per Stranieri 2018, Editing Service</p>
+               </div>
+          </div>
+    </footer>

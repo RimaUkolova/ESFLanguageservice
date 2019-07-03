@@ -1,0 +1,84 @@
+# DO NOT REMOVE. CLOUDLINUX PASSENGER CONFIGURATION BEGIN
+PassengerAppRoot "/home/u7353/sochi"
+PassengerBaseURI "/."
+PassengerPython "/home/u7353/virtualenv/sochi/3.5/bin/python3.5"
+# DO NOT REMOVE. CLOUDLINUX PASSENGER CONFIGURATION END
+RewriteEngine On
+RewriteCond %{HTTPS} off
+RewriteCond %{HTTP:X-Forwarded-Proto} !https
+RewriteRule ^(.*)$ https://%{HTTP_HOST}%{REQUEST_URI} [L,R=301]
+
+<IfModule mod_deflate.c>
+AddOutputFilterByType DEFLATE text/html text/plain text/xml application/xml application/xhtml+xml text/javascript text/css application/x-javascript
+BrowserMatch ^Mozilla/4 gzip-only-text/html
+BrowserMatch ^Mozilla/4.0[678] no-gzip
+BrowserMatch bMSIE !no-gzip !gzip-only-text/html
+<ifmodule mod_gzip.c>
+mod_gzip_on Yes
+mod_gzip_item_include file \.js$
+mod_gzip_item_include file \.css$ 
+</ifmodule>
+</IfModule>
+
+Options +FollowSymLinks
+RewriteEngine On
+RewriteCond %{HTTP_HOST} ^www.esflanguageservice\.com$ [NC]
+RewriteRule ^(.*)$ http://esflanguageservice.com/$1 [R=301,L]
+
+RewriteCond %{REQUEST_URI} ^esflanguageservice.com/price//$
+RewriteRule ^.*$ https://esflanguageservice.com/? [R=301,L]
+
+Redirect 301 /specialists/ http://esflanguageservice.com/ 
+Redirect 301 /price/ http://esflanguageservice.com/ 
+Redirect 301 /novita/ http://esflanguageservice.com/tutti-le-notizie/
+Redirect 301 /translations_english_italian_caserta/ https://esflanguageservice.com/services/traduzioni/traduzioni-inglese-italiano/
+Redirect 301 /contatti/ http://esflanguageservice.com/contact/
+Redirect 301 /summer-school/ http://esflanguageservice.com/tutti-le-notizie/corsi-estivi-di-inglese-e-spagnolo/
+Redirect 301 /services/traduzioni/traduzioni-inglese-italiano/corso_di_lingua_spagnola/ https://esflanguageservice.com/services/percorsi-di-lingue-straniere/corso-lingua-spagnola/
+Redirect 301 /category/news/ https://esflanguageservice.com/tutti-le-notizie/
+Redirect 301 /traduction-francais/ https://esflanguageservice.com/services/traduzioni/traduction-francese-italienne/
+Redirect 301 /altri-servizi/ https://esflanguageservice.com/services/traduzioni/traduction-francese-italienne/ 
+Redirect 301  /ripetizioni_latino_inglese_italiano_a_caserta/ https://esflanguageservice.com/services/percorsi-di-lingue-straniere/corso-lingua-inglese/
+Redirect 301 /eventi_traduzioni_caserta_inglese_francese_spagnolo/ https://esflanguageservice.com/services/traduzioni/
+Redirect 301 /traduzioni/francais_italienne/ https://esflanguageservice.com/services/traduzioni/traduction-francese-italienne/
+Redirect 301 /category/eventi/ https://esflanguageservice.com/tutti-le-notizie/
+Redirect 301 /services/traduzioni/traduzioni-inglese-italiano/corso_di_lingua_francese/ https://esflanguageservice.com/services/percorsi-di-lingue-straniere/corso-lingua-francese/
+Redirect 301 /corsi-di-lingue-a-caserta/ https://esflanguageservice.com/services/percorsi-di-lingue-straniere/
+Redirect 301 /idp-ielts-logo/ https://esflanguageservice.com/
+Redirect 301 /corsi/lezioni-skype/ https://esflanguageservice.com/services/percorsi-di-lingue-straniere/lezioni-skype/
+Redirect 301 /traduzioni/espanol-italiano/ https://esflanguageservice.com/services/traduzioni/traducciones-espanol-italiano/
+Redirect 301 /promo-giugno-2018/ https://esflanguageservice.com/tutti-le-notizie/
+Redirect 301 /category/index-php/ https://esflanguageservice.com/services/
+Redirect 301 /faq/cookie-privacy/ https://esflanguageservice.com/informativa-sui-cookie/
+Redirect 301 /summer-school-2/ https://esflanguageservice.com/tutti-le-notizie/corsi-estivi-di-inglese-e-spagnolo/
+Redirect 301 /centro-esame-autorizzato-bulatsilte-cambridge-english/ https://esflanguageservice.com/services/certificazione-cambridge-ilte/certificazione-cambridge-bulats/
+Redirect 301 /corsi/certificazione-cambridge/bulats_video_spot/ https://esflanguageservice.com/services/certificazione-cambridge-ilte/certificazione-cambridge-bulats/
+Redirect 301 /esf-language-service_servizi-editoriali/ https://esflanguageservice.com/services/traduzioni/
+Redirect 301 /inglese-promo-giugno-2018/ https://esflanguageservice.com/tutti-le-notizie/
+Redirect 301 /traducciones-espanol-italiano-a-caserta/ https://esflanguageservice.com/services/traduzioni/traducciones-espanol-italiano/
+Redirect 301 /tradurre-verso-la-lingua-madre/ https://esflanguageservice.com/services/traduzioni/
+Redirect 301 /services/agenzia-letteraria/traduzione-letteraria/ https://esflanguageservice.com/services/traduzioni/tipi-di-traduzioni/traduzione-letteraria/
+Redirect 301 /corsi-di-aggiornamento-per-aziende-english-at-work-a-caserta/ https://esflanguageservice.com/services/percorsi-di-lingue-straniere/formazione-linguistica-aziende/
+Redirect 301 /services/traduzioni/tipi-di-traduzioni/traduzione-di-documenti/ https://esflanguageservice.com/services/traduzioni/
+Redirect 301 /services/percorsi-di-lingue-straniere/certificazione-cambridge/bulats_video_spot/ https://esflanguageservice.com/services/certificazione-cambridge-ilte/certificazione-cambridge-bulats/
+Redirect 301 /corsi/corso-lingua-inglese/promozione-100-euro-al-mese/ https://esflanguageservice.com/tutti-le-notizie/
+Redirect 301 /services/percorsi-di-lingue-straniere/corso-lingua-inglese/richiedi_info4/ https://esflanguageservice.com/services/percorsi-di-lingue-straniere/corso-lingua-inglese/
+Redirect 301 /services/percorsi-di-lingue-straniere/corso-lingua-inglese/senza-titolo3/ https://esflanguageservice.com/services/percorsi-di-lingue-straniere/corso-lingua-inglese/
+Redirect 301 /services/percorsi-di-lingue-straniere/certificazione-cambridge/bocandtesttutorial-eng-2/ https://esflanguageservice.com/services/certificazione-cambridge-ilte/
+Redirect 301 /services/percorsi-di-lingue-straniere/corso-lingua-inglese/400dpilogo-copia-3/ https://esflanguageservice.com/services/percorsi-di-lingue-straniere/corso-lingua-inglese/
+Redirect 301 /services/percorsi-di-lingue-straniere/certificazione-cambridge-ilte/starters-posters-002_pagina_1-medium/ https://esflanguageservice.com/services/certificazione-cambridge-ilte/certificazione-cambridge-ilte/
+Redirect 301 /services/percorsi-di-lingue-straniere/certificazione-cambridge-ilte/starters-posters-002_pagina_2-medium/ https://esflanguageservice.com/services/certificazione-cambridge-ilte/certificazione-cambridge-ilte/
+Redirect 301 /agenzia-di-traduzioni-corsi-di-lingua-inglese-a-caserta-corsi-di-lingua-spagnola-a-caserta-corsi-di-lingua-francese-a-caserta-certificazione-cambridge-bulats-a-caserta-certificazione-cambrid/ https://esflanguageservice.com/services/percorsi-di-lingue-straniere/
+Redirect 301 /services/percorsi-di-lingue-straniere/corso-lingua-inglese/bigliettino-da-visita-bozza7-fronte/ https://esflanguageservice.com/services/percorsi-di-lingue-straniere/corso-lingua-inglese/
+Redirect 301 /services/percorsi-di-lingue-straniere/cambridge_bulats/ https://esflanguageservice.com/services/certificazione-cambridge-ilte/certificazione-cambridge-bulats/
+Redirect 301 /services/percorsi-di-lingue-straniere/400dpilogo-copia-2/ https://esflanguageservice.com/services/percorsi-di-lingue-straniere/
+Redirect 301 /services/percorsi-di-lingue-straniere/seminario-image/ https://esflanguageservice.com/
+Redirect 301 /services/percorsi-di-lingue-straniere/formazione-2/ https://esflanguageservice.com/services/percorsi-di-lingue-straniere/
+Redirect 301 /services/percorsi-di-lingue-straniere/images-traduzioni-madrelingua/ https://esflanguageservice.com/services/percorsi-di-lingue-straniere/orso-di-lingua-italiana-per-stranieri/
+Redirect 301 /traduzioni/translations-english-italian/ https://esflanguageservice.com/services/traduzioni/traduzioni-inglese-italiano/
+Redirect 301 /portfolio-clienti-lavori-svolti/ https://esflanguageservice.com/portfolio/
+Redirect 301 /corso-di-lingua-italiana-per-stranieri/ https://esflanguageservice.com/services/percorsi-di-lingue-straniere/orso-di-lingua-italiana-per-stranieri/
+Redirect 301 /formazione-linguistica-per-aziende-corsi-in-lingua-inglese-e-spagnola-a-ce/ https://esflanguageservice.com/services/percorsi-di-lingue-straniere/formazione-linguistica-aziende/
+Redirect 301 /services/percorsi-di-lingue-straniere/iconmonstr-user-24-240/ https://esflanguageservice.com/services/percorsi-di-lingue-straniere/
+Redirect 301 /services/percorsi-di-lingue-straniere/images-corsi-di-lingue-copia/ https://esflanguageservice.com/services/percorsi-di-lingue-straniere/
+Redirect 301 /services/percorsi-di-lingue-straniere/logo-ufficiale-centro-test-bulats-copia/ https://esflanguageservice.com/services/certificazione-cambridge-ilte/certificazione-cambridge-bulats/

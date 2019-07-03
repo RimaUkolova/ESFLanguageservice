@@ -1,0 +1,9 @@
+<div class="card my-4">
+            <h5 class="card-header">Recensioni</h5>
+    {% for item in items|slice:":1" %}
+            <div class="card-body">
+             {{ item.text|safe }}
+            </div>
+		  <p><a href="/recensioni/" class="btn btn-primary">Leggi tutte le recensioni &rarr;</a></p>
+          </div>
+    {% endfor %}

@@ -1,0 +1,124 @@
+{% extends 'base.html' %}
+{% load static wagtailimages_tags wagtailcore_tags %}
+{% block extra_js %}
+<script>
+$(document).on("click", '[data-toggle="lightbox"]', function(event) {
+  event.preventDefault();
+  $(this).ekkoLightbox();
+});
+</script>
+<script>
+$(function(){
+var TestimPos = $('.testimonials').offset().top;
+$(window).scroll(function() {
+	var top = $(document).scrollTop(),
+      pip = $('footer').offset().top;
+      height = $('.testimonials').outerHeight();
+  if (top > TestimPos && top < pip - height) {$('.testimonials').show(1000);}
+});
+});
+</script>
+<script>
+(function($) {
+$(function() {
+
+  $('.scroll_up').click(function() {
+    $('html, body').animate({scrollTop: 0},500);
+    return false;
+  })
+
+})
+})(jQuery)
+</script>
+{% endblock %}
+{% block container_class %}container page-content{% endblock %}
+{% block container %}
+
+
+      <!-- Page Heading/Breadcrumbs -->
+      <h1 class="mt-4 mb-3">
+        {{ page.title }}
+      </h1>
+
+      <ol class="breadcrumb">
+        <li class="breadcrumb-item">
+          <a href="/">Pagina iniziale</a>
+        </li>
+        <li class="breadcrumb-item active">{{ page.title }}</li>
+      </ol>
+
+	  <!--=================================
+=            Testimonial            =
+==================================-->
+
+<section class="section testimonial">
+	<div class="container">
+		<div class="row">
+			<div class="col-12">
+				<div class="section-title">
+				{{ page.intro|richtext }}
+                </div>
+			</div>
+		</div>
+        {% if testimonials %}
+		<div class="row mt-20">
+        {% for item in testimonials %}
+			<div class="col-lg-4 col-md-6 mb-20">
+				<!-- Testimonial -->
+				<div class="testimonial-item">
+					<!-- Given Comment -->
+					<div class="comment">
+						{{ item.text|richtext }}
+					</div>
+					<div class="person">
+						<div class="media">
+							<!-- Person Image -->
+                            {% image item.image fill-65x65 as img%}
+							<img src="{{ img.url }}" alt="person-image">
+							<div class="media-body">
+								<!-- Person Name -->
+								<div class="name"><p>{{ item.name }}</p></div>
+								<!-- Profession -->
+								{% if item.job %}
+                                <div class="profession"><p>{{ item.job }}</p></div>{% endif %}
+							</div>
+						</div>
+					</div>
+				</div>
+			</div>
+        {% endfor %}
+		</div>
+        {% endif %}
+	</div>
+</section>
+
+<!--====  End of Testimonial  ====-->
+
+
+          <!-- Pagination -->
+          <ul class="pagination justify-content-center mb-4">
+          <table>
+          <tr><td>
+              {% if testimonials.has_previous %}
+      <li class="page-item">
+          <a class="page-link" href="?page={{ testimonials.previous_page_number }}"> &larr; Precedente</a></li>
+    {% else %}
+      <li class="page-item disabled">&larr; Precedente</li>
+    {% endif %}
+          </td>
+          <td>&nbsp;&nbsp;</td>
+          <td>
+    {% if testimonials.has_next %}
+      <li class="page-item"><a class="page-link" href="?page={{ testimonials.next_page_number }}"> Seguente &rarr;</a></li>
+    {% else %}
+      <li class="page-item disabled"> Seguente &rarr;</li>
+    {% endif %}
+          </td>
+          </tr>
+</table>
+          </ul>
+
+      <!-- /.row -->
+
+{% include "home/partials/banner_row.html" %}
+{% endblock %}

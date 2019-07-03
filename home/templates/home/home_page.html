@@ -1,0 +1,146 @@
+{% extends "base.html" %}
+{% load static wagtailcore_tags main_tags wagtailimages_tags %}
+
+{% block extra_js %}
+<script>
+$(document).on("click", '[data-toggle="lightbox"]', function(event) {
+  event.preventDefault();
+  $(this).ekkoLightbox();
+});
+</script>
+<script>
+(function($) {
+$(function() {
+
+  $('.scroll_up').click(function() {
+    $('html, body').animate({scrollTop: 0},500);
+    return false;
+  })
+
+})
+})(jQuery)
+</script>
+  {% endblock %}
+{% block container %}
+
+
+<!---SLIDER----->
+ <div class="wrapper wrapper--demo">
+	{% include "home/partials/home_carousel.html" with carousel_items=self.carousel_items.all only %}
+</div>
+<!----------END SLIDER------------>
+<div class="block-head">
+<div class="container">
+      <h1 class="h1">Il Centro <span>ESF Language Service</span></h1>
+	  <div class="clear"></div>
+		<h2 class="h2">Di Luigia Palmiero</h2>
+		</div>
+		</div>
+
+      <!-- SERVICES Section -->
+{% all_services %}
+	  <!-- /.row -->
+
+
+      <!-- AKZII -->
+{% if page.events %}
+      <h2 class="h2">NOTIZIE</h2>
+
+	  <div class="news-list row">
+
+			<div class="col-lg-6 col-md-6 col-sm-12 col-12 item" id="bx_651765591_40">
+
+				<a href="{{ page.events.link_page1.specific.url }}">
+
+											<span class="col-lg-6 col-md-6 col-sm-4 ">
+							<span class="row">
+								<span class="img">
+                                    {% image page.events.link_page1.specific.feed_image fill-261x150 as img1%}
+									<img src="{{ img1.url }}"
+                                         alt="{{ page.events.link_page1.specific.title }}"
+                                         title="{{ page.events.link_page1.specific.title }}">
+								</span>
+							</span>
+						</span>
+
+					<span class="col-lg-6 col-md-6 col-sm-8">
+														<span class="title">{{ page.events.link_page1.specific.title }}</span>
+
+													<span class="desc d-none d-sm-block">{{ page.events.link_page1.specific.text|richtext|truncatewords_html:7 }}</span>
+
+											</span>
+					<span class="clear"></span>
+				</a>
+			</div>
+
+			<div class="col-lg-6 col-md-6 col-sm-12 col-12 item" id="bx_651765591_39">
+
+				<a href="{{ page.events.link_page2.specific.url }}">
+
+											<span class="col-lg-6 col-md-6 col-sm-4 ">
+							<span class="row">
+								<span class="img">
+                                    {% image page.events.link_page2.specific.feed_image fill-261x150 as img2%}
+									<img src="{{ img2.url }}"
+                                         alt="{{ page.events.link_page2.specific.title }}"
+                                         title="{{ page.events.link_page2.specific.title }}">
+								</span>
+							</span>
+						</span>
+
+					<span class="col-lg-6 col-md-6 col-sm-8">
+														<span class="title">{{ page.events.link_page2.specific.title }}</span>
+
+													<span class="desc d-none d-sm-block">{{ page.events.link_page2.specific.text|richtext|truncatewords_html:7 }}</span>
+
+											</span>
+					<span class="clear"></span>
+				</a>
+			</div>
+			
+		<div class="center col-lg-12 mb-4"><a class="btn" href="/tutti-le-notizie/">Tutti le Notizie →</a></div>
+	</div>
+    {% endif %}
+    <!-- /.row -->
+
+{% include "home/partials/banner_row.html" %}
+      <hr class="hr">
+
+      <!-- Call to Action Section -->
+      <div class="row mb-2">
+        <div class="col-md-8">
+          <h4>TI SERVE UN PREVENTIVO PER SERVIZI DI TRADUZIONI?</h4>
+		   <p>English-Italian; Español-Italiano; Français-Italiene</p>
+        </div>
+        <div class="col-md-4">
+          <a class="btn btn-lg btn-secondary btn-block" href="/contact/">ISCRIVERSI</a>
+        </div>
+      </div>
+<hr>
+    <!-- /.container -->
+  <!---ABOUT COMPANY---->
+        <div class="row bottom-block">
+            <div class="transparent">
+
+                <div class="col-md-12">
+                <h2 class="page-header">
+                    {{ page.page_slogan }}
+                </h2>
+            </div>
+                <div class="col-md-12">
+                {{ page.text|richtext }}
+                </div>
+                <div class="col-md-12 more center">
+             <button class="btn btn-primary" type="button" data-toggle="collapse" data-target="#collapseExample" aria-expanded="false" aria-controls="collapseExample">
+                Leggi di più
+              </button>
+                </div>
+
+    <div class="collapse col-md-12" id="collapseExample">
+  <div class="card card-body">
+        {{ page.hidden_text|richtext }}
+      </div>
+    </div>
+    </div>
+    </div>
+{% endblock %}

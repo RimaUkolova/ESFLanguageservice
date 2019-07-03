@@ -1,0 +1,94 @@
+{% extends 'base.html' %}
+{% load wagtailcore_tags %}
+{% block extra_js %}
+<script type="text/javascript">
+$(function(){
+  var topPos = $('.floating').offset().top;
+  $(window).scroll(function() {
+  var top = $(document).scrollTop(),
+      pip = $('footer').offset().top;
+      height = $('.floating').outerHeight();
+  if (top > topPos && top < pip - height) {$('.floating').addClass('fixed').removeAttr("style");}
+  else if (top > pip - height) {$('.floating').removeClass('fixed').css({'position':'absolute','bottom':'0'});}
+  else {$('.floating').removeClass('fixed');}
+  });
+});
+</script>
+<script>
+$(document).on("click", '[data-toggle="lightbox"]', function(event) {
+  event.preventDefault();
+  $(this).ekkoLightbox();
+});
+</script>
+<script>
+$(function () {
+$('#bar-menu a:first').tab('show')
+});
+</script>
+<script>
+(function($) {
+$(function() {
+
+  $('.scroll_up').click(function() {
+    $('html, body').animate({scrollTop: 0},500);
+    return false;
+  })
+
+})
+})(jQuery)
+</script>
+{% endblock %}
+{% block container_class %}container page-content{% endblock %}
+{% block container %}
+<!-- Page Heading/Breadcrumbs -->
+      <h1 class="mt-4 mb-3">
+        Прайс-лист
+      </h1>
+
+      <ol class="breadcrumb">
+        <li class="breadcrumb-item">
+          <a href="/">Главная</a>
+        </li>
+        <li class="breadcrumb-item active">{{ page.title }}</li>
+      </ol>
+
+{% if page.price_item.all %}
+	<div class="container">
+	<h2>Стоимость услуг стоматологии</h2>
+
+<!----Price---->
+<div class="row">
+
+ <div class="col-lg-3 col-md-3 col-sm-12 col-12 vertical-tab-menu">
+ <div class="bar-menu floating my-4" id="bar-menu">
+ <ul class="nav" role="tablist">
+     {% for item in page.price_item.all %}
+  <li>
+    <a href="#{{ item.slug }}" role="tab" data-toggle="tab">{{ item.name }}</a>
+  </li>
+     {% endfor %}
+</ul><!-- /.list-group -->
+</div>
+ </div><!-- /.vertical-tab-menu -->
+
+ <div class="col-lg-9 col-md-9 col-sm-12 col-12 vertical-tab">
+<div class="tab-content my-4">
+
+    {% for item in page.price_item.all %}
+  <div role="tabpanel" class="tab-pane fade" id="{{ item.slug }}">
+    {{ item.price|richtext }}
+  </div>
+     {% endfor %}
+</div>
+</div>
+
+ </div><!-- /.vertical-tab -->
+
+ </div><!-- /.vertical-tab-container -->
+{% endif %}
+
+
+{% include "home/partials/banner_row.html" %}
+
+
+{% endblock %}

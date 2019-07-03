@@ -1,0 +1,169 @@
+{% extends 'base.html' %}
+{% load wagtailimages_tags wagtailcore_tags static main_tags %}
+{% block extra_js %}
+{% load static form_tags %}
+<script type="text/javascript">
+$(function(){
+  var topPos = $('.floating').offset().top;
+  $(window).scroll(function() {
+  var top = $(document).scrollTop(),
+      pip = $('footer').offset().top;
+      height = $('.floating').outerHeight();
+  if (top > topPos && top < pip - height) {$('.floating').addClass('fixed').removeAttr("style");}
+  else if (top > pip - height) {$('.floating').removeClass('fixed').css({'position':'absolute','bottom':'0'});}
+  else {$('.floating').removeClass('fixed');}
+  });
+});
+</script>
+<script>
+$(document).on("click", '[data-toggle="lightbox"]', function(event) {
+  event.preventDefault();
+  $(this).ekkoLightbox();
+});
+</script>
+<script>
+$(function(){
+var TestimPos = $('.testimonials').offset().top;
+$(window).scroll(function() {
+	var top = $(document).scrollTop(),
+      pip = $('footer').offset().top;
+      height = $('.testimonials').outerHeight();
+  if (top > TestimPos && top < pip - height) {$('.testimonials').show(1000);}
+});
+});
+</script>
+<script>
+(function($) {
+$(function() {
+
+  $('.scroll_up').click(function() {
+    $('html, body').animate({scrollTop: 0},500);
+    return false;
+  })
+
+})
+})(jQuery)
+</script>
+{% endblock %}
+{% block container_class %}container page-content{% endblock %}
+{% block container %}
+          <!-- Page Heading/Breadcrumbs -->
+      <h1 class="mt-4 mb-3">
+        {{ page.title }}
+      </h1>
+
+      <ol class="breadcrumb">
+        <li class="breadcrumb-item">
+          <a href="/">Pagina iniziale</a>
+        </li>
+          <li class="breadcrumb-item">
+          <a href="/services/">Tutti i Servizi</a>
+        </li>
+        <li class="breadcrumb-item active">{{ page.title }}</li>
+      </ol>
+
+      <div class="row">
+  <!-- Sidebar Widgets Column -->
+
+        <div class="col-md-4">
+
+          <div class="card price-left">
+		    <!-- Search Widget <a href="{{ page.price_file.url }}"><img class="grayscale" src="{% static "sident/img/prise1.png" %}" /></a>
+            <h5 class="card-header">
+			<a href="{{ page.price_file.url }}">PROGRAMMA DEL CORSO</a></h5>-->
+            <div class="card-body">
+			 {{ page.aside|richtext }}
+            
+            <div class="card-image" style="top: -10px;">
+            <a href="/tutti-le-notizie/corso-di-lingua-italiana-per-stranieri/"><img class="full-width" src="{% static "sident/img/lingua-italiana-per-stranieri.jpg" %}" /></a>
+            </div>
+             <div class="mt-2">
+            <a href="/services/percorsi-di-lingue-straniere/corsi-estivi-di-lingue-straniere/"><img class="full-width" src="{% static "sident/img/ban5.jpg" %}" /></a>
+            </div>
+            </div>
+          </div>
+<div class="card-body indirizio">
+    <h3>Dove</h3>
+    <p>Presso la sede del Centro ESF Language Service, Via Milano 28 – Casagiove, CE
+(nei pressi dell’uscita autostrada Caserta nord, provincia di Napoli, Italia)</p>
+<p>Scrivi la tua domanda sul E-mail: <a href="mailto:info@esflanguageservice.com">info@esflanguageservice.com</a></p>
+<p>Oppure chiama per informazioni e ulteriori dettagli a Luigia: <b>+39 338 9228520</b></p>
+</div>
+		  <!-- Categories Widget FLOATING-->
+		  {% if page.get_children.all %}
+<div class="floating">
+          <div class="card my-4 menu-left">
+            <h5 class="card-header"><a href="#">{{ page.title|upper }}</a></h5>
+            <div class="card-body">
+              <div class="row">
+                <div class="col-lg-12">
+                  <ul class="list-unstyled mb-0">
+                      {% for item in page.get_children.all %}
+                    <li>
+                      <a href="{{ item.url }}">{{ item.title }}</a>
+                    </li>
+                      {% endfor %}
+                  </ul>
+                </div>
+              </div>
+            </div>
+          </div>
+</div>
+            {% endif %}
+            {% if page.related_links.all %}
+<div class="">
+          <div class="card my-4 menu-left">
+            <!--<h5 class="card-header"><a href="#">Также интересно:</a></h5>-->
+            <div class="card-body">
+              <div class="row">
+                <div class="col-lg-12">
+                  <ul class="list-unstyled mb-0">
+                      {% for item in page.related_links.all %}
+                    <li>
+                      <a href="{{ item.link }}">{{ item.title }}</a>
+                    </li>
+                      {% endfor %}
+                  </ul>
+                </div>
+              </div>
+            </div>
+          </div>
+</div>
+            {% endif %}
+
+        
+          <!-- Side Widget -->
+          {% testy %}
+
+        </div>
+
+        <!-- Blog Entries Column -->
+        <div class="col-md-8 content-block">
+
+          <!-- Blog Post -->
+          <div class="card mb-4">
+              {% if page.feed_image %}
+                  {% image page.feed_image width-1000 as img%}
+            <img class="card-img-top" src="{{ img.url }}" alt="">
+              {% endif %}
+            <div class="card-body">
+              {{ page.text|richtext }}
+            </div>
+
+          </div>
+
+ <div class="row">
+<div class="col-md-12 mb-4">
+	{% feedback3 %}
+ </div>
+ </div>
+</div>
+
+
+      </div>
+      <!-- /.row -->
+
+
+
+{% include "home/partials/banner_row.html" %}
+{% endblock %}

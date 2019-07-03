@@ -1,0 +1,152 @@
+{% extends 'base.html' %}
+{% load wagtailimages_tags wagtailcore_tags static %}
+{% block extra_js %}
+<script type="text/javascript">
+$(function(){
+  var topPos = $('#floating').offset().top;
+  $(window).scroll(function() {
+  var top = $(document).scrollTop(),
+      pip = $('footer').offset().top;
+      height = $('#floating').outerHeight();
+  if (top > topPos && top < pip - height) {$('#floating').addClass('fixed').removeAttr("style");}
+  else if (top > pip - height) {$('#floating').removeClass('fixed').css({'position':'absolute','bottom':'0'});}
+  else {$('#floating').removeClass('fixed');}
+  });
+});
+</script>
+<script>
+$(document).on("click", '[data-toggle="lightbox"]', function(event) {
+  event.preventDefault();
+  $(this).ekkoLightbox();
+});
+</script>
+<script>
+(function($) {
+$(function() {
+
+  $('.scroll_up').click(function() {
+    $('html, body').animate({scrollTop: 0},500);
+    return false;
+  })
+
+})
+})(jQuery)
+</script>
+{% endblock %}
+{% block container %}
+<div class="container">
+
+      <!-- Page Heading/Breadcrumbs -->
+      <div class="container page-content">
+
+      <!-- Page Heading/Breadcrumbs -->
+      <h1 class="mt-4 mb-3">
+        Chi Siamo
+      </h1>
+
+      <ol class="breadcrumb">
+        <li class="breadcrumb-item">
+          <a href="/">Pagina iniziale</a>
+        </li>
+        <li class="breadcrumb-item active">{{ page.title }}</li>
+      </ol>
+
+
+      <!-- Intro Content -->
+      <div class="row">
+          {% if page.feed_image %}
+              {% image page.feed_image width-1000 as img%}
+        <div class="col-lg-6">
+          <img class="img-fluid rounded mb-4" src="{{ img.url }}" alt="{{ img.alt }}">
+        </div>
+          {% endif %}
+        <div class="col-lg-6">
+          <h2 class="h2">{{ page.page_slogan }}</h2>
+        {{ page.text1|richtext }}
+		</div>
+      </div>
+	  <div class="row gray">
+	  <div class="col-lg-6">
+	   {{ page.text2|richtext }}
+		</div>
+		<div class="col-lg-6">
+		{{ page.text3|richtext }}
+        </div>
+	  </div>
+      <!-- /.row -->
+{%  if self.carousel_items.all %}
+      <!-- Team Members -->
+      <h2>I NOSTRI INSEGNANTI</h2>
+
+      <div class="row">
+
+	  <!---Carousel--->
+        {% include "home/partials/about_carousel.html" with carousel_items=self.carousel_items.all only %}
+
+</div>
+
+<!----End Carousel------>
+{% endif %}
+      </div>
+      <!-- /.row -->
+<hr class="hr">
+      <!-- Our Customers -->
+	   <div class="pb-4"></div>
+{% if page.advantage_item.all %}
+      <h2>Benefici di Centro ESF Language Service</h2>
+     <div class="advantages row">
+     {% for item in page.advantage_item.all %}
+			<div class="col-lg-3 col-md-3 col-sm-6 col-12 item">
+
+				<div class="title">
+					 {{ item.title }}
+				</div>
+            {{ item.text|richtext }}
+			</div>
+
+     {% endfor %}
+		</div>
+{% endif %}
+      <!-- /.row -->
+
+	  <!---Gallery---->
+{% if page.gallery_item.all %}
+	  <div class="container gallery">
+	  <hr class="hr">
+	   <div class="pb-4"></div>
+          <div class="row">
+              {% for item in page.gallery_item.all %}
+                  {% image item.image width-400 as thumb%}
+                  {% image item.image width-1500 as img%}
+              <a href="{{ img.url }}" data-toggle="lightbox" data-gallery="gallery" class="col-md-4">
+      <img src="{{ thumb.url }}" class="img-fluid rounded">
+    </a>
+                  {% cycle '' '' '</div><div class="row">' %}
+              {% endfor %}
+          </div>
+</div>
+{% endif %}
+	  <!---End Gallery----->
+	  <!----Lisence----->
+{% if page.license_item.all %}
+	  <div class="container gallery">
+	  <hr class="hr">
+	   <div class="pb-4"></div>
+      <h2>LICENZA</h2>
+  <div class="row">
+  {% for item in page.license_item.all %}
+      {% image item.image width-600 as thumb%}
+      {% image item.image width-1500 as img%}
+    <a href="{{ img.url }}" data-toggle="lightbox" data-gallery="gallery" class="col-md-4">
+      <img src="{{ thumb.url }}" class="img-fluid rounded">
+    </a>
+      {% cycle '' '' '</div><div class="row">' %}
+    {% endfor %}
+  </div>
+          {% endif %}
+  <!---Lisence end---->
+{% include "home/partials/banner_row.html" %}
+    </div>
+    <!-- /.container -->
+</div>
+{% endblock %}

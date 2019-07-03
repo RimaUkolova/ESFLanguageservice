@@ -1,0 +1,124 @@
+{% load static wagtailuserbar %}
+
+<!DOCTYPE html>
+<html lang="ru">
+  <head>
+      <meta property="og:site_name" content="esflanguageservice.com"/>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
+    <meta name="description" content="{% if self.search_description %}{{ self.search_description }}{% endif %}">
+    <meta name="author" content="https://www.facebook.com/trasformation/">
+<meta name="google-site-verification" content="2NxXK2lg8h2DE8J7KxpUpIjMHumvmuXykvoKl4WSnpU" />
+<!-- Global site tag (gtag.js) - Google Analytics -->
+<!-- Global site tag (gtag.js) - Google Analytics -->
+<script async src="https://www.googletagmanager.com/gtag/js?id=UA-140426323-1"></script>
+<script>
+  window.dataLayer = window.dataLayer || [];
+  function gtag(){dataLayer.push(arguments);}
+  gtag('js', new Date());
+
+  gtag('config', 'UA-140426323-1');
+</script>
+
+    <title>{% block title %}
+                {% if self.seo_title %}{{ self.seo_title }}{% else %}{{ self.title }}{% endif %}
+            {% endblock %}</title>
+    <!-- Bootstrap core CSS -->
+  {% block css_styles %}
+   <link href="{% static "sident/vendor/bootstrap/css/bootstrap.min.css" %}" rel="stylesheet">
+     <!-- Custom styles for this template -->
+	<link rel='stylesheet prefetch' href='https://cdnjs.cloudflare.com/ajax/libs/ekko-lightbox/5.2.0/ekko-lightbox.min.css'>
+    <link href="{% static "sident/css/modern-business.css" %}" rel="stylesheet">
+	<link href="{% static "sident/css/normalize.css" %}" rel="stylesheet">
+	<link href="{% static "sident/css/style.css" %}" rel="stylesheet">
+	<link href="{% static "sident/css/carousel-style.css" %}" rel="stylesheet">
+	<meta name="viewport" content="width=device-width, initial-scale=1, maximum-scale=1, minimum-scale=1, user-scalable=no" />
+	<link rel="shortcut icon" type="image/x-icon" href="{% static "sident/img/favicon.png" %}">
+	{% endblock %}
+      <!-- Fonts -->
+  {% block fonts %}
+<link href="https://fonts.googleapis.com/css?family=Roboto:100,100i,300,300i,400,400i,500,500i,700,700i,900,900i&amp;subset=cyrillic,cyrillic-ext,latin-ext" rel="stylesheet">
+<link href="https://fonts.googleapis.com/css?family=Oswald:200,300,400,500,600,700&amp;subset=cyrillic,latin-ext" rel="stylesheet">
+    <link href="{% static "sident/fonts/font-awsome/css/font-awesome.min.css" %}" rel="stylesheet">
+  {% endblock %}
+    {% block extra_css %}
+    {% endblock %}
+  {% block additional_js %}
+  <script src="https://code.jquery.com/jquery-1.10.2.js"></script>
+  {% endblock %}
+  </head>
+
+  <body>
+  <div class="header_margin" style=""></div>
+<header class="header">
+
+<div class="dark">
+<div class="container">
+<div class="row">
+{% include "partials/nav_main.html" %}
+</div>
+</div>
+<a class="phonemb d-lg-none d-md-none d-sm-none d-none" href="tel:+79184422255">--- --- ---</a><span class="d-lg-none d-md-none d-sm-none"><br></span>
+					<a class="phonemb d-lg-none d-md-none d-sm-none d-none" href="tel:+78619922399">--- --- ---</a><span class="d-lg-none d-md-none d-sm-none"><br></span>
+
+					<span class="d-lg-none d-md-none d-sm-none d-none"><br></span>
+					<span class="d-lg-none d-md-none d-sm-none d-none"><br></span>
+					<span class="addrmb d-lg-none d-md-none d-sm-none d-none">--- --- ---</span> <br>
+					<span class="addrmb d-lg-none d-md-none d-sm-none d-none"></span>
+
+				</div>
+{% include "partials/grey_logo.html" %}
+    			</header>
+
+    <!-- Page Content -->
+<div class="{% block container_class %}container{% endblock %}">
+    {% wagtailuserbar 'bottom-left' %}
+    {% block container %}{% endblock %}
+	</div>
+
+    <!-- Footer -->
+    {% include "partials/footer.html" %}
+	<div class="scroll_up d-none d-sm-block" style="opacity: 0.9;"></div>
+<!-- Modal -->
+{% include "partials/agreement_modal.html" %}
+
+
+    <!-- Bootstrap core JavaScript -->
+  {% block js_styles %}
+<script src="https://code.jquery.com/jquery-3.2.1.slim.min.js" integrity="sha384-KJ3o2DKtIkvYIK3UENzmM7KCkRr/rE9/Qpg6aAZGJwFDMVNA/GpGFF93hXpG5KkN" crossorigin="anonymous"></script>
+    <script src="{% static "sident/js/app.js" %}"></script>
+	<script src="{% static "sident/vendor/jquery/jquery.min.js" %}"></script>
+	<script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.12.9/umd/popper.min.js" integrity="sha384-ApNbgh9B+Y1QKtv3Rn7W3mgPxhU9K/ScQsAP7hUibX39j7fakFPskvXusvfa0b4Q" crossorigin="anonymous"></script>
+    <script src="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0/js/bootstrap.min.js" integrity="sha384-JZR6Spejh4U02d8jOt6vLEHfe/JQGiRRSQQxSfFWpi1MquVdAyjUar5+76PVCmYl" crossorigin="anonymous"></script>
+  <script src="https://cdnjs.cloudflare.com/ajax/libs/ekko-lightbox/5.2.0/ekko-lightbox.min.js"></script>
+<script src='https://cdnjs.cloudflare.com/ajax/libs/jquery.transit/0.9.9/jquery.transit.min.js'></script>
+<script type="text/javascript" src="{% static "sident/js/kei2cfp.js" %}"></script>
+<script type="text/javascript">try{Typekit.load();}catch(e){}</script>
+
+ <script  src="{% static "sident/js/carousel.js" %}"></script>
+ <script src="https://cdnjs.cloudflare.com/ajax/libs/jquery.maskedinput/1.4.1/jquery.maskedinput.min.js"></script>
+        <script type="text/javascript"> $(".phone").mask("+99(999)999-9999");</script>
+		<script type="text/javascript">$("#buttonId").blur();</script>
+		<script type="text/javascript">$(function(){
+    $('.call_back_button_image').delay(2500)
+                .show(1000);
+	$('.call_back_button').delay(2600)
+                .show(1000);
+});</script>
+{#This script add class "selected" to action nav#}
+      <script>
+    $(function(){
+        var url = location.pathname;
+    $('a.nav-link').each(function(){
+     if ($(this).attr('href') ===url){
+        $(this).parent().addClass("selected");
+    }
+    });
+    });
+</script>
+  {% endblock %}
+  {% block extra_js %}
+  {% endblock %}
+
+  </body>
+</html>

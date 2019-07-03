@@ -1,0 +1,16 @@
+{% load wagtailcore_tags %}
+<div class="row testimonials">
+    {% if items %}
+        {% for item in items|slice:":4" %}
+	<div class="col-lg-3 col-md-3 col-sm-12 col-12">
+				<a href="#">
+				<div class="title">
+					 <p>{{ item.name }}</p>
+					 <span><i><small>{{ item.job }}</small></i></span>
+				</div>
+				</a>
+				 {{ item.text|richtext }}
+	</div>
+        {% endfor %}
+	{% endif %}
+	</div>

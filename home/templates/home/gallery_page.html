@@ -1,0 +1,150 @@
+{% extends 'base.html' %}
+{% load static wagtailcore_tags wagtailimages_tags main_tags %}
+{% block extra_js %}
+<script type="text/javascript">
+$(function(){
+  var topPos = $('#floating').offset().top;
+  $(window).scroll(function() {
+  var top = $(document).scrollTop(),
+      pip = $('footer').offset().top;
+      height = $('#floating').outerHeight();
+  if (top > topPos && top < pip - height) {$('#floating').addClass('fixed').removeAttr("style");}
+  else if (top > pip - height) {$('#floating').removeClass('fixed').css({'position':'absolute','bottom':'0'});}
+  else {$('#floating').removeClass('fixed');}
+  });
+});
+</script>
+<script>
+$(function(){
+var TestimPos = $('.testimonials').offset().top;
+$(window).scroll(function() {
+	var top = $(document).scrollTop(),
+      pip = $('footer').offset().top;
+      height = $('.testimonials').outerHeight();
+  if (top > TestimPos && top < pip - height) {$('.testimonials').show(1000);}
+});
+});
+</script>
+<script>
+$(document).on("click", '[data-toggle="lightbox"]', function(event) {
+  event.preventDefault();
+  $(this).ekkoLightbox();
+});
+</script>
+<script>
+(function($) {
+$(function() {
+
+  $('.scroll_up').click(function() {
+    $('html, body').animate({scrollTop: 0},500);
+    return false;
+  })
+
+})
+})(jQuery)
+</script>
+{% endblock %}
+{% block container %}
+    <div class="container page-content">
+
+      <!-- Page Heading/Breadcrumbs -->
+      <h1 class="mt-4 mb-3">
+        {{ page.title }}
+      </h1>
+
+      <ol class="breadcrumb">
+        <li class="breadcrumb-item">
+          <a href="/">Главная</a>
+        </li>
+        <li class="breadcrumb-item active">{{ page.title }}</li>
+      </ol>
+
+      <div class="row">
+         
+<div class="container">
+<div class="col-lg-4 col-md-6 col-sm-6 col-12">
+<img width="100%" height="auto" src="{% static "/sident/img/05.jpg" %}" class="p-3" alt="">
+</div>
+<div class="col-lg-4 col-md-6 col-sm-6 col-12">
+<img width="100%" height="auto" src="{% static "/sident/img/04.jpg" %}" class="p-3" alt="">
+</div>
+<div class="col-lg-4 col-md-6 col-sm-6 col-12">
+<img width="100%" height="auto" src="{% static "/sident/img/03.jpg" %}" class="p-3" alt="">
+</div>
+<div class="col-lg-4 col-md-6 col-sm-6 col-12">
+<img width="100%" height="auto" src="{% static "/sident/img/02-300x79.jpg" %}" class="p-3" alt="">
+</div>
+<div class="col-lg-4 col-md-6 col-sm-6 col-12">
+<img width="100%" height="auto" src="{% static "/sident/img/01-300x92.jpg" %}" class="p-3" alt="">
+</div>
+<div class="col-lg-4 col-md-6 col-sm-6 col-12">
+<img width="100%" height="auto" src="{% static "/sident/img/logo-webproject-ar-1.jpg" %}" class="p-3" alt="">
+</div>
+<div class="col-lg-4 col-md-6 col-sm-6 col-12">
+<img width="100%" height="auto" src="{% static "/sident/img/logo-email.jpg" %}" class="p-3" alt="">
+</div>
+</div>
+
+{% if  page.carousel_items.all %}
+	  <!---Carousel--->
+	  <div id="carouselIndicators" class="carousel slide" data-ride="carousel">
+  <div class="carousel-inner">
+      {% for item in page.carousel_items.all %}
+          {% image item.image1 fill-640x480 as thumb1%}
+          {% image item.image1 width-1600 as img1%}
+          {% image item.image2 fill-640x480 as thumb2%}
+          {% image item.image2 width-1600 as img2%}
+    <div class="carousel-item {% if forloop.first %}active{% endif %}">
+	    <div class="col-lg-6 col-md-12 col-12 mb-4 specialist">
+          <div class="card h-100 text-center">
+		  <div class="card-img-hover">
+            <a href="{{ img1.url }}" data-toggle="lightbox" data-portfolio="portfolio">
+				<img src="{{ thumb1.url }}" class="img-fluid rounded card-img-top">
+            </a>
+			</div>
+          </div>
+        </div>
+        	  	<div class="col-lg-6 col-md-12 col-12 mb-4 specialist">
+          <div class="card h-100 text-center">
+		  <div class="card-img-hover">
+            <a href="{{ img2.url }}" data-toggle="lightbox" data-portfolio="portfolio">
+				<img src="{{ thumb2.url }}" class="img-fluid rounded card-img-top">
+            </a>
+            </div>
+          </div>
+        </div>
+
+    </div>
+    {% endfor %}
+
+  </div>
+  <a class="carousel-control-prev" href="#carouselIndicators" role="button" data-slide="prev">
+    <span class="carousel-control-prev-icon" aria-hidden="true"></span>
+    <span class="sr-only">Prev</span>
+  </a>
+  <a class="carousel-control-next" href="#carouselIndicators" role="button" data-slide="next">
+    <span class="carousel-control-next-icon" aria-hidden="true"></span>
+    <span class="sr-only">Next</span>
+  </a>
+</div>
+    {% endif %}
+    </div>
+
+ <hr class="hr">
+ <!----Testimonials----->
+ <div class="container">
+ 	<div class="pb-4"></div>
+      <h2>Recensioni di Nostri Clienti</h2>
+	  <div class="pb-4 clear"></div>
+
+	{% testy_show %}
+
+	<span class="clear mb-4"></span>
+		<div class="center col-lg-12 col-12 col-sm-12 col-md-12 mb-4"><a class="btn" href="/recensioni/">Tutti Recensioni →</a></div>
+  <!----Testimonials end----->
+
+{% include "home/partials/banner_row.html" %}
+    </div>
+	</div>
+
+{% endblock %}

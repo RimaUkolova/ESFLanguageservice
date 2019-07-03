@@ -1,0 +1,2751 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE yml_catalog SYSTEM "shops.dtd">
+<yml_catalog date="2019-03-12 11:04">
+<shop>
+<name>Мебель-Импэкс</name>
+<company>Мебель-Импэкс</company>
+<url>http://com.mebelimpex.ru/</url>
+<phone>+7 (495) 648-63-63</phone>
+<platform>Yandex.YML for OpenCart (ocStore)</platform>
+<version>1.8.3</version>
+<currencies>
+<currency id="RUB" rate="1" />
+</currencies>
+<categories>
+<category id="120" >
+Выгрузка YML</category>
+<category id="133" parentId="120" >
+Стулья</category>
+<category id="134" parentId="120" >
+Мебель из ротанга</category>
+<category id="140" parentId="120" >
+Столы обеденные</category>
+</categories>
+<offers>
+<offer id="269" available="true" >
+<url>http://com.mebelimpex.ru/index.php?route=product/product&amp;path=&amp;product_id=269</url>
+<price>16349.00</price>
+<currencyId>RUB</currencyId>
+<categoryId>134</categoryId>
+<picture>http://com.mebelimpex.ru/image/cache/catalog/rotang/nabory/DB%20Matt%20Орех%20(4)%20(1)-600x600.jpg</picture>
+<picture>http://com.mebelimpex.ru/image/cache/catalog/rotang/nabory/S2%20Matt%20Мёд.14-600x600.jpg</picture>
+<delivery></delivery>
+<cpa>0</cpa>
+<name>Комплект мебели для завтрака Breakfast</name>
+<vendor>Rattandesign</vendor>
+<description>Breakfast&amp;nbsp; — комплект мебели для завтрака. Красивый набор плетеной мебели для комфортного отдыха из натурального индонезийского ротанга. Прекрасно впишется в интерьер загородного дома или дачи. Поскольку ротанг не боится кратковременного попадания влаги, то может использоваться на улице, на открытых площадках, верандах, беседках, лоджиях. При производстве используются только натуральные, экологически чистые материалы. В комплект входит 3 элемента: два стула и столик. Каркас стульев классической формы из гнутого ротанга, с удобной спинкой, обеспечивающей комфортную посадку. Сиденья укомплектованы мягкими подушками. Столик для завтрака имеет красивое ажурное подстолье из ротанга и стеклянную столешницу овальной формы.</description>
+<param name="Размеры" unit="ШхГхВ">Кресло: 460х460х710
+Столик: 500х990х750</param>
+<param name="Материал обивки">рогожка</param>
+<param name="Цвет обивки">бежевый</param>
+<param name="Страна производителя">Индонезия</param>
+</offer>
+<offer id="270" available="true" >
+<url>http://com.mebelimpex.ru/index.php?route=product/product&amp;path=&amp;product_id=270</url>
+<price>24438.00</price>
+<currencyId>RUB</currencyId>
+<categoryId>134</categoryId>
+<picture>http://com.mebelimpex.ru/image/cache/catalog/rotang/nabory/bagama_мед8-600x600.jpg</picture>
+<picture>http://com.mebelimpex.ru/image/cache/catalog/rotang/nabory/bagama_мед2-600x600.jpg</picture>
+<delivery></delivery>
+<cpa>0</cpa>
+<name>Набор для отдыха Bahama</name>
+<vendor>Rattandesign</vendor>
+<description>Bahama — комплект мебели для отдыха. Красивый набор плетеной мебели для комфортного отдыха из натурального индонезийского ротанга. Прекрасно впишется в интерьер загородного дома или дачи. Поскольку ротанг не боится кратковременного попадания влаги, то может использоваться на улице, на открытых площадках, верандах, беседках, лоджиях. При производстве используются только натуральные, экологически чистые материалы. В комплект входит 4 элемента: диван и два кресла для отдыха, журнальный столик. Корпус дивана и кресел классической формы из гнутого ротанга, обеспечивающей комфортную посадку, для максимального удобства оснащены подлокотниками, укомплектованы мягкими стегаными подушками, установлены на ножки. Журнальный столик имеет красивое подстолье из ротанга и стеклянную столешницу круглой формы.</description>
+<param name="Материал обивки">рогожка</param>
+<param name="Цвет обивки">бежевый</param>
+<param name="Страна производителя">Индонезия</param>
+</offer>
+<offer id="271" available="true" >
+<url>http://com.mebelimpex.ru/index.php?route=product/product&amp;path=&amp;product_id=271</url>
+<price>18798.00</price>
+<currencyId>RUB</currencyId>
+<categoryId>134</categoryId>
+<picture>http://com.mebelimpex.ru/image/catalog/rotang/divany/roma/JC-1732_divan_Roma_med_%282%29.jpg</picture>
+<picture>http://com.mebelimpex.ru/image/catalog/rotang/divany/roma/JC-1732_divan_Roma_med_%282%29.jpg</picture>
+<delivery></delivery>
+<cpa>0</cpa>
+<name>Диван ROMA</name>
+<vendor>Rattandesign</vendor>
+<description>Диван из ротанга Roma с подушкой - выполнен из качественных материалов: каркас из натурального ротанга с мягкой тканевой подушкой.Ротанг - экологичный, прочный, гибкий материал, из которого создают по-настоящему необычные предметы мебели. Плетение из ротанга отлично смотрится, мягкая подушка крепится к каркасу, цвет которого может быть трех вариантов: коньяк, орех, золотой мед.</description>
+<param name="Длина" unit="см">128</param>
+<param name="Ширина" unit="см">80</param>
+<param name="Высота" unit="см">85</param>
+<param name="Материал обивки">рогожка</param>
+<param name="Цвет обивки">бежевый</param>
+<param name="Глубина упаковки" unit="мм">1280</param>
+<param name="Высота упаковки" unit="мм">800</param>
+<param name="Страна производителя">Индонезия</param>
+<param name="Ширина упаковки" unit="мм">850</param>
+</offer>
+<offer id="278" available="true" >
+<url>http://com.mebelimpex.ru/index.php?route=product/product&amp;path=&amp;product_id=278</url>
+<price>63875.00</price>
+<currencyId>RUB</currencyId>
+<categoryId>134</categoryId>
+<picture>http://com.mebelimpex.ru/image/cache/catalog/rotang/nabory/Kelly-2-600x600.jpg</picture>
+<picture>http://com.mebelimpex.ru/image/cache/catalog/rotang/nabory/JC-8830,%20KELLY-2_DB%20Matt%20Орех%20(4)-600x600.jpg</picture>
+<delivery></delivery>
+<cpa>0</cpa>
+<name>Набор для отдыха Kelly-2</name>
+<vendor>Rattandesign</vendor>
+<description>Удобный и стильный комплект мебели Kelly-2 из натурального ротанга прекрасный вариант для создания уютной зоны отдыха на загородном участке. Такая мебель всегда отличный повод собраться всей семьей или с друзьями и отдохнуть на свежем воздухе.</description>
+<param name="Материал обивки">рогожка</param>
+<param name="Цвет обивки">бежевый</param>
+<param name="Страна производителя">Индонезия</param>
+</offer>
+<offer id="350" available="true" >
+<url>http://com.mebelimpex.ru/index.php?route=product/product&amp;path=&amp;product_id=350</url>
+<price>25886.00</price>
+<currencyId>RUB</currencyId>
+<categoryId>134</categoryId>
+<picture>http://com.mebelimpex.ru/image/cache/catalog/rotang/nabory/DB%20Matt%20Орех%20(4)-600x600.jpg</picture>
+<picture>http://com.mebelimpex.ru/image/cache/catalog/rotang/nabory/S2-LG%20Matt%20Коньяк%20(3)-600x600.jpg</picture>
+<delivery></delivery>
+<cpa>0</cpa>
+<name>комплект для отдыха pelangi</name>
+<vendor>Rattandesign</vendor>
+<description>Замечательный комплект плетеной мебели из ротанга Пеланги впишется в любой интерьер. Такой ротанговый комплект мебели Вы можете использовать и на свежем воздухе, ротанг устойчив к изменению температуры, не выцветает на солнце.&amp;nbsp;Несмотря на изящное плетение из ротанга, этот комплект мебели может выдерживать большой вес. Важным достоинством плетеного комлекта является его легкость, что позволяет его свободно перемещать.&amp;nbsp;
+
+	Состав комплекта: диван, 2 кресла, журнальный столик</description>
+<param name="Размеры" unit="ШхГхВ">Диван: 1200х650х770
+Кресло: 650х650х770
+Столик: 500х850х520</param>
+<param name="Материал обивки">рогожка</param>
+<param name="Цвет обивки">серый</param>
+<param name="Страна производителя">Индонезия</param>
+</offer>
+<offer id="351" available="true" >
+<url>http://com.mebelimpex.ru/index.php?route=product/product&amp;path=&amp;product_id=351</url>
+<price>12473.00</price>
+<currencyId>RUB</currencyId>
+<categoryId>134</categoryId>
+<picture>http://com.mebelimpex.ru/image/cache/catalog/rotang/kresla-kachalki/classic/MI-001,%20Classic_S2%20Matt%20Мёд%20(7)-600x600.jpg</picture>
+<picture>http://com.mebelimpex.ru/image/cache/catalog/rotang/kresla-kachalki/classic/MI-001,%20Classic_S2-LG%20Matt%20Коньяк%20(9)-600x600.jpg</picture>
+<delivery></delivery>
+<cpa>0</cpa>
+<name>Кресло-качалка Classic</name>
+<vendor>Rattandesign</vendor>
+<description>Кресло-качалка CLASSIC с подушкой из натурального ротанга — прекрасная модель, которая станет актуальной мебелью для тех, кто обожает отдыхать на природе загородного участка. Такое кресло можно вынести на улицу и наслаждаться в нем природой.</description>
+<param name="Вес изделия">12</param>
+<param name="Длина" unit="см">100</param>
+<param name="Ширина" unit="см">60</param>
+<param name="Высота" unit="см">125</param>
+<param name="Материал обивки">рогожка</param>
+<param name="Цвет обивки">серый</param>
+<param name="Глубина упаковки" unit="мм">1000</param>
+<param name="Высота упаковки" unit="мм">1250</param>
+<param name="Вес упаковки" unit="кг">13</param>
+<param name="Страна производителя">Индонезия</param>
+<param name="Ширина упаковки" unit="мм">600</param>
+<param name="Вес" unit="kg">12.00000000</param>
+</offer>
+<offer id="352" available="true" >
+<url>http://com.mebelimpex.ru/index.php?route=product/product&amp;path=&amp;product_id=352</url>
+<price>11541.00</price>
+<currencyId>RUB</currencyId>
+<categoryId>134</categoryId>
+<picture>http://com.mebelimpex.ru/image/catalog/rotang/kresla/Papasun_Chair/MI-003_Papasun_Chair_konyak_%281%29.jpg</picture>
+<picture>http://com.mebelimpex.ru/image/catalog/rotang/kresla/Papasun_Chair/MI-003_Papasun_Chair_oreh_%284%29.jpg</picture>
+<delivery></delivery>
+<cpa>0</cpa>
+<name>Кресло Papasun Chair</name>
+<vendor>Rattandesign</vendor>
+<description>Кресло Папасан — комфортное и уютное кресло из ротанга с текстильной подушкой для отдыха и релакса. Кресло имеет оригинальную форму в виде полусферы, которая придает ему необычайно стильный вид. Такое кресло можно разместить на балконе, лоджии, дачном участке или террасе загородного дома.</description>
+<param name="Вес изделия">15,5</param>
+<param name="Длина" unit="см">115</param>
+<param name="Ширина" unit="см">110</param>
+<param name="Высота" unit="см">95</param>
+<param name="Материал обивки">рогожка</param>
+<param name="Цвет обивки">серый</param>
+<param name="Глубина упаковки" unit="мм">1150</param>
+<param name="Высота упаковки" unit="мм">950</param>
+<param name="Вес упаковки" unit="кг">16,5</param>
+<param name="Страна производителя">Индонезия</param>
+<param name="Ширина упаковки" unit="мм">1100</param>
+<param name="Вес" unit="kg">14.50000000</param>
+</offer>
+<offer id="353" available="true" >
+<url>http://com.mebelimpex.ru/index.php?route=product/product&amp;path=&amp;product_id=353</url>
+<price>15410.00</price>
+<currencyId>RUB</currencyId>
+<categoryId>134</categoryId>
+<picture>http://com.mebelimpex.ru/image/cache/catalog/kresla-kachalki/Papacan/MI-004-600x600.jpg</picture>
+<picture>http://com.mebelimpex.ru/image/cache/catalog/Papasan/MI-004,коньяк4556-600x600.jpg</picture>
+<delivery></delivery>
+<cpa>0</cpa>
+<name>Кресло-качалка Papasun Swivel Rocker</name>
+<vendor>Rattandesign</vendor>
+<description>Кресло-качалка Папасан с мягкой подушкой располагает к комфортному отдыху, ведь так приятно разместиться в мягком кресле и отдохнуть от забот и проблем. Выполненное в виде полусферы, кресло оснащено устойчивой опорой с пружинным механизмом, который обеспечивает покачивание и вращение. Натуральный ротанг, из которого изготовлено кресло, обладает устойчивостью к природным воздействиям и перепадам влажности и температуры, не выгорает на солнце и не страдает от мороза. Благодаря этому кресло идеально подходит для дачи, загородного дома, балкона или лоджии.&amp;nbsp;</description>
+<param name="Вес изделия">18,5</param>
+<param name="Длина" unit="см">95</param>
+<param name="Ширина" unit="см">115</param>
+<param name="Высота" unit="см">110</param>
+<param name="Материал обивки">рогожка</param>
+<param name="Цвет обивки">серый</param>
+<param name="Глубина упаковки" unit="мм">950</param>
+<param name="Высота упаковки" unit="мм">1100</param>
+<param name="Вес упаковки" unit="кг">19,5</param>
+<param name="Страна производителя">Индонезия</param>
+<param name="Ширина упаковки" unit="мм">1150</param>
+<param name="Вес" unit="kg">18.50000000</param>
+</offer>
+<offer id="354" available="true" >
+<url>http://com.mebelimpex.ru/index.php?route=product/product&amp;path=&amp;product_id=354</url>
+<price>13470.00</price>
+<currencyId>RUB</currencyId>
+<categoryId>134</categoryId>
+<picture>http://com.mebelimpex.ru/image/cache/catalog/Papasan/MI-005%20коньяк%201-600x600.jpg</picture>
+<picture>http://com.mebelimpex.ru/image/cache/catalog/Papasan/MI-005%20коньяк%203-600x600.jpg</picture>
+<delivery></delivery>
+<cpa>0</cpa>
+<name>Кресло-качалка Papasun на полозьях</name>
+<vendor>Rattandesign</vendor>
+<description>Кресло-качалка Папасан соединяет в себе кресло Папасан и классическое кресло-качалку на полозьях, которое состоит из 3-х частей и может поставляться как в собранном, так и в разобранном виде. Сборка кресла не требует никаких специальных навыков. Подушка привязывается к чаше на ремешки, а верхняя его чаша крепится к основанию четырьмя кожаными ремешками. Кресло-качалка Папасан идеально подходит для укачивания или кормления ребенка.</description>
+<param name="Длина" unit="см">125</param>
+<param name="Ширина" unit="см">100</param>
+<param name="Высота" unit="см">78</param>
+<param name="Материал обивки">рогожка</param>
+<param name="Цвет обивки">серый</param>
+<param name="Глубина упаковки" unit="мм">125</param>
+<param name="Высота упаковки" unit="мм">100</param>
+<param name="Страна производителя">Индонезия</param>
+<param name="Ширина упаковки" unit="мм">78</param>
+</offer>
+<offer id="355" available="true" >
+<url>http://com.mebelimpex.ru/index.php?route=product/product&amp;path=&amp;product_id=355</url>
+<price>18305.00</price>
+<currencyId>RUB</currencyId>
+<categoryId>134</categoryId>
+<picture>http://com.mebelimpex.ru/image/catalog/TOP-100/mamasun/MI-006%2C%20MAMASUN_DB%20Matt%20%D0%9E%D1%80%D0%B5%D1%85%20%282%29.jpg</picture>
+<picture>http://com.mebelimpex.ru/image/catalog/TOP-100/mamasun/MI-006%2C%20MAMASUN_S2-LG%20Matt%20%D0%9A%D0%BE%D0%BD%D1%8C%D1%8F%D0%BA%20%285%29.jpg</picture>
+<delivery></delivery>
+<cpa>0</cpa>
+<name>Диван Mamasun</name>
+<vendor>Rattandesign</vendor>
+<description>Воздушная форма овального дивана &amp;quot;Mamasan&amp;quot;, легко впишется в любой интерьер вашей комнаты, придаст ей современный облик, наполнит помещение неповторимой легкостью и неуловимым ароматом экзотического и экологически чистого природного материала – ротанга.</description>
+<param name="Вес изделия">35,5</param>
+<param name="Длина" unit="см">106</param>
+<param name="Ширина" unit="см">92</param>
+<param name="Высота" unit="см">172</param>
+<param name="Материал обивки">рогожка</param>
+<param name="Цвет обивки">серый</param>
+<param name="Глубина упаковки" unit="мм">1060</param>
+<param name="Высота упаковки" unit="мм">1720</param>
+<param name="Вес упаковки" unit="кг">36,5</param>
+<param name="Страна производителя">Индонезия</param>
+<param name="Ширина упаковки" unit="мм">920</param>
+<param name="Вес" unit="kg">35.50000000</param>
+</offer>
+<offer id="356" available="true" >
+<url>http://com.mebelimpex.ru/index.php?route=product/product&amp;path=&amp;product_id=356</url>
+<price>12781.00</price>
+<currencyId>RUB</currencyId>
+<categoryId>134</categoryId>
+<picture>http://com.mebelimpex.ru/image/cache/catalog/rotang/kresla-kachalki/MI-002,%20SWIVEL%20ROCKER_DB%20Matt%20Орех-600x600.jpg</picture>
+<picture>http://com.mebelimpex.ru/image/cache/catalog/rotang/kresla-kachalki/MI-002,%20SWIVEL%20ROCKER_S2-LG%20Matt%20Коньяк%20(7)-600x600.jpg</picture>
+<delivery></delivery>
+<cpa>0</cpa>
+<name>Кресло-качалка Swivel Rocker</name>
+<vendor>Rattandesign</vendor>
+<description>Кресло-качалка SWIVEL ROCKER сделает долгожданный отдых еще прекраснее. Модель имеет оригинальную форму сиденья, в которую отдыхающий как бы проваливается. Это позволяет почувствовать себя уединенно и в полной безопасности. Особенно комфортно будет сидеть на мягкой подушке-матрасе, которая поставляется в комплекте. Конструкция кресла имеет особенный пружинный механизм, который убаюкивает плавными покачиваниями из стороны в сторону и ненавязчивым вращением. Каркас изготавливается из натурального ротанга, а это значит, что кресло можно использовать как в помещении, так и на открытом воздухе.</description>
+<param name="Вес изделия">11,5</param>
+<param name="Длина" unit="см">79</param>
+<param name="Ширина" unit="см">88</param>
+<param name="Высота" unit="см">99</param>
+<param name="Материал обивки">рогожка</param>
+<param name="Цвет обивки">серый</param>
+<param name="Глубина упаковки" unit="мм">790</param>
+<param name="Высота упаковки" unit="мм">990</param>
+<param name="Вес упаковки" unit="кг">12,5</param>
+<param name="Страна производителя">Индонезия</param>
+<param name="Ширина упаковки" unit="мм">880</param>
+<param name="Вес" unit="kg">12.50000000</param>
+</offer>
+<offer id="357" available="true" >
+<url>http://com.mebelimpex.ru/index.php?route=product/product&amp;path=&amp;product_id=357</url>
+<price>15421.00</price>
+<currencyId>RUB</currencyId>
+<categoryId>134</categoryId>
+<picture>http://com.mebelimpex.ru/image/cache/catalog/rotang/kresla-kachalki/kara/JC-3021_KARA_S2%20Matt%20Мёд%20(7)-600x600.jpg</picture>
+<picture>http://com.mebelimpex.ru/image/cache/catalog/rotang/kresla-kachalki/kara/JC-3021_KARA_S2%20Matt%20Мёд%20(2)-600x600.jpg</picture>
+<delivery></delivery>
+<cpa>0</cpa>
+<name>Кресло-качалка Kara</name>
+<vendor>Rattandesign</vendor>
+<description>Кресло-качалка «Kara» оснащено интересной конструкцией пружинного механизма и мягкой подушкой. Благодаря особенному пружинному механизму кресла-качалки возможно плавное отклонение основы кресла в разные стороны и его поворот. Такое кресло-качалка подходит для дома, дачи, использования на улице или на веранде.&amp;nbsp;</description>
+<param name="Вес изделия">15,5</param>
+<param name="Длина" unit="см">90</param>
+<param name="Ширина" unit="см">67</param>
+<param name="Высота" unit="см">90</param>
+<param name="Материал обивки">рогожка</param>
+<param name="Цвет обивки">серый</param>
+<param name="Глубина упаковки" unit="мм">900</param>
+<param name="Высота упаковки" unit="мм">900</param>
+<param name="Вес упаковки" unit="кг">16,5</param>
+<param name="Страна производителя">Индонезия</param>
+<param name="Ширина упаковки" unit="мм">670</param>
+<param name="Вес" unit="kg">15.00000000</param>
+</offer>
+<offer id="358" available="true" >
+<url>http://com.mebelimpex.ru/index.php?route=product/product&amp;path=&amp;product_id=358</url>
+<price>13456.00</price>
+<currencyId>RUB</currencyId>
+<categoryId>134</categoryId>
+<picture>http://com.mebelimpex.ru/image/cache/catalog/rotang/kresla-kachalki/chita/JC-3039_Chita_DB%20Matt%20Орех-600x600.jpg</picture>
+<picture>http://com.mebelimpex.ru/image/cache/catalog/rotang/kresla-kachalki/chita/JC-3039_Chita_DB%20Matt%20Орех%20(3)-600x600.jpg</picture>
+<delivery></delivery>
+<cpa>0</cpa>
+<name>Кресло-качалка Chita</name>
+<vendor>Rattandesign</vendor>
+<description>Необычный дизайн плетеного кресла-качалки из ротанга сразу же привлекает к себе внимание своим изысканным стилем и изяществом. Помимо этого, кресло Chita обладает массой других полезных свойств, а именно: невысокая цена, отличный внешний вид, долговечность, надежность и натуральный материал изготовления.&amp;nbsp;</description>
+<param name="Вес изделия">12</param>
+<param name="Длина" unit="см">110</param>
+<param name="Ширина" unit="см">72</param>
+<param name="Высота" unit="см">110</param>
+<param name="Материал обивки">рогожка</param>
+<param name="Цвет обивки">бежевый</param>
+<param name="Глубина упаковки" unit="мм">1100</param>
+<param name="Высота упаковки" unit="мм">1100</param>
+<param name="Вес упаковки" unit="кг">13</param>
+<param name="Страна производителя">Индонезия</param>
+<param name="Ширина упаковки" unit="мм">720</param>
+<param name="Вес" unit="kg">12.00000000</param>
+</offer>
+<offer id="359" available="true" >
+<url>http://com.mebelimpex.ru/index.php?route=product/product&amp;path=&amp;product_id=359</url>
+<price>17858.00</price>
+<currencyId>RUB</currencyId>
+<categoryId>134</categoryId>
+<picture>http://com.mebelimpex.ru/image/catalog/rotang/kresla-kachalki/novo/JC-3051_Novo_oreh_%281%29.jpg</picture>
+<picture>http://com.mebelimpex.ru/image/cache/catalog/rotang/kresla-kachalki/JC-3051,%20Novo_DB%20Matt%20Орех%20(9)-600x600.jpg</picture>
+<delivery></delivery>
+<cpa>0</cpa>
+<name>Кресло-качалка Novo</name>
+<vendor>Rattandesign</vendor>
+<description>Кресло-качалка Novo выполнено в классическом стиле из натурального материала- ротанга, плетеное и резное кресло излучает тепло и уют. Для удобства эксплуатации оснащено удобной подножкой. Плетеное кресло подойдет для использования как на даче, или загородном участке, так и в городской квартире.</description>
+<param name="Вес изделия">17,5</param>
+<param name="Длина" unit="см">110</param>
+<param name="Ширина" unit="см">60</param>
+<param name="Высота" unit="см">140</param>
+<param name="Материал обивки">рогожка</param>
+<param name="Цвет обивки">серый</param>
+<param name="Глубина упаковки" unit="мм">1100</param>
+<param name="Высота упаковки" unit="мм">1400</param>
+<param name="Вес упаковки" unit="кг">18,5</param>
+<param name="Страна производителя">Индонезия</param>
+<param name="Ширина упаковки" unit="мм">600</param>
+</offer>
+<offer id="360" available="true" >
+<url>http://com.mebelimpex.ru/index.php?route=product/product&amp;path=&amp;product_id=360</url>
+<price>12250.00</price>
+<currencyId>RUB</currencyId>
+<categoryId>134</categoryId>
+<picture>http://com.mebelimpex.ru/image/cache/catalog/Papasan/JC-1381_PAPYRUS_S2-LG20Matt20Коньяк-600x600.jpg</picture>
+<picture>http://com.mebelimpex.ru/image/catalog/rotang/kresla/Papyrus/JC-1381_Papyrus_konyak_%282%29.jpg</picture>
+<delivery></delivery>
+<cpa>0</cpa>
+<name>Кресло Papyrus</name>
+<vendor>Rattandesign</vendor>
+<description>Кресло из ротанга Papyrus с подушкой является воплощением удобства и комфорта. Кресло Papyrus с подушкой изготовлено из прочного, высококачественного ротанга. Оригинальное круглое кресло предлагает максимальный комфорт и расслабляющий отдых, благодаря своей необычной форме.											\</description>
+<param name="Вес изделия">15,5</param>
+<param name="Длина" unit="см">115</param>
+<param name="Ширина" unit="см">115</param>
+<param name="Высота" unit="см">90</param>
+<param name="Материал обивки">рогожка</param>
+<param name="Цвет обивки">серый</param>
+<param name="Глубина упаковки" unit="мм">1150</param>
+<param name="Высота упаковки" unit="мм">1150</param>
+<param name="Вес упаковки" unit="кг">16,5</param>
+<param name="Страна производителя">Индонезия</param>
+<param name="Ширина упаковки" unit="мм">900</param>
+<param name="Вес" unit="kg">15.50000000</param>
+</offer>
+<offer id="361" available="true" >
+<url>http://com.mebelimpex.ru/index.php?route=product/product&amp;path=&amp;product_id=361</url>
+<price>14774.00</price>
+<currencyId>RUB</currencyId>
+<categoryId>134</categoryId>
+<picture>http://com.mebelimpex.ru/image/cache/catalog/rotang/kresla-kachalki/bella/bella_konyak-600x600.jpg</picture>
+<picture>http://com.mebelimpex.ru/image/cache/catalog/rotang/kresla-kachalki/bella/JC-3065_Bella_S2%20Matt%20Мёд%20(4)-600x600.jpg</picture>
+<delivery></delivery>
+<cpa>0</cpa>
+<name>Кресло-качалка Bella</name>
+<vendor>Rattandesign</vendor>
+<description>Кресло-качалка Bella с подушкой&amp;nbsp; -&amp;nbsp; классическое кресло для отдыха в квартире , загородном доме или на даче. Изготовлено оно из натуральной ивовой лозы, это прочный природный материал, дает возможность использовать мебель как в помещении, так и на улице. Это очень уютное и удобное кресло для человека любой комплекции.</description>
+<param name="Вес изделия">15</param>
+<param name="Длина" unit="см">60</param>
+<param name="Ширина" unit="см">125</param>
+<param name="Высота" unit="см">100</param>
+<param name="Материал обивки">рогожка</param>
+<param name="Цвет обивки">серый</param>
+<param name="Глубина упаковки" unit="мм">1250</param>
+<param name="Высота упаковки" unit="мм">1000</param>
+<param name="Вес упаковки" unit="кг">16</param>
+<param name="Страна производителя">Индонезия</param>
+<param name="Ширина упаковки" unit="мм">600</param>
+<param name="Вес" unit="kg">15.00000000</param>
+</offer>
+<offer id="362" available="true" >
+<url>http://com.mebelimpex.ru/index.php?route=product/product&amp;path=&amp;product_id=362</url>
+<price>27480.00</price>
+<currencyId>RUB</currencyId>
+<categoryId>134</categoryId>
+<picture>http://com.mebelimpex.ru/image/cache/catalog/rotang/kresla-kachalki/twist/Twist_oreh-600x600.jpg</picture>
+<picture>http://com.mebelimpex.ru/image/cache/catalog/rotang/kresla-kachalki/twist/Twist_oreh3-600x600.jpg</picture>
+<delivery></delivery>
+<cpa>0</cpa>
+<name>Кресло-качалка Alexa</name>
+<vendor>Rattandesign</vendor>
+<description>Кресло-качалка из ротанга Alexa сделано искусными индонезийскими мастерами. Богатое декорирование, множество плетеных завитков, кропотливый труд в каждом изделии - все это делает кресло-качалку Alexa неповторимым и индивидуальным. Также кресло оснащено выдвигающейся подножкой и подголовником.</description>
+<param name="Вес изделия">24</param>
+<param name="Длина" unit="см">110</param>
+<param name="Ширина" unit="см">68</param>
+<param name="Высота" unit="см">140</param>
+<param name="Глубина упаковки" unit="мм">1400</param>
+<param name="Высота упаковки" unit="мм">1100</param>
+<param name="Вес упаковки" unit="кг">25</param>
+<param name="Страна производителя">Индонезия</param>
+<param name="Ширина упаковки" unit="мм">680</param>
+<param name="Вес" unit="kg">24.00000000</param>
+</offer>
+<offer id="363" available="true" >
+<url>http://com.mebelimpex.ru/index.php?route=product/product&amp;path=&amp;product_id=363</url>
+<price>19545.00</price>
+<currencyId>RUB</currencyId>
+<categoryId>134</categoryId>
+<picture>http://com.mebelimpex.ru/image/cache/catalog/rotang/kresla-kachalki/coral/JC-3057_CORAL_S2%20DB%20Matt%20Орех%20(2)-600x600.jpg</picture>
+<picture>http://com.mebelimpex.ru/image/cache/catalog/rotang/kresla-kachalki/coral/JC-3057_CORAL_S2%20DB%20Matt%20Орех%20(7)-600x600.jpg</picture>
+<delivery></delivery>
+<cpa>0</cpa>
+<name>Кресло-качалка Coral</name>
+<vendor>Rattandesign</vendor>
+<description>Кресло-качалка Coral с подушкой выполнено в классическом стиле из натурального материала – ротанга. Для удобства эксплуатации кресло-качалка из ротанга Novo люкс оснащено удобной выдвигающейся подножкой, подстаканником и держателем для газет. Плетеное кресло прекрасно подойдет для использования как на даче, или загородном участке, так и в городской квартире. Очень удобно использовать это кресло для кормления грудного ребенка.</description>
+<param name="Вес изделия">17</param>
+<param name="Длина" unit="см">106</param>
+<param name="Ширина" unit="см">74</param>
+<param name="Высота" unit="см">120</param>
+<param name="Материал обивки">рогожка</param>
+<param name="Цвет обивки">бежевый</param>
+<param name="Глубина упаковки" unit="мм">1060</param>
+<param name="Высота упаковки" unit="мм">1200</param>
+<param name="Вес упаковки" unit="кг">18</param>
+<param name="Страна производителя">Индонезия</param>
+<param name="Ширина упаковки" unit="мм">740</param>
+<param name="Вес" unit="kg">17.00000000</param>
+</offer>
+<offer id="364" available="true" >
+<url>http://com.mebelimpex.ru/index.php?route=product/product&amp;path=&amp;product_id=364</url>
+<price>10348.00</price>
+<currencyId>RUB</currencyId>
+<categoryId>134</categoryId>
+<picture>http://com.mebelimpex.ru/image/cache/catalog/Papasan/Roma_chair1_med-600x600.jpg</picture>
+<picture>http://com.mebelimpex.ru/image/cache/catalog/Papasan/Roma_chair_oreh-600x600.jpg</picture>
+<delivery></delivery>
+<cpa>0</cpa>
+<name>Кресло Roma</name>
+<vendor>Rattandesign</vendor>
+<description>Плетеное кресло Roma соединяет в себе лучшее от натуральных материалов. Оно отлично впишется как в загородный дом, так и в кафе.Каркас из натурального ротанга, конечно же, привлекает внимание с первого взгляда. Его конструкция очень свежа и оригинальна, но при этом она понравится и ценителям классики. Материал не только смотрится роскошно, но и очень практичен. Он не прихотлив к условиям эксплуатации, прочен и эластичен.</description>
+<param name="Вес изделия">8,5</param>
+<param name="Длина" unit="см">70</param>
+<param name="Ширина" unit="см">70</param>
+<param name="Высота" unit="см">85</param>
+<param name="Материал обивки">рогожка</param>
+<param name="Цвет обивки">серый</param>
+<param name="Глубина упаковки" unit="мм">700</param>
+<param name="Высота упаковки" unit="мм">850</param>
+<param name="Вес упаковки" unit="кг">9,5</param>
+<param name="Страна производителя">Индонезия</param>
+<param name="Ширина упаковки" unit="мм">700</param>
+<param name="Вес" unit="kg">8.50000000</param>
+</offer>
+<offer id="365" available="true" >
+<url>http://com.mebelimpex.ru/index.php?route=product/product&amp;path=&amp;product_id=365</url>
+<price>11109.00</price>
+<currencyId>RUB</currencyId>
+<categoryId>134</categoryId>
+<picture>http://com.mebelimpex.ru/image/cache/catalog/rotang/kresla-kachalki/canary/canary_konyak2-600x600.jpg</picture>
+<picture>http://com.mebelimpex.ru/image/cache/catalog/rotang/kresla-kachalki/canary/canary_konyak3-600x600.jpg</picture>
+<delivery></delivery>
+<cpa>0</cpa>
+<name>Кресло-качалка Canary</name>
+<vendor>Rattandesign</vendor>
+<description>Основные черты плетеного кресла-качалки Canary с подушкой – это классические формы, респектабельность, прочность и тепло натурального природного материала – ротанга. Стильное кресло для отдыха поможет Вам создать комфортный и уютный интерьер.&amp;nbsp;</description>
+<param name="Вес изделия">10,2</param>
+<param name="Длина" unit="см">90</param>
+<param name="Ширина" unit="см">66</param>
+<param name="Высота" unit="см">100</param>
+<param name="Материал обивки">рогожка</param>
+<param name="Цвет обивки">бежевый, серый</param>
+<param name="Глубина упаковки" unit="мм">990</param>
+<param name="Высота упаковки" unit="мм">11,2</param>
+<param name="Страна производителя">Индонезия</param>
+<param name="Ширина упаковки" unit="мм">660</param>
+<param name="Вес" unit="kg">10.20000000</param>
+</offer>
+<offer id="382" available="true" >
+<url>http://com.mebelimpex.ru/index.php?route=product/product&amp;path=&amp;product_id=382</url>
+<price>16952.00</price>
+<currencyId>RUB</currencyId>
+<categoryId>134</categoryId>
+<picture>http://com.mebelimpex.ru/image/cache/catalog/rotang/kresla-kachalki/moscow_konyac_4-600x600.jpg</picture>
+<picture>http://com.mebelimpex.ru/image/cache/catalog/rotang/kresla-kachalki/moscow_konyac-600x600.jpg</picture>
+<delivery></delivery>
+<cpa>0</cpa>
+<name>Кресло-качалка Moscow</name>
+<vendor>Rattandesign</vendor>
+<description>Кресло-качалка Москва выполнено в классическом стиле. Для удобства эксплуатации кресло-качалка из ротанга Moscow оснащено удобной подножкой. Прекрасно подойдет для использования как на даче, или загородном участке, так и в городской квартире.</description>
+<param name="Длина" unit="см">60</param>
+<param name="Ширина" unit="см">150</param>
+<param name="Высота" unit="см">107</param>
+<param name="Материал обивки">рогожка</param>
+<param name="Цвет обивки">серый</param>
+<param name="Глубина упаковки" unit="мм">600</param>
+<param name="Высота упаковки" unit="мм">1070</param>
+<param name="Страна производителя">Индонезия</param>
+<param name="Ширина упаковки" unit="мм">1500</param>
+</offer>
+<offer id="1037" available="true" >
+<url>http://com.mebelimpex.ru/index.php?route=product/product&amp;path=&amp;product_id=1037</url>
+<price>21300.00</price>
+<currencyId>RUB</currencyId>
+<categoryId>140</categoryId>
+<picture>http://com.mebelimpex.ru/image/catalog/Obedennye_gruppy/Stoly/stol_Shervud/leset_stol_Shervud1R_venget34_slojennyi.jpg</picture>
+<picture>http://com.mebelimpex.ru/image/catalog/Obedennye_gruppy/Stoly/stol_Shervud/leset_stol_Shervud1R_venget34%2Bstul_Oregon_venge_palermobrown.jpg</picture>
+<delivery>true</delivery>
+<cpa>0</cpa>
+<name>Стол Leset Шервуд 1Р</name>
+<vendor>Leset</vendor>
+<description>Стол «Шервуд» — непременный элемент для обустройства
+столовой зоны. Столешница из натурального дерева надежно
+закреплена на подстолье, изготовленном из массива бука
+и облицованная натуральным шпоном ясеня. Устойчивые
+ножки изящной формы в полной мере соответствуют классическому
+дизайну изделия.Материал:&amp;nbsp;ножки – массив бука, столешница – МДФ, облицованная натуральным шпоном ясеня.Механизм трансформации столешницы:&amp;nbsp;синхронный.Механизм трансформации вставки:&amp;nbsp;бабочка.Варианты отделки:&amp;nbsp;венге.</description>
+<param name="Длина" unit="см">110 (150)</param>
+<param name="Ширина" unit="см">70</param>
+<param name="Высота" unit="см">76</param>
+<param name="Глубина упаковки" unit="мм">1140</param>
+<param name="Высота упаковки" unit="мм">160</param>
+<param name="Вес упаковки" unit="кг">36</param>
+<param name="Страна производителя">Россия</param>
+<param name="Ширина упаковки" unit="мм">740</param>
+<param name="Материал столешницы">МДФ + шпон ясеня</param>
+<param name="Цвет столешницы">венге</param>
+<param name="Вес" unit="kg">35.00000000</param>
+</offer>
+<offer id="1038" available="true" >
+<url>http://com.mebelimpex.ru/index.php?route=product/product&amp;path=&amp;product_id=1038</url>
+<price>17850.00</price>
+<currencyId>RUB</currencyId>
+<categoryId>140</categoryId>
+<picture>http://com.mebelimpex.ru/image/catalog/Obedennye_gruppy/Stoly/stol_Luiziana_1r/leset_stol_Luiziana1R_belyi9003_slojenny.jpg</picture>
+<picture>http://com.mebelimpex.ru/image/catalog/Obedennye_gruppy/Stoly/stol_Luiziana_1r/stulja_Ostin_%2B_stol_Luiziana1R_interior.jpg</picture>
+<delivery>true</delivery>
+<cpa>0</cpa>
+<name>Стол Leset Луизиана 1Р</name>
+<vendor>Leset</vendor>
+<description>Круглый стол Луизиана исполнен в классическом стиле.&amp;nbsp; Устойчивая центральная ножка делает силуэт изделия особенно изящным.&amp;nbsp;Столешница выполнена из материала МДФ и покрытая эмалью и матовым лаком.&amp;nbsp;Центральная вставка - бабочка хранится внутри стола.Материал:&amp;nbsp;столешница - МДФ, покрытая эмалью и матовым лаком. Подстолье - массив бука.Механизм трансформации столешницы:&amp;nbsp;раздвижной.Механизм трансформации вставки:&amp;nbsp;центральная вставка бабочка, хранится внутри стола.Варианты отделки:&amp;nbsp;белый.</description>
+<param name="Длина" unit="см">90 (120)</param>
+<param name="Ширина" unit="см">90</param>
+<param name="Высота" unit="см">75</param>
+<param name="Глубина упаковки" unit="мм">1120</param>
+<param name="Высота упаковки" unit="мм">150</param>
+<param name="Вес упаковки" unit="кг">32,3</param>
+<param name="Страна производителя">Россия</param>
+<param name="Ширина упаковки" unit="мм">950</param>
+<param name="Материал столешницы">МДФ покрыта эмалью</param>
+<param name="Цвет столешницы">белый</param>
+<param name="Вес" unit="kg">30.40000000</param>
+</offer>
+<offer id="1039" available="true" >
+<url>http://com.mebelimpex.ru/index.php?route=product/product&amp;path=&amp;product_id=1039</url>
+<price>19040.00</price>
+<currencyId>RUB</currencyId>
+<categoryId>140</categoryId>
+<picture>http://com.mebelimpex.ru/image/catalog/Obedennye_gruppy/Stoly/stol_Delaver_1r/leset_stol_Delaver_belyi_steklo-beloe_%281%29.jpg</picture>
+<picture>http://com.mebelimpex.ru/image/cache/catalog/Obedennye_gruppy/Stoly/stol_Delaver_1r/stol_Delaver1R_+_stulja_Kentukki-600x600.jpg</picture>
+<delivery>true</delivery>
+<cpa>0</cpa>
+<name>Стол Leset Делавэр 1Р</name>
+<vendor>Leset</vendor>
+<description>Стол Дэлавэр 1Р выполнен в современном минималистичном стиле. Стол раздвижной конструкции, боковая ламинированная вставка хранится внутри стола. Материалы столешницы - ЛДСП + закаленное стекло, подстолье - массив бука в разных покрасках. В белом цвете каркаса используется глянцевое стекло.Материал:&amp;nbsp;столешница - ЛДСП + закаленное стекло, подстолье - массив бука в разных покрасках.Механизм трансформации столешницы:&amp;nbsp;раздвижной.Механизм трансформации вставки:&amp;nbsp;боковая вставка ламинированная, хранится внутри стола.Варианты отделки:&amp;nbsp;белый/стекло глянцевое белое.</description>
+<param name="Длина" unit="см">110 (160)</param>
+<param name="Ширина" unit="см">70</param>
+<param name="Высота" unit="см">75</param>
+<param name="Глубина упаковки" unit="мм">1250</param>
+<param name="Высота упаковки" unit="мм">135</param>
+<param name="Вес упаковки" unit="кг">31,4</param>
+<param name="Страна производителя">Россия</param>
+<param name="Ширина упаковки" unit="мм">850</param>
+<param name="Материал столешницы">ЛДСП + стекло</param>
+<param name="Цвет столешницы">белый</param>
+<param name="Вес" unit="kg">29.50000000</param>
+</offer>
+<offer id="1040" available="true" >
+<url>http://com.mebelimpex.ru/index.php?route=product/product&amp;path=&amp;product_id=1040</url>
+<price>24800.00</price>
+<currencyId>RUB</currencyId>
+<categoryId>140</categoryId>
+<picture>http://com.mebelimpex.ru/image/catalog/Obedennye_gruppy/Stoly/stol_Vermont_2r/leset_stol_Vermont_oreh_chokoladnyj_%281%292.jpg</picture>
+<picture>http://com.mebelimpex.ru/image/catalog/Obedennye_gruppy/Stoly/stol_Vermont_2r/Vermont_Montana.jpg</picture>
+<delivery>true</delivery>
+<cpa>0</cpa>
+<name>Стол Leset Вермонт 2Р</name>
+<vendor>Leset</vendor>
+<description>Классическая мебель для гостиной, не смотря на время
+и моду, всегда остается актуальной. Именно классический
+стиль – признак хорошего и сдержанного вкуса, элегантности
+и комфорта. Стол Вермонт станет замечательным дополнением
+к классическому дизайну.Материал: ножки - массив бука, столешница - МДФ, облицованная натуральным шпоном ясеня.Механизм трансформации столешницы: синхронный.Механизм трансформации вставки: бабочка.Варианты отделки:&amp;nbsp;орех шоколадный.</description>
+<param name="Длина" unit="см">120 (160)</param>
+<param name="Ширина" unit="см">84</param>
+<param name="Высота" unit="см">76</param>
+<param name="Глубина упаковки" unit="мм">коробка 1: 790
+коробка 2: 1240</param>
+<param name="Высота упаковки" unit="мм">коробка 1: 150
+коробка 2: 160</param>
+<param name="Вес упаковки" unit="кг">коробка 1: 4,3
+коробка 2: 41,4</param>
+<param name="Страна производителя">Россия</param>
+<param name="Ширина упаковки" unit="мм">коробка 1: 190
+коробка 2: 840</param>
+<param name="Материал столешницы">МДФ + шпон ясеня</param>
+<param name="Цвет столешницы">коричневый</param>
+<param name="Вес" unit="kg">45.60000000</param>
+</offer>
+<offer id="1041" available="true" >
+<url>http://com.mebelimpex.ru/index.php?route=product/product&amp;path=&amp;product_id=1041</url>
+<price>26700.00</price>
+<currencyId>RUB</currencyId>
+<categoryId>140</categoryId>
+<picture>http://com.mebelimpex.ru/image/catalog/Obedennye_gruppy/Stoly/stol_Dakota_1r/leset_Dakota1R_belyj_patina_serebro_%281%292.jpg</picture>
+<picture>http://com.mebelimpex.ru/image/catalog/Obedennye_gruppy/Stoly/stol_Dakota_1r/leset_Dakota1R_belyj_patina_serebro_%281%292.jpg</picture>
+<delivery>true</delivery>
+<cpa>0</cpa>
+<name>Стол Leset Дакота 1Р</name>
+<vendor>Leset</vendor>
+<description>Вы сможете установить данную модель, как в столовой,
+так и на террасе или балконе, дабы наслаждать трапезой с
+прекрасным обзором. Великолепная буковая древесина
+обладает мягкостью и шелковистостью, которые манят
+дотронуться до отдельных деталей.Материал: ножки - массив бука, столешница - МДФ, облицованная натуральным шпоном ясеня.Механизм трансформации столешницы: синхронный.Механизм трансформации вставки: бабочка.Варианты отделки:&amp;nbsp;белый с серебряной патиной.</description>
+<param name="Длина" unit="см">120 (160)</param>
+<param name="Ширина" unit="см">70</param>
+<param name="Высота" unit="см">76</param>
+<param name="Глубина упаковки" unit="мм">1240</param>
+<param name="Высота упаковки" unit="мм">160</param>
+<param name="Вес упаковки" unit="кг">35,3</param>
+<param name="Страна производителя">Россия</param>
+<param name="Ширина упаковки" unit="мм">740</param>
+<param name="Материал столешницы">МДФ + шпон ясеня</param>
+<param name="Цвет столешницы">белый</param>
+<param name="Вес" unit="kg">33.78000000</param>
+</offer>
+<offer id="1042" available="true" >
+<url>http://com.mebelimpex.ru/index.php?route=product/product&amp;path=&amp;product_id=1042</url>
+<price>29300.00</price>
+<currencyId>RUB</currencyId>
+<categoryId>140</categoryId>
+<picture>http://com.mebelimpex.ru/image/catalog/Obedennye_gruppy/Stoly/stol_Karolina_1r/leset_stol_Karolina1R_oreh_chocoladnyj_%281%292.jpg</picture>
+<picture>http://com.mebelimpex.ru/image/catalog/Obedennye_gruppy/Stoly/stol_Karolina_1r/leset_stol_Karolina1R_oreh_chocoladnyj%2Bstul_Nevada_oreh_chocoladhyj_palermo_karamel_%282%292.jpg</picture>
+<delivery>true</delivery>
+<cpa>0</cpa>
+<name>Стол Leset Каролина 1Р</name>
+<vendor>Leset</vendor>
+<description>Классическая мебель для гостиной, не смотря на время
+и моду, всегда остается актуальной. Именно классический
+стиль – признак хорошего и сдержанного вкуса, элегантности
+и комфорта. Стол Каролина станет замечательным дополнением
+к классическому дизайну.Материал: ножки - массив бука, столешница - МДФ, облицованная натуральным шпоном ясеня.Механизм трансформации столешницы: синхронный.Механизм трансформации вставки: бабочка.Варианты отделки: орех шоколадный.</description>
+<param name="Длина" unit="см">150 (200)</param>
+<param name="Ширина" unit="см">84</param>
+<param name="Высота" unit="см">76</param>
+<param name="Глубина упаковки" unit="мм">коробка 1: 790
+коробка 2: 1540</param>
+<param name="Высота упаковки" unit="мм">коробка 1: 150
+коробка 2: 160</param>
+<param name="Вес упаковки" unit="кг">коробка 1: 8,5
+коробка 2: 54,4</param>
+<param name="Страна производителя">Россия</param>
+<param name="Ширина упаковки" unit="мм">коробка 1: 380
+коробка 2: 880</param>
+<param name="Материал столешницы">МДФ + шпон ясеня</param>
+<param name="Цвет столешницы">коричневый</param>
+<param name="Вес" unit="kg">62.88000000</param>
+</offer>
+<offer id="1043" available="true" >
+<url>http://com.mebelimpex.ru/index.php?route=product/product&amp;path=&amp;product_id=1043</url>
+<price>23800.00</price>
+<currencyId>RUB</currencyId>
+<categoryId>140</categoryId>
+<picture>http://com.mebelimpex.ru/image/catalog/Obedennye_gruppy/Stoly/stol_Michigan_2r/leset_Michigan2R_slonkost22.jpg</picture>
+<picture>http://com.mebelimpex.ru/image/catalog/Obedennye_gruppy/Stoly/stol_Michigan_2r/leset_Michigan2R_slonkost_%28razlojennyj%292.jpg</picture>
+<delivery>true</delivery>
+<cpa>0</cpa>
+<name>Стол Leset Мичиган 2Р</name>
+<vendor>Leset</vendor>
+<description>Материал: ножки - массив бука, столешница - МДФ, облицованная натуральным шпоном ясеняМеханизм трансформации столешницы: синхронныйМеханизм трансформации вставки: бабочкаВарианты отделки:&amp;nbsp;белый, слоновая кость</description>
+<param name="Вес изделия">45,8</param>
+<param name="Длина" unit="см">100</param>
+<param name="Ширина" unit="см">100</param>
+<param name="Высота" unit="см">76</param>
+<param name="Глубина упаковки" unit="мм">уп 1: 79
+уп 2: 104</param>
+<param name="Высота упаковки" unit="мм">уп 1: 15
+уп 2: 16</param>
+<param name="Вес упаковки" unit="кг">47,4</param>
+<param name="Страна производителя">Россия</param>
+<param name="Ширина упаковки" unit="мм">уп 1: 19
+уп 2: 104</param>
+<param name="Вес" unit="kg">47.40000000</param>
+</offer>
+<offer id="1051" available="true" >
+<url>http://com.mebelimpex.ru/index.php?route=product/product&amp;path=&amp;product_id=1051</url>
+<price>27330.00</price>
+<currencyId>RUB</currencyId>
+<categoryId>140</categoryId>
+<picture>http://com.mebelimpex.ru/image/catalog/Obedennye_gruppy/Stoly/stol_Denver_1r/leset_stol_Denver1R_belyi_steklo-beloe_%281%29.jpg</picture>
+<picture>http://com.mebelimpex.ru/image/catalog/Obedennye_gruppy/Stoly/stol_Denver_1r/stol_Denver_%2B_stulja_Hjuston.jpg</picture>
+<delivery>true</delivery>
+<cpa>0</cpa>
+<name>Стол Leset Денвер 1Р</name>
+<vendor>Leset</vendor>
+<description>Стол Денвер выполнен в современном стиле и оснащен синхронным механизм раздвижения. Центральная вставка хранится внутри стола. Материал столешницы - закаленное стекло. Подстолье - МДФ в покраске лак. В белом цвете вставка – ЛДСП. В цвете капучино вставка - стекло.Материал:&amp;nbsp;столешница - зеркальное стекло, подстолье - МДФ в покраске лак.Механизм трансформации столешницы:&amp;nbsp;синхронныйМеханизм трансформации вставки:&amp;nbsp;синхронный механизм раздвижения. Центральная вставка хранится внутри стола.Варианты отделки:&amp;nbsp;Белый лак/стекло глянцевое белое.</description>
+<param name="Длина" unit="см">120 (180)</param>
+<param name="Ширина" unit="см">80</param>
+<param name="Высота" unit="см">75</param>
+<param name="Глубина упаковки" unit="мм">коробка 1: 500
+коробка 2: 1250</param>
+<param name="Высота упаковки" unit="мм">коробка 1: 700
+коробка 2: 140</param>
+<param name="Вес упаковки" unit="кг">коробка 1: 16.6
+коробка 2: 36,6</param>
+<param name="Страна производителя">Россия</param>
+<param name="Ширина упаковки" unit="мм">коробка 1: 800
+коробка 2: 850</param>
+<param name="Материал столешницы">ЛДСП и покрыта стеклом</param>
+<param name="Цвет столешницы">белый</param>
+<param name="Вес" unit="kg">48.00000000</param>
+</offer>
+<offer id="1053" available="true" >
+<url>http://com.mebelimpex.ru/index.php?route=product/product&amp;path=&amp;product_id=1053</url>
+<price>9980.00</price>
+<currencyId>RUB</currencyId>
+<categoryId>140</categoryId>
+<picture>http://com.mebelimpex.ru/image/catalog/Obedennye_gruppy/Stoly/stol_midel/leset_stol_Midel_belyi_%281%29.jpg</picture>
+<picture>http://com.mebelimpex.ru/image/catalog/Obedennye_gruppy/Stoly/stol_midel/Midel_Bisho.jpg</picture>
+<delivery></delivery>
+<cpa>0</cpa>
+<name>Стол Leset Мидел</name>
+<vendor>Leset</vendor>
+<description>Металлические опоры стола Мидел устойчивы и долговечны. Правильные формы, изящные линии и строгий минимализм в деталях являются отражением современного дизайна. Подходят к большинству интерьеров кухонь.Материал:&amp;nbsp;металл, стекло.Механизм трансформации столешницы:&amp;nbsp;раздвижной.Механизм трансформации вставки:&amp;nbsp;бабочка.Габариты стола в разложенном виде:&amp;nbsp;152х70х74 см.Варианты отделки:&amp;nbsp;белый.</description>
+<param name="Длина" unit="см">120 (152)</param>
+<param name="Ширина" unit="см">70</param>
+<param name="Высота" unit="см">74</param>
+<param name="Глубина упаковки" unit="мм">1240</param>
+<param name="Высота упаковки" unit="мм">120</param>
+<param name="Вес упаковки" unit="кг">24</param>
+<param name="Страна производителя">Россия</param>
+<param name="Ширина упаковки" unit="мм">730</param>
+<param name="Материал столешницы">МДФ/стекло</param>
+<param name="Цвет столешницы">белый</param>
+<param name="Вес" unit="kg">22.50000000</param>
+</offer>
+<offer id="1055" available="true" >
+<url>http://com.mebelimpex.ru/index.php?route=product/product&amp;path=&amp;product_id=1055</url>
+<price>5310.00</price>
+<currencyId>RUB</currencyId>
+<categoryId>140</categoryId>
+<picture>http://com.mebelimpex.ru/image/catalog/Obedennye_gruppy/Stoly/stol_marsel/leset_Marsel2R_dub_%281%29.jpg</picture>
+<picture>http://com.mebelimpex.ru/image/catalog/Obedennye_gruppy/Stoly/stol_marsel/leset_stul_1309%2Bstol_Marsel1%D0%A0_dub.jpg</picture>
+<delivery></delivery>
+<cpa>0</cpa>
+<name>Стол Leset Марсель 2Р</name>
+<vendor>Leset</vendor>
+<description>Это то, о чем принято говорить “просто и со вкусом”. Вкус у дизайнера отменный: простой прямоугольник, имитирующий срез натурального дерева и четыре лаконичные цилиндрические ножки с хромированным блеском идеально сочетаются. Чистота пропорций и качество исполнения создают законченный образ и удобную комфортабельную мебель, для которой можно найти место даже в тесном помещении. Скругленные углы удачно гармонируют со всей конструкцией. Конструкторское решение также интересно: выдвижной механизм боковых частей позволяет увеличивать столешницу. на три размера.Материал:&amp;nbsp; хром, дерево.Механизм трансформации вставки:&amp;nbsp;выдвижной механизм боковых частей позволяет увеличивать столешницу на три размера.Габариты стола в разложенном виде:&amp;nbsp;180х70х75&amp;nbsp;см.Варианты отделки:&amp;nbsp;дуб.</description>
+<param name="Длина" unit="см">100 (180)</param>
+<param name="Ширина" unit="см">70</param>
+<param name="Высота" unit="см">75</param>
+<param name="Глубина упаковки" unit="мм">коробка 1: 730
+коробка 2: 1035</param>
+<param name="Высота упаковки" unit="мм">коробка 1: 110
+коробка 2: 90</param>
+<param name="Вес упаковки" unit="кг">коробка 1: 3
+коробка 2: 29</param>
+<param name="Страна производителя">Россия</param>
+<param name="Ширина упаковки" unit="мм">коробка 1: 110
+коробка 2: 730</param>
+<param name="Материал столешницы">ЛДСП</param>
+<param name="Цвет столешницы">дуб</param>
+<param name="Вес" unit="kg">29.50000000</param>
+</offer>
+<offer id="1057" available="true" >
+<url>http://com.mebelimpex.ru/index.php?route=product/product&amp;path=&amp;product_id=1057</url>
+<price>20750.00</price>
+<currencyId>RUB</currencyId>
+<categoryId>140</categoryId>
+<picture>http://com.mebelimpex.ru/image/catalog/Obedennye_gruppy/Stoly/stol_kabi/leset_stol_%20Kabi_belyi_%281%29.jpg</picture>
+<picture>http://com.mebelimpex.ru/image/catalog/Obedennye_gruppy/Stoly/stol_kabi/leset_stol_%20Kabi_belyi_%281%29.jpg</picture>
+<delivery>true</delivery>
+<cpa>0</cpa>
+<name>Стол Leset Каби</name>
+<vendor>Leset</vendor>
+<description>Сочетание тяжелой металлической опоры и закаленного
+стекла делает стол Каби надежным и практичным. Все
+крепления стола выполнены по типу «металл-металл» - это
+гарантирует долговечность и монолитность конструкции.Материал:&amp;nbsp;металл, стекло.Механизм трансформации столешницы:&amp;nbsp;раздвижной.Механизм трансформации вставки:&amp;nbsp;центральная вставка хранится внутри стола.Габариты стола в разложенном виде:&amp;nbsp;185х80х74 смВарианты отделки:&amp;nbsp;белый.</description>
+<param name="Длина" unit="см">140 (185)</param>
+<param name="Ширина" unit="см">80</param>
+<param name="Высота" unit="см">74</param>
+<param name="Глубина упаковки" unit="мм">коробка 1: 1060
+коробка 2: 1445</param>
+<param name="Высота упаковки" unit="мм">коробка 1: 21
+коробка 2: 95</param>
+<param name="Вес упаковки" unit="кг">коробка 1: 31
+коробка 2: 36,5</param>
+<param name="Страна производителя">Россия</param>
+<param name="Ширина упаковки" unit="мм">коробка 1: 840
+коробка 2: 825</param>
+<param name="Материал столешницы">МДФ и стекло</param>
+<param name="Цвет столешницы">белый</param>
+<param name="Вес" unit="kg">65.00000000</param>
+</offer>
+<offer id="1058" available="true" >
+<url>http://com.mebelimpex.ru/index.php?route=product/product&amp;path=&amp;product_id=1058</url>
+<price>4380.00</price>
+<currencyId>RUB</currencyId>
+<categoryId>140</categoryId>
+<picture>http://com.mebelimpex.ru/image/catalog/Obedennye_gruppy/Stoly/stol_lil/leset_stol_Lil_venge_%281%29.jpg</picture>
+<picture>http://com.mebelimpex.ru/image/cache/catalog/Obedennye_gruppy/Stoly/stol_lil/Lil_1309-600x600.jpg</picture>
+<delivery></delivery>
+<cpa>0</cpa>
+<name>Стол Leset Лиль</name>
+<vendor>Leset</vendor>
+<description>Обеденный стол &amp;quot;Лиль&amp;quot; - самый надежный, долговечный и простой в использовании. Классический механизм трансформации, зарекомендовавший себя годами, без труда превратит этот стол из стандартного обеденного, в полноценную обеденную зону для большой компании. Опоры - хром. Столешница - ЛДСП.Материал:&amp;nbsp;хром, ЛДСП.Механизм трансформации столешницы:&amp;nbsp;раскладной.Механизм трансформации вставки:&amp;nbsp;с использованием ломберных петель.Габариты стола в разложенном виде:&amp;nbsp;120х80х75 см.Варианты отделки:&amp;nbsp;венге.</description>
+<param name="Длина" unit="см">80</param>
+<param name="Ширина" unit="см">60</param>
+<param name="Высота" unit="см">75</param>
+<param name="Глубина упаковки" unit="мм">коробка 1: 730
+коробка 2: 890</param>
+<param name="Высота упаковки" unit="мм">коробка 1: 110
+коробка 2: 55</param>
+<param name="Вес упаковки" unit="кг">коробка 1: 3
+коробка 2: 17</param>
+<param name="Страна производителя">Россия</param>
+<param name="Ширина упаковки" unit="мм">коробка 1: 110
+коробка 2: 620</param>
+<param name="Материал столешницы">ЛДСП</param>
+<param name="Цвет столешницы">венге</param>
+<param name="Вес" unit="kg">18.50000000</param>
+</offer>
+<offer id="1059" available="true" >
+<url>http://com.mebelimpex.ru/index.php?route=product/product&amp;path=&amp;product_id=1059</url>
+<price>4840.00</price>
+<currencyId>RUB</currencyId>
+<categoryId>140</categoryId>
+<picture>http://com.mebelimpex.ru/image/catalog/Obedennye_gruppy/Stoly/stol_marsel/leset_Marsel2R_dub_%281%29.jpg</picture>
+<picture>http://com.mebelimpex.ru/image/catalog/Obedennye_gruppy/Stoly/stol_marsel/leset_Marsel2R_dub_%281%29.jpg</picture>
+<delivery></delivery>
+<cpa>0</cpa>
+<name>Стол Leset Марсель 1Р</name>
+<vendor>Leset</vendor>
+<description>Это то, о чем принято говорить “просто и со вкусом”.
+Вкус у дизайнера отменный: простой прямоугольник,
+имитирующий срез натурального дерева и четыре
+лаконичные цилиндрические ножки с хромированным
+блеском идеально сочетаются. Чистота пропорций и
+качество исполнения создают законченный образ и
+удобную комфортабельную мебель, для которой можно
+найти место даже в тесном помещении. Скругленные углы
+удачно гармонируют со всей конструкцией. Конструкторское
+решение также интересно: выдвижной механизм боковых
+частей позволяет увеличивать столешницу. на три размера.Материал:&amp;nbsp;хром, дерево.Механизм трансформации вставки:&amp;nbsp;выдвижной механизм боковых частей позволяет увеличивать столешницу на три размера.Габариты стола в разложенном виде: 147х60х75 см.Варианты отделки:&amp;nbsp;дуб.</description>
+<param name="Длина" unit="см">80 (147)</param>
+<param name="Ширина" unit="см">60</param>
+<param name="Высота" unit="см">75</param>
+<param name="Глубина упаковки" unit="мм">коробка 1: 730
+коробка 2: 835</param>
+<param name="Высота упаковки" unit="мм">коробка 1: 110
+коробка 2: 630</param>
+<param name="Вес упаковки" unit="кг">коробка 1: 3
+коробка 2: 22</param>
+<param name="Страна производителя">Россия</param>
+<param name="Ширина упаковки" unit="мм">коробка 1: 110
+коробка 2: 90</param>
+<param name="Материал столешницы">ЛДСП</param>
+<param name="Цвет столешницы">дуб</param>
+<param name="Вес" unit="kg">20.50000000</param>
+</offer>
+<offer id="1061" available="true" >
+<url>http://com.mebelimpex.ru/index.php?route=product/product&amp;path=&amp;product_id=1061</url>
+<price>10690.00</price>
+<currencyId>RUB</currencyId>
+<categoryId>140</categoryId>
+<picture>http://com.mebelimpex.ru/image/catalog/Obedennye_gruppy/Stoly/stol_moron/leset_stol_Moron_crem_%281%29.jpg</picture>
+<picture>http://com.mebelimpex.ru/image/catalog/Obedennye_gruppy/Stoly/stol_moron/leset_stol_Moron_crem_%281%29.jpg</picture>
+<delivery></delivery>
+<cpa>0</cpa>
+<name>Стол Leset Морон</name>
+<vendor>Leset</vendor>
+<description>Удобный и функциональный обеденный стол Морон, отлично впишется в любой современный
+интерьер.Материал:&amp;nbsp; металл, стекло.Механизм трансформации столешницы:&amp;nbsp;раздвижной.Механизм трансформации вставки:&amp;nbsp;бабочка.Габариты стола в разложенном виде:&amp;nbsp;145х70х74 см.Варианты отделки:&amp;nbsp;белый, крем.</description>
+<param name="Длина" unit="см">110 (145)</param>
+<param name="Ширина" unit="см">70</param>
+<param name="Высота" unit="см">74</param>
+<param name="Глубина упаковки" unit="мм">1140</param>
+<param name="Высота упаковки" unit="мм">120</param>
+<param name="Вес упаковки" unit="кг">24</param>
+<param name="Страна производителя">Россия</param>
+<param name="Ширина упаковки" unit="мм">730</param>
+<param name="Материал столешницы">ЛДСП/стекло</param>
+<param name="Вес" unit="kg">22.50000000</param>
+</offer>
+<offer id="1066" available="true" >
+<url>http://com.mebelimpex.ru/index.php?route=product/product&amp;path=&amp;product_id=1066</url>
+<price>4590.00</price>
+<currencyId>RUB</currencyId>
+<categoryId>133</categoryId>
+<picture>http://com.mebelimpex.ru/image/catalog/Obedennye_gruppy/Stulja/stul_leset_aisen/leset_stul_Aysen_crem_venge_%281%29.jpg</picture>
+<picture>http://com.mebelimpex.ru/image/catalog/Obedennye_gruppy/Stulja/stul_leset_aisen/leset_stul_Aysen_crem_venge_%282%29.jpg</picture>
+<delivery></delivery>
+<cpa>0</cpa>
+<name>Стул Leset Айсен</name>
+<vendor>Leset</vendor>
+<description>Разборная конструкция, изготовлен из стальной трубы 22 мм, в изготовлении использованы материалы высокого качества. Обивка – импортная экокожа, дизайн лаконичный. Спинка имеет анатомическую форму, обеспечивая высокий уровень комфорта при сидении. Ножки стула оснащены заглушками во избежание повреждения напольных покрытий.
+
+	Высота: 970 мм
+
+	Ширина: 440 мм
+
+	Глубина: 600 мм
+
+	Высота сидения:&amp;nbsp;
+
+	Толщина сидения:&amp;nbsp;
+
+	Окраска каркаса: полимерное-порошковое покрытие, цвет металлик.</description>
+<param name="Размеры" unit="ШхГхВ">600x440x960</param>
+<param name="Допустимая нагрузка"></param>
+<param name="Размер упаковки">910х520х150</param>
+<param name="Вес изделия">5,4</param>
+<param name="Вес" unit="kg">5.40000000</param>
+</offer>
+<offer id="1071" available="true" >
+<url>http://com.mebelimpex.ru/index.php?route=product/product&amp;path=&amp;product_id=1071</url>
+<price>14750.00</price>
+<currencyId>RUB</currencyId>
+<categoryId>140</categoryId>
+<picture>http://com.mebelimpex.ru/image/catalog/Obedennye_gruppy/Stoly/stol_Arizona_1r/leset_stol_Arizona1R_belyi9003_slojenny.jpg</picture>
+<picture>http://com.mebelimpex.ru/image/catalog/Obedennye_gruppy/Stoly/stol_Arizona_1r/leset_stol_Arizona1R_belyi9003%2Bstul_Ostin_belyi_jakkardFlora_%281%29.jpg</picture>
+<delivery>true</delivery>
+<cpa>0</cpa>
+<name>Стол Leset Аризона 1Р</name>
+<vendor>Leset</vendor>
+<description>Стол Аризона выполнен в традиционном стиле. Утонченный дизайн делает его конструкцию легкой и элегантной. Столешница выполнена из материала МДФ и покрытая эмалью и матовым лаком. Центральная вставка - бабочка хранится внутри стола.Материал:&amp;nbsp;столешница - МДФ, покрытая эмалью и матовым лаком. Подстолье - массив бука.Механизм трансформации столешницы:&amp;nbsp;раздвижной.Механизм трансформации вставки:&amp;nbsp;центральная вставка бабочка, хранится внутри стола.Варианты отделки:&amp;nbsp;белый.</description>
+<param name="Длина" unit="см">110</param>
+<param name="Ширина" unit="см">70</param>
+<param name="Высота" unit="см">75</param>
+<param name="Глубина упаковки" unit="мм">1250</param>
+<param name="Высота упаковки" unit="мм">125</param>
+<param name="Вес упаковки" unit="кг">33,2</param>
+<param name="Страна производителя">Россия</param>
+<param name="Ширина упаковки" unit="мм">800</param>
+<param name="Материал столешницы">МДФ и покрыта эмалью</param>
+<param name="Цвет столешницы">белый</param>
+<param name="Вес" unit="kg">31.50000000</param>
+</offer>
+<offer id="1072" available="true" >
+<url>http://com.mebelimpex.ru/index.php?route=product/product&amp;path=&amp;product_id=1072</url>
+<price>14750.00</price>
+<currencyId>RUB</currencyId>
+<categoryId>140</categoryId>
+<picture>http://com.mebelimpex.ru/image/catalog/Obedennye_gruppy/Stoly/stol_Arizona_1r/leset_stol_Arizona1R_slkost1013_slojennyi.jpg</picture>
+<picture>http://com.mebelimpex.ru/image/catalog/Obedennye_gruppy/Stoly/stol_Arizona_1r/leset_stol_Arizona1R_slkost1013%2Bstul_Ostin_slkost_Shenil017_%281%29.jpg</picture>
+<delivery>true</delivery>
+<cpa>0</cpa>
+<name>Стол Leset Аризона 1Р</name>
+<vendor>Leset</vendor>
+<description>Стол Аризона выполнен в традиционном стиле. Утонченный дизайн делает его конструкцию легкой и элегантной. Столешница выполнена из материала МДФ и покрытая эмалью и матовым лаком. Центральная вставка - бабочка хранится внутри стола.Материал:&amp;nbsp;столешница - МДФ, покрытая эмалью и матовым лаком. Подстолье - массив бука.Механизм трансформации столешницы:&amp;nbsp;раздвижной.Механизм трансформации вставки:&amp;nbsp;центральная вставка бабочка, хранится внутри стола.Варианты отделки:&amp;nbsp;слоновая кость.</description>
+<param name="Длина" unit="см">110</param>
+<param name="Ширина" unit="см">70</param>
+<param name="Высота" unit="см">75</param>
+<param name="Глубина упаковки" unit="мм">1250</param>
+<param name="Высота упаковки" unit="мм">125</param>
+<param name="Вес упаковки" unit="кг">33,2</param>
+<param name="Страна производителя">Россия</param>
+<param name="Ширина упаковки" unit="мм">800</param>
+<param name="Материал столешницы">МДФ и покрыта эмалью</param>
+<param name="Цвет столешницы">слоновая кость</param>
+<param name="Вес" unit="kg">31.50000000</param>
+</offer>
+<offer id="1073" available="true" >
+<url>http://com.mebelimpex.ru/index.php?route=product/product&amp;path=&amp;product_id=1073</url>
+<price>17620.00</price>
+<currencyId>RUB</currencyId>
+<categoryId>140</categoryId>
+<picture>http://com.mebelimpex.ru/image/catalog/Obedennye_gruppy/Stoly/stol_parizh/leset_Paris1R_belyj_%281%29.jpg</picture>
+<picture>http://com.mebelimpex.ru/image/catalog/Obedennye_gruppy/Stoly/stol_parizh/leset_Paris1R_belyj_%282%29.jpg</picture>
+<delivery></delivery>
+<cpa>0</cpa>
+<name>Стол Leset Париж 1Р</name>
+<vendor>Leset</vendor>
+<description>Столешница выполнена из ЛДСП повышенной плотности
+и покрыта ударопрочным стеклом. Стекло не выгорает,
+не боится влаги, горячего и средств бытовой химии
+(кроме абразивов). Механизмом трансформации за счет
+выдвижения боковых частей стола, поэтому стол может
+иметь три размера.Материал:&amp;nbsp; ЛДСП, стекло, хромМеханизм трансформации столешницы:&amp;nbsp;выдвижной.Механизм трансформации вставки:&amp;nbsp;за счет выдвижения боковых частей стола, стол может иметь три размера.Габариты стола в разложенном виде:&amp;nbsp;144х70х75 см.Варианты отделки:&amp;nbsp;белый.</description>
+<param name="Длина" unit="см">90 (144)</param>
+<param name="Ширина" unit="см">70</param>
+<param name="Высота" unit="см">75</param>
+<param name="Глубина упаковки" unit="мм">коробка 1: 120
+коробка 2: 940</param>
+<param name="Высота упаковки" unit="мм">коробка 1: 750
+коробка 2: 145</param>
+<param name="Вес упаковки" unit="кг">40</param>
+<param name="Страна производителя">Россия</param>
+<param name="Ширина упаковки" unit="мм">коробка 1: 120
+коробка 2: 740</param>
+<param name="Вес" unit="kg">36.00000000</param>
+</offer>
+<offer id="1074" available="true" >
+<url>http://com.mebelimpex.ru/index.php?route=product/product&amp;path=&amp;product_id=1074</url>
+<price>17620.00</price>
+<currencyId>RUB</currencyId>
+<categoryId>140</categoryId>
+<picture>http://com.mebelimpex.ru/image/catalog/Obedennye_gruppy/Stoly/stol_parizh/leset_Paris1R_chernyj_%281%29.jpg</picture>
+<picture>http://com.mebelimpex.ru/image/catalog/Obedennye_gruppy/Stoly/stol_parizh/leset_Paris1R_chernyj_%282%29.jpg</picture>
+<delivery></delivery>
+<cpa>0</cpa>
+<name>Стол Leset Париж 1Р</name>
+<vendor>Leset</vendor>
+<description>Столешница выполнена из ЛДСП повышенной плотности
+и покрыта ударопрочным стеклом. Стекло не выгорает,
+не боится влаги, горячего и средств бытовой химии
+(кроме абразивов). Механизмом трансформации за счет
+выдвижения боковых частей стола, поэтому стол может
+иметь три размера.Материал:&amp;nbsp; ЛДСП, стекло, хромМеханизм трансформации столешницы:&amp;nbsp;выдвижной.Механизм трансформации вставки:&amp;nbsp;за счет выдвижения боковых частей стола, стол может иметь три размера.Габариты стола в разложенном виде:&amp;nbsp;144х70х75 см.Варианты отделки:&amp;nbsp;черный.</description>
+<param name="Длина" unit="см">90 (144)</param>
+<param name="Ширина" unit="см">70</param>
+<param name="Высота" unit="см">75</param>
+<param name="Глубина упаковки" unit="мм">коробка 1: 120
+коробка 2: 940</param>
+<param name="Высота упаковки" unit="мм">коробка 1: 750
+коробка 2: 145</param>
+<param name="Вес упаковки" unit="кг">40</param>
+<param name="Страна производителя">Россия</param>
+<param name="Ширина упаковки" unit="мм">коробка 1: 120
+коробка 2: 740</param>
+<param name="Вес" unit="kg">36.00000000</param>
+</offer>
+<offer id="1075" available="true" >
+<url>http://com.mebelimpex.ru/index.php?route=product/product&amp;path=&amp;product_id=1075</url>
+<price>17620.00</price>
+<currencyId>RUB</currencyId>
+<categoryId>140</categoryId>
+<picture>http://com.mebelimpex.ru/image/catalog/Obedennye_gruppy/Stoly/stol_parizh/leset_Paris1R_crem.jpg</picture>
+<delivery></delivery>
+<cpa>0</cpa>
+<name>Стол Leset Париж 1Р</name>
+<vendor>Leset</vendor>
+<description>Столешница выполнена из ЛДСП повышенной плотности
+и покрыта ударопрочным стеклом. Стекло не выгорает,
+не боится влаги, горячего и средств бытовой химии
+(кроме абразивов). Механизмом трансформации за счет
+выдвижения боковых частей стола, поэтому стол может
+иметь три размера.Материал:&amp;nbsp; ЛДСП, стекло, хромМеханизм трансформации столешницы:&amp;nbsp;выдвижной.Механизм трансформации вставки:&amp;nbsp;за счет выдвижения боковых частей стола, стол может иметь три размера.Габариты стола в разложенном виде:&amp;nbsp;144х70х75 см.Варианты отделки:&amp;nbsp;крем.</description>
+<param name="Длина" unit="см">90 (144)</param>
+<param name="Ширина" unit="см">70</param>
+<param name="Высота" unit="см">75</param>
+<param name="Глубина упаковки" unit="мм">коробка 1: 120
+коробка 2: 940</param>
+<param name="Высота упаковки" unit="мм">коробка 1: 750
+коробка 2: 145</param>
+<param name="Вес упаковки" unit="кг">40</param>
+<param name="Страна производителя">Россия</param>
+<param name="Ширина упаковки" unit="мм">коробка 1: 120
+коробка 2: 740</param>
+<param name="Вес" unit="kg">36.00000000</param>
+</offer>
+<offer id="1076" available="true" >
+<url>http://com.mebelimpex.ru/index.php?route=product/product&amp;path=&amp;product_id=1076</url>
+<price>18100.00</price>
+<currencyId>RUB</currencyId>
+<categoryId>140</categoryId>
+<picture>http://com.mebelimpex.ru/image/catalog/Obedennye_gruppy/Stoly/stol_parizh/leset_Paris2R_belyi.jpg</picture>
+<delivery></delivery>
+<cpa>0</cpa>
+<name>Стол Leset Париж 2Р</name>
+<vendor>Leset</vendor>
+<description>Столешница выполнена из ЛДСП повышенной плотности
+и покрыта ударопрочным стеклом. Стекло не выгорает,
+не боится влаги, горячего и средств бытовой химии
+(кроме абразивов). Механизмом трансформации за счет
+выдвижения боковых частей стола, поэтому стол может
+иметь три размера.Материал:&amp;nbsp;ЛДСП, стекло, хром.Механизм трансформации столешницы:&amp;nbsp;выдвижной.Механизм трансформации вставки:&amp;nbsp;за счет выдвижения боковых частей стола, стол может иметь три размера.Габариты стола в разложенном виде:&amp;nbsp;170х74х76 см.Варианты отделки:&amp;nbsp;белый.</description>
+<param name="Длина" unit="см">110 (170)</param>
+<param name="Ширина" unit="см">74</param>
+<param name="Высота" unit="см">76</param>
+<param name="Глубина упаковки" unit="мм">коробка 1: 120
+коробка 2: 1150</param>
+<param name="Высота упаковки" unit="мм">коробка 1: 750
+коробка 2: 135</param>
+<param name="Вес упаковки" unit="кг">45</param>
+<param name="Страна производителя">Россия</param>
+<param name="Ширина упаковки" unit="мм">коробка 1: 120
+коробка 2: 790</param>
+<param name="Вес" unit="kg">41.00000000</param>
+</offer>
+<offer id="1077" available="true" >
+<url>http://com.mebelimpex.ru/index.php?route=product/product&amp;path=&amp;product_id=1077</url>
+<price>18100.00</price>
+<currencyId>RUB</currencyId>
+<categoryId>140</categoryId>
+<picture>http://com.mebelimpex.ru/image/catalog/Obedennye_gruppy/Stoly/stol_parizh/leset_Paris2R_chernyi.jpg</picture>
+<delivery></delivery>
+<cpa>0</cpa>
+<name>Стол Leset Париж 2Р</name>
+<vendor>Leset</vendor>
+<description>Столешница выполнена из ЛДСП повышенной плотности
+и покрыта ударопрочным стеклом. Стекло не выгорает,
+не боится влаги, горячего и средств бытовой химии
+(кроме абразивов). Механизмом трансформации за счет
+выдвижения боковых частей стола, поэтому стол может
+иметь три размера.Материал:&amp;nbsp;ЛДСП, стекло, хром.Механизм трансформации столешницы:&amp;nbsp;выдвижной.Механизм трансформации вставки:&amp;nbsp;за счет выдвижения боковых частей стола, стол может иметь три размера.Габариты стола в разложенном виде:&amp;nbsp;170х74х76 см.Варианты отделки:&amp;nbsp;черный.</description>
+<param name="Длина" unit="см">110 (170)</param>
+<param name="Ширина" unit="см">74</param>
+<param name="Высота" unit="см">76</param>
+<param name="Глубина упаковки" unit="мм">коробка 1: 120
+коробка 2: 1150</param>
+<param name="Высота упаковки" unit="мм">коробка 1: 750
+коробка 2: 135</param>
+<param name="Вес упаковки" unit="кг">45</param>
+<param name="Страна производителя">Россия</param>
+<param name="Ширина упаковки" unit="мм">коробка 1: 120
+коробка 2: 790</param>
+<param name="Вес" unit="kg">41.00000000</param>
+</offer>
+<offer id="1078" available="true" >
+<url>http://com.mebelimpex.ru/index.php?route=product/product&amp;path=&amp;product_id=1078</url>
+<price>18100.00</price>
+<currencyId>RUB</currencyId>
+<categoryId>140</categoryId>
+<picture>http://com.mebelimpex.ru/image/catalog/Obedennye_gruppy/Stoly/stol_parizh/leset_Paris2R_crem.jpg</picture>
+<delivery></delivery>
+<cpa>0</cpa>
+<name>Стол Leset Париж 2Р</name>
+<vendor>Leset</vendor>
+<description>Столешница выполнена из ЛДСП повышенной плотности
+и покрыта ударопрочным стеклом. Стекло не выгорает,
+не боится влаги, горячего и средств бытовой химии
+(кроме абразивов). Механизмом трансформации за счет
+выдвижения боковых частей стола, поэтому стол может
+иметь три размера.Материал:&amp;nbsp;ЛДСП, стекло, хром.Механизм трансформации столешницы:&amp;nbsp;выдвижной.Механизм трансформации вставки:&amp;nbsp;за счет выдвижения боковых частей стола, стол может иметь три размера.Габариты стола в разложенном виде:&amp;nbsp;170х74х76 см.Варианты отделки:&amp;nbsp;крем.</description>
+<param name="Длина" unit="см">110 (170)</param>
+<param name="Ширина" unit="см">74</param>
+<param name="Высота" unit="см">76</param>
+<param name="Глубина упаковки" unit="мм">коробка 1: 120
+коробка 2: 1150</param>
+<param name="Высота упаковки" unit="мм">коробка 1: 750
+коробка 2: 135</param>
+<param name="Вес упаковки" unit="кг">45</param>
+<param name="Страна производителя">Россия</param>
+<param name="Ширина упаковки" unit="мм">коробка 1: 120
+коробка 2: 790</param>
+<param name="Вес" unit="kg">41.00000000</param>
+</offer>
+<offer id="1079" available="true" >
+<url>http://com.mebelimpex.ru/index.php?route=product/product&amp;path=&amp;product_id=1079</url>
+<price>14600.00</price>
+<currencyId>RUB</currencyId>
+<categoryId>140</categoryId>
+<picture>http://com.mebelimpex.ru/image/catalog/Obedennye_gruppy/Stoly/stol_akra/leset_stol_Akra1R_crem_venge_%281%29.jpg</picture>
+<picture>http://com.mebelimpex.ru/image/catalog/Obedennye_gruppy/Stoly/stol_akra/leset_stol_Akra1R_crem_venge_%281%29.jpg</picture>
+<delivery></delivery>
+<cpa>0</cpa>
+<name>Стол Leset Акра 1Р</name>
+<vendor>Leset</vendor>
+<description>Стильный и уютный, у столов Акра нет
+острых углов, cерия подходит для помещений с детьми.
+Благородные деревянные опоры устойчивы и 100% экологичны, покрыты лаком венге. Сочетание массива дерева и закалённого
+стекла делают обеденную группу элегантной и практичной в эксплуатации.Материал:&amp;nbsp;дерево, стекло.Механизм трансформации столешницы:&amp;nbsp;раздвижной.Механизм трансформации вставки:&amp;nbsp;бабочка.Габариты стола в разложенном виде:&amp;nbsp;140х70х74 см.Варианты отделки:&amp;nbsp;венге.</description>
+<param name="Длина" unit="см">110</param>
+<param name="Ширина" unit="см">70</param>
+<param name="Высота" unit="см">74</param>
+<param name="Глубина упаковки" unit="мм">1140</param>
+<param name="Высота упаковки" unit="мм">120</param>
+<param name="Вес упаковки" unit="кг">25</param>
+<param name="Страна производителя">Россия</param>
+<param name="Ширина упаковки" unit="мм">730</param>
+<param name="Материал столешницы">массив дерева/закаленное стекло</param>
+<param name="Цвет столешницы">крем</param>
+<param name="Вес" unit="kg">23.50000000</param>
+</offer>
+<offer id="1080" available="true" >
+<url>http://com.mebelimpex.ru/index.php?route=product/product&amp;path=&amp;product_id=1080</url>
+<price>15360.00</price>
+<currencyId>RUB</currencyId>
+<categoryId>140</categoryId>
+<picture>http://com.mebelimpex.ru/image/catalog/Obedennye_gruppy/Stoly/stol_akra/leset_stol_Akra2R_crem_venge_%281%29.jpg</picture>
+<picture>http://com.mebelimpex.ru/image/catalog/Obedennye_gruppy/Stoly/stol_akra/leset_stol_Akra2R_crem_venge_%281%29.jpg</picture>
+<delivery></delivery>
+<cpa>0</cpa>
+<name>Стол Leset Акра 2Р</name>
+<vendor>Leset</vendor>
+<description>Стильный и уютный, у столов Акра нет острых углов, cерия подходит для помещений с детьми. Благородные деревянные опоры устойчивы и 100% экологичны, покрыты лаком венге. Сочетание массива дерева и закалённого стекла делают обеденную группу элегантной и практичной в эксплуатации.Материал:&amp;nbsp;дерево, стекло.Механизм трансформации столешницы:&amp;nbsp;раздвижной.Механизм трансформации вставки:&amp;nbsp;бабочка.Габариты стола в разложенном виде:&amp;nbsp;160х80х74 см.Варианты отделки:&amp;nbsp;венге.</description>
+<param name="Длина" unit="см">130</param>
+<param name="Ширина" unit="см">80</param>
+<param name="Высота" unit="см">74</param>
+<param name="Глубина упаковки" unit="мм">1330</param>
+<param name="Высота упаковки" unit="мм">120</param>
+<param name="Вес упаковки" unit="кг">27</param>
+<param name="Страна производителя">Россия</param>
+<param name="Ширина упаковки" unit="мм">830</param>
+<param name="Материал столешницы">массив дерева/закаленное стекло</param>
+<param name="Цвет столешницы">крем</param>
+<param name="Вес" unit="kg">24.50000000</param>
+</offer>
+<offer id="1081" available="true" >
+<url>http://com.mebelimpex.ru/index.php?route=product/product&amp;path=&amp;product_id=1081</url>
+<price>40300.00</price>
+<currencyId>RUB</currencyId>
+<categoryId>140</categoryId>
+<picture>http://com.mebelimpex.ru/image/catalog/Obedennye_gruppy/Stoly/stol_Vashington_2r/leset_stol_Vashington2R_oreh_chokoladnyi%2Bpatina_zoloto_%281%29.jpg</picture>
+<picture>http://com.mebelimpex.ru/image/catalog/Obedennye_gruppy/Stoly/stol_Vashington_2r/leset_stol_Vashington2R_oreh_chokoladnyi%2Bpatina_zoloto_%282%29.jpg</picture>
+<delivery>true</delivery>
+<cpa>0</cpa>
+<name>Стол Leset Вашингтон 2Р</name>
+<vendor>Leset</vendor>
+<description>Обеденный стол Вашингтон, воплощенный
+в элегантном классическом стиле, идеально подойдет для просторной кухни.
+Овальная столешница толщиной 23 мм изготовлена из МДФ и облицована шпоном
+ясеня, основание выполнено из массива бука. Использование резного декора с
+эффектной патиной, защищающей дерево от разрушения, изящные гнутые ножки
+придают модели благородный вид.Материал:&amp;nbsp;ножки - массив бука, столешница - МДФ, облицованная натуральным шпоном ясеня.Механизм трансформации столешницы:&amp;nbsp;синхронный.Механизм трансформации вставки:&amp;nbsp;бабочка.Варианты отделки:&amp;nbsp;орех шоколадный + патина золото.</description>
+<param name="Длина" unit="см">200 (260)</param>
+<param name="Ширина" unit="см">100</param>
+<param name="Высота" unit="см">76</param>
+<param name="Глубина упаковки" unit="мм">коробка 1: 790
+коробка 2: 2040</param>
+<param name="Высота упаковки" unit="мм">коробка 1: 150
+коробка 2: 160</param>
+<param name="Вес упаковки" unit="кг">коробка 1: 8,5
+коробка 2: 83,7</param>
+<param name="Страна производителя">Россия</param>
+<param name="Ширина упаковки" unit="мм">коробка 1: 380
+коробка 2: 1040</param>
+<param name="Материал столешницы">МДФ + шпон ясеня</param>
+<param name="Цвет столешницы">коричневый</param>
+<param name="Вес" unit="kg">92.00000000</param>
+</offer>
+<offer id="1082" available="true" >
+<url>http://com.mebelimpex.ru/index.php?route=product/product&amp;path=&amp;product_id=1082</url>
+<price>40300.00</price>
+<currencyId>RUB</currencyId>
+<categoryId>140</categoryId>
+<picture>http://com.mebelimpex.ru/image/catalog/Obedennye_gruppy/Stoly/stol_Vashington_2r/leset_stol_Vashington2R_slkost_patina_zoloto_%281%29.jpg</picture>
+<picture>http://com.mebelimpex.ru/image/catalog/Obedennye_gruppy/Stoly/stol_Vashington_2r/leset_stol_Vashington2R_slkost_patina_zoloto_%281%29.jpg</picture>
+<delivery>true</delivery>
+<cpa>0</cpa>
+<name>Стол Leset Вашингтон 2Р</name>
+<vendor>Leset</vendor>
+<description>Обеденный стол Вашингтон, воплощенный
+в элегантном классическом стиле, идеально подойдет для просторной кухни.
+Овальная столешница толщиной 23 мм изготовлена из МДФ и облицована шпоном
+ясеня, основание выполнено из массива бука. Использование резного декора с
+эффектной патиной, защищающей дерево от разрушения, изящные гнутые ножки
+придают модели благородный вид.Материал:&amp;nbsp;ножки - массив бука, столешница - МДФ, облицованная натуральным шпоном ясеня.Механизм трансформации столешницы:&amp;nbsp;синхронный.Механизм трансформации вставки:&amp;nbsp;бабочка.Варианты отделки:&amp;nbsp;слоновая кость + патина золото.</description>
+<param name="Длина" unit="см">200 (260)</param>
+<param name="Ширина" unit="см">100</param>
+<param name="Высота" unit="см">76</param>
+<param name="Глубина упаковки" unit="мм">коробка 1: 790
+коробка 2: 2040</param>
+<param name="Высота упаковки" unit="мм">коробка 1: 150
+коробка 2: 160</param>
+<param name="Вес упаковки" unit="кг">коробка 1: 8,5
+коробка 2: 83,7</param>
+<param name="Страна производителя">Россия</param>
+<param name="Ширина упаковки" unit="мм">коробка 1: 380
+коробка 2: 1040</param>
+<param name="Материал столешницы">МДФ + шпон ясеня</param>
+<param name="Цвет столешницы">слоновая кость</param>
+<param name="Вес" unit="kg">92.00000000</param>
+</offer>
+<offer id="1083" available="true" >
+<url>http://com.mebelimpex.ru/index.php?route=product/product&amp;path=&amp;product_id=1083</url>
+<price>24800.00</price>
+<currencyId>RUB</currencyId>
+<categoryId>140</categoryId>
+<picture>http://com.mebelimpex.ru/image/catalog/Obedennye_gruppy/Stoly/stol_Vermont_2r/leset_stol_Vermont_slkost_%281%292.jpg</picture>
+<picture>http://com.mebelimpex.ru/image/catalog/Obedennye_gruppy/Stoly/stol_Vermont_2r/leset_stol_Vermont_slkost%2Bstul_Montana_%281%29.jpg</picture>
+<delivery>true</delivery>
+<cpa>0</cpa>
+<name>Стол Leset Вермонт 2Р</name>
+<vendor>Leset</vendor>
+<description>Классическая мебель для гостиной, не смотря на время
+и моду, всегда остается актуальной. Именно классический
+стиль – признак хорошего и сдержанного вкуса, элегантности
+и комфорта. Стол Вермонт станет замечательным дополнением
+к классическому дизайну.Материал: ножки - массив бука, столешница - МДФ, облицованная натуральным шпоном ясеня.Механизм трансформации столешницы: синхронный.Механизм трансформации вставки: бабочка.Варианты отделки:&amp;nbsp;слоновая кость.</description>
+<param name="Длина" unit="см">120 (160)</param>
+<param name="Ширина" unit="см">84</param>
+<param name="Высота" unit="см">76</param>
+<param name="Глубина упаковки" unit="мм">коробка 1: 790
+коробка 2: 1240</param>
+<param name="Высота упаковки" unit="мм">коробка 1: 150
+коробка 2: 160</param>
+<param name="Вес упаковки" unit="кг">коробка 1: 4,3
+коробка 2: 41,4</param>
+<param name="Страна производителя">Россия</param>
+<param name="Ширина упаковки" unit="мм">коробка 1: 190
+коробка 2: 840</param>
+<param name="Материал столешницы">МДФ + шпон ясеня</param>
+<param name="Цвет столешницы">коричневый</param>
+<param name="Вес" unit="kg">45.60000000</param>
+</offer>
+<offer id="1084" available="true" >
+<url>http://com.mebelimpex.ru/index.php?route=product/product&amp;path=&amp;product_id=1084</url>
+<price>26700.00</price>
+<currencyId>RUB</currencyId>
+<categoryId>140</categoryId>
+<picture>http://com.mebelimpex.ru/image/catalog/Obedennye_gruppy/Stoly/stol_Dakota_1r/leset_Dakota1R_slonkost_zoloto_%281%292.jpg</picture>
+<picture>http://com.mebelimpex.ru/image/catalog/Obedennye_gruppy/Stoly/stol_Dakota_1r/Dakota_Uta.jpg</picture>
+<delivery>true</delivery>
+<cpa>0</cpa>
+<name>Стол Leset Дакота 1Р</name>
+<vendor>Leset</vendor>
+<description>Вы сможете установить данную модель, как в столовой,
+так и на террасе или балконе, дабы наслаждать трапезой с
+прекрасным обзором. Великолепная буковая древесина
+обладает мягкостью и шелковистостью, которые манят
+дотронуться до отдельных деталей.Материал: ножки - массив бука, столешница - МДФ, облицованная натуральным шпоном ясеня.Механизм трансформации столешницы: синхронный.Механизм трансформации вставки: бабочка.Варианты отделки:&amp;nbsp;слоновая кость с золотой патиной.</description>
+<param name="Длина" unit="см">120 (160)</param>
+<param name="Ширина" unit="см">70</param>
+<param name="Высота" unit="см">76</param>
+<param name="Глубина упаковки" unit="мм">1240</param>
+<param name="Высота упаковки" unit="мм">160</param>
+<param name="Вес упаковки" unit="кг">35,3</param>
+<param name="Страна производителя">Россия</param>
+<param name="Ширина упаковки" unit="мм">740</param>
+<param name="Материал столешницы">МДФ + шпон ясеня</param>
+<param name="Цвет столешницы">белый</param>
+<param name="Вес" unit="kg">33.78000000</param>
+</offer>
+<offer id="1085" available="true" >
+<url>http://com.mebelimpex.ru/index.php?route=product/product&amp;path=&amp;product_id=1085</url>
+<price>28400.00</price>
+<currencyId>RUB</currencyId>
+<categoryId>140</categoryId>
+<picture>http://com.mebelimpex.ru/image/catalog/Obedennye_gruppy/Stoly/stol_Dakota_2r/leset_Dakota2R_belyj_patina_serebro.jpg</picture>
+<delivery>true</delivery>
+<cpa>0</cpa>
+<name>Стол Leset Дакота 2Р</name>
+<vendor>Leset</vendor>
+<description>Вы сможете установить данную модель, как в столовой,
+так и на террасе или балконе, дабы наслаждать трапезой с
+прекрасным обзором. Великолепная буковая древесина
+обладает мягкостью и шелковистостью, которые манят
+дотронуться до отдельных деталей.Материал: ножки - массив бука, столешница - МДФ, облицованная натуральным шпоном ясеня.Механизм трансформации столешницы: синхронный.Механизм трансформации вставки: бабочка.Варианты отделки:&amp;nbsp;белый с серебряной патиной.</description>
+<param name="Длина" unit="см">140 (190)</param>
+<param name="Ширина" unit="см">80</param>
+<param name="Высота" unit="см">76</param>
+<param name="Глубина упаковки" unit="мм">1440</param>
+<param name="Высота упаковки" unit="мм">160</param>
+<param name="Вес упаковки" unit="кг">46,5</param>
+<param name="Страна производителя">Россия</param>
+<param name="Ширина упаковки" unit="мм">840</param>
+<param name="Материал столешницы">МДФ + шпон ясеня</param>
+<param name="Цвет столешницы">белый</param>
+<param name="Вес" unit="kg">45.50000000</param>
+</offer>
+<offer id="1086" available="true" >
+<url>http://com.mebelimpex.ru/index.php?route=product/product&amp;path=&amp;product_id=1086</url>
+<price>19040.00</price>
+<currencyId>RUB</currencyId>
+<categoryId>140</categoryId>
+<picture>http://com.mebelimpex.ru/image/catalog/Obedennye_gruppy/Stoly/stol_Delaver_1r/leset_stol_Delaver_venge_steklo-beloe_%281%29.jpg</picture>
+<picture>http://com.mebelimpex.ru/image/catalog/Obedennye_gruppy/Stoly/stol_Delaver_1r/leset_stol_Delaver_venge_steklo-beloe_%281%29.jpg</picture>
+<delivery>true</delivery>
+<cpa>0</cpa>
+<name>Стол Leset Делавэр 1Р</name>
+<vendor>Leset</vendor>
+<description>Стол Дэлавэр 1Р выполнен в современном минималистичном стиле. Стол раздвижной конструкции, боковая ламинированная вставка хранится внутри стола. Материалы столешницы - ЛДСП + закаленное стекло, подстолье - массив бука в разных покрасках. В белом цвете каркаса используется глянцевое стекло.Материал:&amp;nbsp;столешница - ЛДСП + закаленное стекло, подстолье - массив бука в разных покрасках.Механизм трансформации столешницы:&amp;nbsp;раздвижной.Механизм трансформации вставки:&amp;nbsp;боковая вставка ламинированная, хранится внутри стола.Варианты отделки:&amp;nbsp;венге/стекло матовое белое.</description>
+<param name="Длина" unit="см">110 (160)</param>
+<param name="Ширина" unit="см">70</param>
+<param name="Высота" unit="см">75</param>
+<param name="Глубина упаковки" unit="мм">1250</param>
+<param name="Высота упаковки" unit="мм">135</param>
+<param name="Вес упаковки" unit="кг">31,4</param>
+<param name="Страна производителя">Россия</param>
+<param name="Ширина упаковки" unit="мм">850</param>
+<param name="Материал столешницы">ЛДСП + стекло</param>
+<param name="Цвет столешницы">белый</param>
+<param name="Вес" unit="kg">29.50000000</param>
+</offer>
+<offer id="1087" available="true" >
+<url>http://com.mebelimpex.ru/index.php?route=product/product&amp;path=&amp;product_id=1087</url>
+<price>19040.00</price>
+<currencyId>RUB</currencyId>
+<categoryId>140</categoryId>
+<picture>http://com.mebelimpex.ru/image/catalog/Obedennye_gruppy/Stoly/stol_Delaver_1r/leset_stol_Delaver_venge_steklo-capuchino_%281%29.jpg</picture>
+<picture>http://com.mebelimpex.ru/image/catalog/Obedennye_gruppy/Stoly/stol_Delaver_1r/leset_stol_Delaver_venge_steklo-capuchino_%282%29.jpg</picture>
+<delivery>true</delivery>
+<cpa>0</cpa>
+<name>Стол Leset Делавэр 1Р</name>
+<vendor>Leset</vendor>
+<description>Стол Дэлавэр 1Р выполнен в современном минималистичном стиле. Стол раздвижной конструкции, боковая ламинированная вставка хранится внутри стола. Материалы столешницы - ЛДСП + закаленное стекло, подстолье - массив бука в разных покрасках. В белом цвете каркаса используется глянцевое стекло.Материал:&amp;nbsp;столешница - ЛДСП + закаленное стекло, подстолье - массив бука в разных покрасках.Механизм трансформации столешницы:&amp;nbsp;раздвижной.Механизм трансформации вставки:&amp;nbsp;боковая вставка ламинированная, хранится внутри стола.Варианты отделки:&amp;nbsp;венге/стекло матовое капучино.</description>
+<param name="Длина" unit="см">110 (160)</param>
+<param name="Ширина" unit="см">70</param>
+<param name="Высота" unit="см">75</param>
+<param name="Глубина упаковки" unit="мм">1250</param>
+<param name="Высота упаковки" unit="мм">135</param>
+<param name="Вес упаковки" unit="кг">31,4</param>
+<param name="Страна производителя">Россия</param>
+<param name="Ширина упаковки" unit="мм">850</param>
+<param name="Материал столешницы">ЛДСП + стекло</param>
+<param name="Цвет столешницы">белый</param>
+<param name="Вес" unit="kg">29.50000000</param>
+</offer>
+<offer id="1088" available="true" >
+<url>http://com.mebelimpex.ru/index.php?route=product/product&amp;path=&amp;product_id=1088</url>
+<price>22850.00</price>
+<currencyId>RUB</currencyId>
+<categoryId>140</categoryId>
+<picture>http://com.mebelimpex.ru/image/catalog/Obedennye_gruppy/Stoly/stol_Delaver_1r/leset_stol_Delaver_belyi_steklo-beloe_%281%29.jpg</picture>
+<picture>http://com.mebelimpex.ru/image/cache/catalog/Obedennye_gruppy/Stoly/stol_Delaver_1r/stol_Delaver1R_+_stulja_Kentukki-600x600.jpg</picture>
+<delivery>true</delivery>
+<cpa>0</cpa>
+<name>Стол Leset Делавэр 2Р</name>
+<vendor>Leset</vendor>
+<description>Стол Дэлавэр 2Р выполнен в современном минималистичном стиле. Стол раздвижной конструкции, боковая ламинированная вставка хранится внутри стола. Материалы столешницы - ЛДСП + закаленное стекло, подстолье - массив бука в разных покрасках. В белом цвете каркаса используется глянцевое стекло.Материал:&amp;nbsp;столешница - ЛДСП + закаленное стекло, подстолье - массив бука в разных покрасках.Механизм трансформации столешницы:&amp;nbsp;раздвижной.Механизм трансформации вставки:&amp;nbsp;боковая вставка ламинированная, хранится внутри стола.Варианты отделки:&amp;nbsp;белый/стекло глянцевое белое.</description>
+<param name="Длина" unit="см">120 (180)</param>
+<param name="Ширина" unit="см">80</param>
+<param name="Высота" unit="см">75</param>
+<param name="Глубина упаковки" unit="мм">1430</param>
+<param name="Высота упаковки" unit="мм">135</param>
+<param name="Вес упаковки" unit="кг">37,4</param>
+<param name="Страна производителя">Россия</param>
+<param name="Ширина упаковки" unit="мм">930</param>
+<param name="Материал столешницы">ЛДСП + стекло</param>
+<param name="Цвет столешницы">белый</param>
+<param name="Вес" unit="kg">35.10000000</param>
+</offer>
+<offer id="1089" available="true" >
+<url>http://com.mebelimpex.ru/index.php?route=product/product&amp;path=&amp;product_id=1089</url>
+<price>22850.00</price>
+<currencyId>RUB</currencyId>
+<categoryId>140</categoryId>
+<picture>http://com.mebelimpex.ru/image/catalog/Obedennye_gruppy/Stoly/stol_Delaver_1r/leset_stol_Delaver_venge_steklo-beloe_%281%29.jpg</picture>
+<picture>http://com.mebelimpex.ru/image/catalog/Obedennye_gruppy/Stoly/stol_Delaver_1r/leset_stol_Delaver_venge_steklo-beloe_%282%29.jpg</picture>
+<delivery>true</delivery>
+<cpa>0</cpa>
+<name>Стол Leset Делавэр 2Р</name>
+<vendor>Leset</vendor>
+<description>Стол Дэлавэр 2Р выполнен в современном минималистичном стиле. Стол раздвижной конструкции, боковая ламинированная вставка хранится внутри стола. Материалы столешницы - ЛДСП + закаленное стекло, подстолье - массив бука в разных покрасках. В белом цвете каркаса используется глянцевое стекло.Материал:&amp;nbsp;столешница - ЛДСП + закаленное стекло, подстолье - массив бука в разных покрасках.Механизм трансформации столешницы:&amp;nbsp;раздвижной.Механизм трансформации вставки:&amp;nbsp;боковая вставка ламинированная, хранится внутри стола.Варианты отделки:&amp;nbsp;венге/стекло матовое белое.</description>
+<param name="Длина" unit="см">120 (180)</param>
+<param name="Ширина" unit="см">80</param>
+<param name="Высота" unit="см">75</param>
+<param name="Глубина упаковки" unit="мм">1430</param>
+<param name="Высота упаковки" unit="мм">135</param>
+<param name="Вес упаковки" unit="кг">37,4</param>
+<param name="Страна производителя">Россия</param>
+<param name="Ширина упаковки" unit="мм">930</param>
+<param name="Материал столешницы">ЛДСП + стекло</param>
+<param name="Цвет столешницы">белый</param>
+<param name="Вес" unit="kg">35.10000000</param>
+</offer>
+<offer id="1090" available="true" >
+<url>http://com.mebelimpex.ru/index.php?route=product/product&amp;path=&amp;product_id=1090</url>
+<price>22850.00</price>
+<currencyId>RUB</currencyId>
+<categoryId>140</categoryId>
+<picture>http://com.mebelimpex.ru/image/catalog/Obedennye_gruppy/Stoly/stol_Delaver_1r/leset_stol_Delaver_venge_steklo-capuchino_%281%29.jpg</picture>
+<picture>http://com.mebelimpex.ru/image/catalog/Obedennye_gruppy/Stoly/stol_Delaver_1r/leset_stol_Delaver_venge_steklo-capuchino_%281%29.jpg</picture>
+<delivery>true</delivery>
+<cpa>0</cpa>
+<name>Стол Leset Делавэр 2Р</name>
+<vendor>Leset</vendor>
+<description>Стол Дэлавэр 2Р выполнен в современном минималистичном стиле. Стол раздвижной конструкции, боковая ламинированная вставка хранится внутри стола. Материалы столешницы - ЛДСП + закаленное стекло, подстолье - массив бука в разных покрасках. В белом цвете каркаса используется глянцевое стекло.Материал:&amp;nbsp;столешница - ЛДСП + закаленное стекло, подстолье - массив бука в разных покрасках.Механизм трансформации столешницы:&amp;nbsp;раздвижной.Механизм трансформации вставки:&amp;nbsp;боковая вставка ламинированная, хранится внутри стола.Варианты отделки:&amp;nbsp;венге/стекло матовое капучино.</description>
+<param name="Длина" unit="см">120 (180)</param>
+<param name="Ширина" unit="см">80</param>
+<param name="Высота" unit="см">75</param>
+<param name="Глубина упаковки" unit="мм">1430</param>
+<param name="Высота упаковки" unit="мм">135</param>
+<param name="Вес упаковки" unit="кг">37,4</param>
+<param name="Страна производителя">Россия</param>
+<param name="Ширина упаковки" unit="мм">930</param>
+<param name="Материал столешницы">ЛДСП + стекло</param>
+<param name="Цвет столешницы">белый</param>
+<param name="Вес" unit="kg">35.10000000</param>
+</offer>
+<offer id="1092" available="true" >
+<url>http://com.mebelimpex.ru/index.php?route=product/product&amp;path=&amp;product_id=1092</url>
+<price>29300.00</price>
+<currencyId>RUB</currencyId>
+<categoryId>140</categoryId>
+<picture>http://com.mebelimpex.ru/image/catalog/Obedennye_gruppy/Stoly/stol_Karolina_1r/leset_stol_Karolina1R_slkost_%281%292.jpg</picture>
+<picture>http://com.mebelimpex.ru/image/catalog/Obedennye_gruppy/Stoly/stol_Karolina_1r/leset_stol_Karolina1R_slkost_%281%292.jpg</picture>
+<delivery>true</delivery>
+<cpa>0</cpa>
+<name>Стол Leset Каролина 1Р</name>
+<vendor>Leset</vendor>
+<description>Классическая мебель для гостиной, не смотря на время
+и моду, всегда остается актуальной. Именно классический
+стиль – признак хорошего и сдержанного вкуса, элегантности
+и комфорта. Стол Каролина станет замечательным дополнением
+к классическому дизайну.Материал: ножки - массив бука, столешница - МДФ, облицованная натуральным шпоном ясеня.Механизм трансформации столешницы: синхронный.Механизм трансформации вставки: бабочка.Варианты отделки:&amp;nbsp;слоновая кость.</description>
+<param name="Длина" unit="см">150 (200)</param>
+<param name="Ширина" unit="см">84</param>
+<param name="Высота" unit="см">76</param>
+<param name="Глубина упаковки" unit="мм">коробка 1: 790
+коробка 2: 1540</param>
+<param name="Высота упаковки" unit="мм">коробка 1: 150
+коробка 2: 160</param>
+<param name="Вес упаковки" unit="кг">коробка 1: 8,5
+коробка 2: 54,4</param>
+<param name="Страна производителя">Россия</param>
+<param name="Ширина упаковки" unit="мм">коробка 1: 380
+коробка 2: 880</param>
+<param name="Материал столешницы">МДФ + шпон ясеня</param>
+<param name="Цвет столешницы">слоновая кость</param>
+<param name="Вес" unit="kg">62.88000000</param>
+</offer>
+<offer id="1093" available="true" >
+<url>http://com.mebelimpex.ru/index.php?route=product/product&amp;path=&amp;product_id=1093</url>
+<price>4380.00</price>
+<currencyId>RUB</currencyId>
+<categoryId>140</categoryId>
+<picture>http://com.mebelimpex.ru/image/catalog/Obedennye_gruppy/Stoly/stol_lil/leset_stol_Lil_dub_%281%29.jpg</picture>
+<picture>http://com.mebelimpex.ru/image/catalog/Obedennye_gruppy/Stoly/stol_lil/Lil_1308.jpg</picture>
+<delivery></delivery>
+<cpa>0</cpa>
+<name>Стол Leset Лиль</name>
+<vendor>Leset</vendor>
+<description>Обеденный стол &amp;quot;Лиль&amp;quot; - самый надежный, долговечный и простой в использовании. Классический механизм трансформации, зарекомендовавший себя годами, без труда превратит этот стол из стандартного обеденного, в полноценную обеденную зону для большой компании. Опоры - хром. Столешница - ЛДСП.Материал:&amp;nbsp;хром, ЛДСП.Механизм трансформации столешницы:&amp;nbsp;раскладной.Механизм трансформации вставки:&amp;nbsp;с использованием ломберных петель.Габариты стола в разложенном виде:&amp;nbsp;120х80х75 см.Варианты отделки:&amp;nbsp;дуб.</description>
+<param name="Длина" unit="см">80</param>
+<param name="Ширина" unit="см">60</param>
+<param name="Высота" unit="см">75</param>
+<param name="Глубина упаковки" unit="мм">коробка 1: 730
+коробка 2: 890</param>
+<param name="Высота упаковки" unit="мм">коробка 1: 110
+коробка 2: 55</param>
+<param name="Вес упаковки" unit="кг">коробка 1: 3
+коробка 2: 17</param>
+<param name="Страна производителя">Россия</param>
+<param name="Ширина упаковки" unit="мм">коробка 1: 110
+коробка 2: 620</param>
+<param name="Материал столешницы">ЛДСП</param>
+<param name="Цвет столешницы">дуб</param>
+<param name="Вес" unit="kg">18.50000000</param>
+</offer>
+<offer id="1094" available="true" >
+<url>http://com.mebelimpex.ru/index.php?route=product/product&amp;path=&amp;product_id=1094</url>
+<price>17850.00</price>
+<currencyId>RUB</currencyId>
+<categoryId>140</categoryId>
+<picture>http://com.mebelimpex.ru/image/catalog/Obedennye_gruppy/Stoly/stol_Luiziana_1r/leset_stol_Luiziana1R_slkost1013_slojennyi.jpg</picture>
+<picture>http://com.mebelimpex.ru/image/catalog/Obedennye_gruppy/Stoly/stol_Luiziana_1r/stulja_Ostin_%2B_stol_Luiziana1R_interior.jpg</picture>
+<delivery>true</delivery>
+<cpa>0</cpa>
+<name>Стол Leset Луизиана 1Р</name>
+<vendor>Leset</vendor>
+<description>Круглый стол Луизиана исполнен в классическом стиле.&amp;nbsp; Устойчивая центральная ножка делает силуэт изделия особенно изящным.&amp;nbsp;Столешница выполнена из материала МДФ и покрытая эмалью и матовым лаком.&amp;nbsp;Центральная вставка - бабочка хранится внутри стола.Материал:&amp;nbsp;столешница - МДФ, покрытая эмалью и матовым лаком. Подстолье - массив бука.Механизм трансформации столешницы:&amp;nbsp;раздвижной.Механизм трансформации вставки:&amp;nbsp;центральная вставка бабочка, хранится внутри стола.Варианты отделки:&amp;nbsp;слоновая кость.</description>
+<param name="Длина" unit="см">90 (120)</param>
+<param name="Ширина" unit="см">90</param>
+<param name="Высота" unit="см">75</param>
+<param name="Глубина упаковки" unit="мм">1120</param>
+<param name="Высота упаковки" unit="мм">150</param>
+<param name="Вес упаковки" unit="кг">32,3</param>
+<param name="Страна производителя">Россия</param>
+<param name="Ширина упаковки" unit="мм">950</param>
+<param name="Материал столешницы">МДФ покрыта эмалью</param>
+<param name="Цвет столешницы">слоновая кость</param>
+<param name="Вес" unit="kg">30.40000000</param>
+</offer>
+<offer id="1095" available="true" >
+<url>http://com.mebelimpex.ru/index.php?route=product/product&amp;path=&amp;product_id=1095</url>
+<price>4840.00</price>
+<currencyId>RUB</currencyId>
+<categoryId>140</categoryId>
+<picture>http://com.mebelimpex.ru/image/catalog/Obedennye_gruppy/Stoly/stol_marsel/leset_Marsel1R_venge_%281%29.jpg</picture>
+<picture>http://com.mebelimpex.ru/image/catalog/Obedennye_gruppy/Stoly/stol_marsel/leset_Marsel1R_venge_%282%29.jpg</picture>
+<delivery></delivery>
+<cpa>0</cpa>
+<name>Стол Leset Марсель 1Р</name>
+<vendor>Leset</vendor>
+<description>Это то, о чем принято говорить “просто и со вкусом”.
+Вкус у дизайнера отменный: простой прямоугольник,
+имитирующий срез натурального дерева и четыре
+лаконичные цилиндрические ножки с хромированным
+блеском идеально сочетаются. Чистота пропорций и
+качество исполнения создают законченный образ и
+удобную комфортабельную мебель, для которой можно
+найти место даже в тесном помещении. Скругленные углы
+удачно гармонируют со всей конструкцией. Конструкторское
+решение также интересно: выдвижной механизм боковых
+частей позволяет увеличивать столешницу. на три размера.Материал:&amp;nbsp;хром, дерево.Механизм трансформации вставки:&amp;nbsp;выдвижной механизм боковых частей позволяет увеличивать столешницу на три размера.Габариты стола в разложенном виде: 147х60х75 см.Варианты отделки:&amp;nbsp;венге.</description>
+<param name="Длина" unit="см">80 (147)</param>
+<param name="Ширина" unit="см">60</param>
+<param name="Высота" unit="см">75</param>
+<param name="Глубина упаковки" unit="мм">коробка 1: 730
+коробка 2: 835</param>
+<param name="Высота упаковки" unit="мм">коробка 1: 110
+коробка 2: 630</param>
+<param name="Вес упаковки" unit="кг">коробка 1: 3
+коробка 2: 22</param>
+<param name="Страна производителя">Россия</param>
+<param name="Ширина упаковки" unit="мм">коробка 1: 110
+коробка 2: 90</param>
+<param name="Материал столешницы">ЛДСП</param>
+<param name="Цвет столешницы">венге</param>
+<param name="Вес" unit="kg">20.50000000</param>
+</offer>
+<offer id="1096" available="true" >
+<url>http://com.mebelimpex.ru/index.php?route=product/product&amp;path=&amp;product_id=1096</url>
+<price>5310.00</price>
+<currencyId>RUB</currencyId>
+<categoryId>140</categoryId>
+<picture>http://com.mebelimpex.ru/image/catalog/Obedennye_gruppy/Stoly/stol_marsel/leset_Marsel1R_venge_%281%29.jpg</picture>
+<picture>http://com.mebelimpex.ru/image/catalog/Obedennye_gruppy/Stoly/stol_marsel/leset_stul_1309%2Bstol_Marsel2R_venge.jpg</picture>
+<delivery></delivery>
+<cpa>0</cpa>
+<name>Стол Leset Марсель 2Р</name>
+<vendor>Leset</vendor>
+<description>Это то, о чем принято говорить “просто и со вкусом”. Вкус у дизайнера отменный: простой прямоугольник, имитирующий срез натурального дерева и четыре лаконичные цилиндрические ножки с хромированным блеском идеально сочетаются. Чистота пропорций и качество исполнения создают законченный образ и удобную комфортабельную мебель, для которой можно найти место даже в тесном помещении. Скругленные углы удачно гармонируют со всей конструкцией. Конструкторское решение также интересно: выдвижной механизм боковых частей позволяет увеличивать столешницу. на три размера.Материал:&amp;nbsp; хром, дерево.Механизм трансформации вставки:&amp;nbsp;выдвижной механизм боковых частей позволяет увеличивать столешницу на три размера.Габариты стола в разложенном виде:&amp;nbsp;180х70х75&amp;nbsp;см.Варианты отделки:&amp;nbsp;венге.</description>
+<param name="Длина" unit="см">100 (180)</param>
+<param name="Ширина" unit="см">70</param>
+<param name="Высота" unit="см">75</param>
+<param name="Глубина упаковки" unit="мм">коробка 1: 730
+коробка 2: 1035</param>
+<param name="Высота упаковки" unit="мм">коробка 1: 110
+коробка 2: 90</param>
+<param name="Вес упаковки" unit="кг">коробка 1: 3
+коробка 2: 29</param>
+<param name="Страна производителя">Россия</param>
+<param name="Ширина упаковки" unit="мм">коробка 1: 110
+коробка 2: 730</param>
+<param name="Материал столешницы">ЛДСП</param>
+<param name="Цвет столешницы">венге</param>
+<param name="Вес" unit="kg">29.50000000</param>
+</offer>
+<offer id="1097" available="true" >
+<url>http://com.mebelimpex.ru/index.php?route=product/product&amp;path=&amp;product_id=1097</url>
+<price>9980.00</price>
+<currencyId>RUB</currencyId>
+<categoryId>140</categoryId>
+<picture>http://com.mebelimpex.ru/image/catalog/Obedennye_gruppy/Stoly/stol_midel/leset_stol_Midel_crem_%281%29.jpg</picture>
+<picture>http://com.mebelimpex.ru/image/catalog/Obedennye_gruppy/Stoly/stol_midel/leset_stol_Midel_crem_%281%29.jpg</picture>
+<delivery></delivery>
+<cpa>0</cpa>
+<name>Стол Leset Мидел</name>
+<vendor>Leset</vendor>
+<description>Металлические опоры стола Мидел устойчивы и долговечны. Правильные формы, изящные линии и строгий минимализм в деталях являются отражением современного дизайна. Подходят к большинству интерьеров кухонь.Материал:&amp;nbsp;металл, стекло.Механизм трансформации столешницы:&amp;nbsp;раздвижной.Механизм трансформации вставки:&amp;nbsp;бабочка.Габариты стола в разложенном виде:&amp;nbsp;152х70х74 см.Варианты отделки:&amp;nbsp;крем.</description>
+<param name="Длина" unit="см">120 (152)</param>
+<param name="Ширина" unit="см">70</param>
+<param name="Высота" unit="см">74</param>
+<param name="Глубина упаковки" unit="мм">1240</param>
+<param name="Высота упаковки" unit="мм">120</param>
+<param name="Вес упаковки" unit="кг">24</param>
+<param name="Страна производителя">Россия</param>
+<param name="Ширина упаковки" unit="мм">730</param>
+<param name="Материал столешницы">МДФ/стекло</param>
+<param name="Цвет столешницы">крем</param>
+<param name="Вес" unit="kg">22.50000000</param>
+</offer>
+<offer id="1098" available="true" >
+<url>http://com.mebelimpex.ru/index.php?route=product/product&amp;path=&amp;product_id=1098</url>
+<price>10690.00</price>
+<currencyId>RUB</currencyId>
+<categoryId>140</categoryId>
+<picture>http://com.mebelimpex.ru/image/catalog/Obedennye_gruppy/Stoly/stol_moron/leset_stol_Moron_belyi_%281%29.jpg</picture>
+<picture>http://com.mebelimpex.ru/image/catalog/Obedennye_gruppy/Stoly/stol_moron/leset_stol_Moron_belyi_%281%29.jpg</picture>
+<delivery></delivery>
+<cpa>0</cpa>
+<name>Стол Leset Морон</name>
+<vendor>Leset</vendor>
+<description>Удобный и функциональный обеденный стол Морон, отлично впишется в любой современный
+интерьер.Материал:&amp;nbsp; металл, стекло.Механизм трансформации столешницы:&amp;nbsp;раздвижной.Механизм трансформации вставки:&amp;nbsp;бабочка.Габариты стола в разложенном виде:&amp;nbsp;145х70х74 см.Варианты отделки:&amp;nbsp;белый.</description>
+<param name="Длина" unit="см">110 (145)</param>
+<param name="Ширина" unit="см">70</param>
+<param name="Высота" unit="см">74</param>
+<param name="Глубина упаковки" unit="мм">1140</param>
+<param name="Высота упаковки" unit="мм">120</param>
+<param name="Вес упаковки" unit="кг">24</param>
+<param name="Страна производителя">Россия</param>
+<param name="Ширина упаковки" unit="мм">730</param>
+<param name="Материал столешницы">ЛДСП/стекло</param>
+<param name="Цвет столешницы">белый</param>
+<param name="Вес" unit="kg">22.50000000</param>
+</offer>
+<offer id="1099" available="true" >
+<url>http://com.mebelimpex.ru/index.php?route=product/product&amp;path=&amp;product_id=1099</url>
+<price>21300.00</price>
+<currencyId>RUB</currencyId>
+<categoryId>140</categoryId>
+<picture>http://com.mebelimpex.ru/image/catalog/Obedennye_gruppy/Stoly/stol_Shervud/leset_stol_Shervud1R_slkost1013_%282%29.jpg</picture>
+<picture>http://com.mebelimpex.ru/image/catalog/Obedennye_gruppy/Stoly/stol_Shervud/Sherdvud_Oregon.jpg</picture>
+<delivery>true</delivery>
+<cpa>0</cpa>
+<name>Стол Leset Шервуд 1Р</name>
+<vendor>Leset</vendor>
+<description>Стол «Шервуд» — непременный элемент для обустройства
+столовой зоны. Столешница из натурального дерева надежно
+закреплена на подстолье, изготовленном из массива бука
+и облицованная натуральным шпоном ясеня. Устойчивые
+ножки изящной формы в полной мере соответствуют классическому
+дизайну изделия.Материал:&amp;nbsp;ножки – массив бука, столешница – МДФ, облицованная натуральным шпоном ясеня.Механизм трансформации столешницы:&amp;nbsp;синхронный.Механизм трансформации вставки:&amp;nbsp;бабочка.Варианты отделки:&amp;nbsp;слоновая кость.</description>
+<param name="Длина" unit="см">110 (150)</param>
+<param name="Ширина" unit="см">70</param>
+<param name="Высота" unit="см">76</param>
+<param name="Глубина упаковки" unit="мм">1140</param>
+<param name="Высота упаковки" unit="мм">160</param>
+<param name="Вес упаковки" unit="кг">36</param>
+<param name="Страна производителя">Россия</param>
+<param name="Ширина упаковки" unit="мм">740</param>
+<param name="Материал столешницы">МДФ + шпон ясеня</param>
+<param name="Цвет столешницы">слоновая кость</param>
+<param name="Вес" unit="kg">35.00000000</param>
+</offer>
+<offer id="1100" available="true" >
+<url>http://com.mebelimpex.ru/index.php?route=product/product&amp;path=&amp;product_id=1100</url>
+<price>21300.00</price>
+<currencyId>RUB</currencyId>
+<categoryId>140</categoryId>
+<picture>http://com.mebelimpex.ru/image/catalog/Obedennye_gruppy/Stoly/stol_Shervud/leset_stol_Shervud1R_belyi9003_%282%29.jpg</picture>
+<picture>http://com.mebelimpex.ru/image/catalog/Obedennye_gruppy/Stoly/stol_Shervud/leset_stol_Shervud1R_belyi9003%2Bstul_Oregon_selena_belyj_%282%29.jpg</picture>
+<delivery>true</delivery>
+<cpa>0</cpa>
+<name>Стол Leset Шервуд 1Р</name>
+<vendor>Leset</vendor>
+<description>Стол «Шервуд» — непременный элемент для обустройства
+столовой зоны. Столешница из натурального дерева надежно
+закреплена на подстолье, изготовленном из массива бука
+и облицованная натуральным шпоном ясеня. Устойчивые
+ножки изящной формы в полной мере соответствуют классическому
+дизайну изделия.Материал:&amp;nbsp;ножки – массив бука, столешница – МДФ, облицованная натуральным шпоном ясеня.Механизм трансформации столешницы:&amp;nbsp;синхронный.Механизм трансформации вставки:&amp;nbsp;бабочка.Варианты отделки:&amp;nbsp;белый.</description>
+<param name="Длина" unit="см">110 (150)</param>
+<param name="Ширина" unit="см">70</param>
+<param name="Высота" unit="см">76</param>
+<param name="Глубина упаковки" unit="мм">1140</param>
+<param name="Высота упаковки" unit="мм">160</param>
+<param name="Вес упаковки" unit="кг">36</param>
+<param name="Страна производителя">Россия</param>
+<param name="Ширина упаковки" unit="мм">740</param>
+<param name="Материал столешницы">МДФ + шпон ясеня</param>
+<param name="Цвет столешницы">белый</param>
+<param name="Вес" unit="kg">35.00000000</param>
+</offer>
+<offer id="1101" available="true" >
+<url>http://com.mebelimpex.ru/index.php?route=product/product&amp;path=&amp;product_id=1101</url>
+<price>23100.00</price>
+<currencyId>RUB</currencyId>
+<categoryId>140</categoryId>
+<picture>http://com.mebelimpex.ru/image/catalog/Obedennye_gruppy/Stoly/stol_Shervud/leset_stol_Shervud1R_venget34_slojennyi.jpg</picture>
+<picture>http://com.mebelimpex.ru/image/catalog/Obedennye_gruppy/Stoly/stol_Shervud/leset_stol_Shervud1R_venget34_slojennyi.jpg</picture>
+<delivery>true</delivery>
+<cpa>0</cpa>
+<name>Стол Leset Шервуд 2Р</name>
+<vendor>Leset</vendor>
+<description>Стол «Шервуд» — непременный элемент для обустройства
+столовой зоны. Столешница из натурального дерева надежно
+закреплена на подстолье, изготовленном из массива бука
+и облицованная натуральным шпоном ясеня. Устойчивые
+ножки изящной формы в полной мере соответствуют классическому
+дизайну изделия.Материал:&amp;nbsp;ножки – массив бука, столешница – МДФ, облицованная натуральным шпоном ясеня.Механизм трансформации столешницы:&amp;nbsp;синхронный.Механизм трансформации вставки:&amp;nbsp;бабочка.Варианты отделки:&amp;nbsp;венге.</description>
+<param name="Длина" unit="см">120 (170)</param>
+<param name="Ширина" unit="см">80</param>
+<param name="Высота" unit="см">76</param>
+<param name="Глубина упаковки" unit="мм">1240</param>
+<param name="Высота упаковки" unit="мм">160</param>
+<param name="Вес упаковки" unit="кг">41</param>
+<param name="Страна производителя">Россия</param>
+<param name="Ширина упаковки" unit="мм">840</param>
+<param name="Материал столешницы">МДФ + шпон ясеня</param>
+<param name="Цвет столешницы">венге</param>
+<param name="Вес" unit="kg">40.00000000</param>
+</offer>
+<offer id="1102" available="true" >
+<url>http://com.mebelimpex.ru/index.php?route=product/product&amp;path=&amp;product_id=1102</url>
+<price>23100.00</price>
+<currencyId>RUB</currencyId>
+<categoryId>140</categoryId>
+<picture>http://com.mebelimpex.ru/image/catalog/Obedennye_gruppy/Stoly/stol_Shervud/leset_stol_Shervud1R_slkost1013_%282%29.jpg</picture>
+<picture>http://com.mebelimpex.ru/image/catalog/Obedennye_gruppy/Stoly/stol_Shervud/leset_stol_Shervud1R_slkost1013_%281%29.jpg</picture>
+<delivery>true</delivery>
+<cpa>0</cpa>
+<name>Стол Leset Шервуд 2Р</name>
+<vendor>Leset</vendor>
+<description>Стол «Шервуд» — непременный элемент для обустройства
+столовой зоны. Столешница из натурального дерева надежно
+закреплена на подстолье, изготовленном из массива бука
+и облицованная натуральным шпоном ясеня. Устойчивые
+ножки изящной формы в полной мере соответствуют классическому
+дизайну изделия.Материал:&amp;nbsp;ножки – массив бука, столешница – МДФ, облицованная натуральным шпоном ясеня.Механизм трансформации столешницы:&amp;nbsp;синхронный.Механизм трансформации вставки:&amp;nbsp;бабочка.Варианты отделки:&amp;nbsp;слоновая кость.</description>
+<param name="Длина" unit="см">120 (170)</param>
+<param name="Ширина" unit="см">80</param>
+<param name="Высота" unit="см">76</param>
+<param name="Глубина упаковки" unit="мм">1240</param>
+<param name="Высота упаковки" unit="мм">160</param>
+<param name="Вес упаковки" unit="кг">41</param>
+<param name="Страна производителя">Россия</param>
+<param name="Ширина упаковки" unit="мм">840</param>
+<param name="Материал столешницы">МДФ + шпон ясеня</param>
+<param name="Цвет столешницы">слоновая кость</param>
+<param name="Вес" unit="kg">40.00000000</param>
+</offer>
+<offer id="1103" available="true" >
+<url>http://com.mebelimpex.ru/index.php?route=product/product&amp;path=&amp;product_id=1103</url>
+<price>23100.00</price>
+<currencyId>RUB</currencyId>
+<categoryId>140</categoryId>
+<picture>http://com.mebelimpex.ru/image/catalog/Obedennye_gruppy/Stoly/stol_Shervud/leset_stol_Shervud1R_belyi9003_%282%29.jpg</picture>
+<picture>http://com.mebelimpex.ru/image/catalog/Obedennye_gruppy/Stoly/stol_Shervud/leset_stol_Shervud1R_belyi9003_%281%29.jpg</picture>
+<delivery>true</delivery>
+<cpa>0</cpa>
+<name>Стол Leset Шервуд 2Р</name>
+<vendor>Leset</vendor>
+<description>Стол «Шервуд» — непременный элемент для обустройства
+столовой зоны. Столешница из натурального дерева надежно
+закреплена на подстолье, изготовленном из массива бука
+и облицованная натуральным шпоном ясеня. Устойчивые
+ножки изящной формы в полной мере соответствуют классическому
+дизайну изделия.Материал:&amp;nbsp;ножки – массив бука, столешница – МДФ, облицованная натуральным шпоном ясеня.Механизм трансформации столешницы:&amp;nbsp;синхронный.Механизм трансформации вставки:&amp;nbsp;бабочка.Варианты отделки:&amp;nbsp;белый.</description>
+<param name="Длина" unit="см">120 (170)</param>
+<param name="Ширина" unit="см">80</param>
+<param name="Высота" unit="см">76</param>
+<param name="Глубина упаковки" unit="мм">1240</param>
+<param name="Высота упаковки" unit="мм">160</param>
+<param name="Вес упаковки" unit="кг">41</param>
+<param name="Страна производителя">Россия</param>
+<param name="Ширина упаковки" unit="мм">840</param>
+<param name="Материал столешницы">МДФ + шпон ясеня</param>
+<param name="Цвет столешницы">белый</param>
+<param name="Вес" unit="kg">40.00000000</param>
+</offer>
+<offer id="1105" available="true" >
+<url>http://com.mebelimpex.ru/index.php?route=product/product&amp;path=&amp;product_id=1105</url>
+<price>2510.00</price>
+<currencyId>RUB</currencyId>
+<categoryId>133</categoryId>
+<picture>http://com.mebelimpex.ru/image/catalog/Obedennye_gruppy/Stulja/leset_1301/stul_leset_1301_chernyi.png</picture>
+<picture>http://com.mebelimpex.ru/image/catalog/Obedennye_gruppy/Stulja/leset_1301/stul_leset_1301_chernyi.png</picture>
+<delivery></delivery>
+<cpa>0</cpa>
+<name>Стул Leset 1301</name>
+<vendor>Leset</vendor>
+<description>Цельный, сварной каркас, отлично поддается очистке от загрязнений. Наконечники на ножках стульев, защищают поверхность пола от нежелательных повреждений. Нагрузка до 120 кг.Высота: 910 ммШирина: 380 ммГлубина: 400 ммВысота от пола до сидения: 470 ммТолщина сидения: 30 ммКаркас/цвет: металл/хромМатериал мягкой части: экокожа</description>
+<param name="Допустимая нагрузка">120</param>
+<param name="Длина" unit="см">40</param>
+<param name="Ширина" unit="см">38</param>
+<param name="Высота" unit="см">91</param>
+<param name="Материал обивки">экокожа</param>
+<param name="Цвет обивки">черная</param>
+<param name="Глубина упаковки" unit="мм">коробка 1: 180
+коробка 2: 200</param>
+<param name="Высота упаковки" unit="мм">коробка 1: 460
+коробка 2: 200</param>
+<param name="Вес упаковки" unit="кг">коробка 1: 2,5
+коробка 2: 1</param>
+<param name="Страна производителя">Россия</param>
+<param name="Ширина упаковки" unit="мм">коробка 1: 360
+коробка 2: 200</param>
+<param name="Вес" unit="kg">3.50000000</param>
+</offer>
+<offer id="1134" available="true" >
+<url>http://com.mebelimpex.ru/index.php?route=product/product&amp;path=&amp;product_id=1134</url>
+<price>2510.00</price>
+<currencyId>RUB</currencyId>
+<categoryId>133</categoryId>
+<picture>http://com.mebelimpex.ru/image/catalog/Obedennye_gruppy/Stulja/leset_1301/stul_leset_1301_belyi.png</picture>
+<picture>http://com.mebelimpex.ru/image/catalog/Obedennye_gruppy/Stulja/leset_1301/stul_leset_1301_belyi.png</picture>
+<delivery></delivery>
+<cpa>0</cpa>
+<name>Стул Leset 1301</name>
+<vendor>Leset</vendor>
+<description>Цельный, сварной каркас, отлично поддается очистке от загрязнений. Наконечники на ножках стульев, защищают поверхность пола от нежелательных повреждений. Нагрузка до 120 кг.Высота: 910 ммШирина: 380 ммГлубина: 400 ммВысота от пола до сидения: 470 ммТолщина сидения: 30 ммКаркас/цвет: металл/хромМатериал мягкой части: экокожа</description>
+<param name="Допустимая нагрузка">120</param>
+<param name="Длина" unit="см">40</param>
+<param name="Ширина" unit="см">38</param>
+<param name="Высота" unit="см">91</param>
+<param name="Материал обивки">экокожа</param>
+<param name="Цвет обивки">белый</param>
+<param name="Глубина упаковки" unit="мм">коробка 1: 180
+коробка 2: 200</param>
+<param name="Высота упаковки" unit="мм">коробка 1: 460
+коробка 2: 200</param>
+<param name="Вес упаковки" unit="кг">коробка 1: 2,5
+коробка 2: 1</param>
+<param name="Страна производителя">Россия</param>
+<param name="Ширина упаковки" unit="мм">коробка 1: 360
+коробка 2: 200</param>
+<param name="Вес" unit="kg">3.50000000</param>
+</offer>
+<offer id="1500" available="true" >
+<url>http://com.mebelimpex.ru/index.php?route=product/product&amp;path=&amp;product_id=1500</url>
+<price>3590.00</price>
+<currencyId>RUB</currencyId>
+<categoryId>133</categoryId>
+<picture>http://com.mebelimpex.ru/image/cache/catalog/Obedennye_gruppy/Stulja/leset_7312/leset_7312_belyi_krokodil-600x600.png</picture>
+<picture>http://com.mebelimpex.ru/image/cache/catalog/Obedennye_gruppy/Stulja/leset_7312/leset_7312_belyi_krokodil-600x600.png</picture>
+<delivery></delivery>
+<cpa>0</cpa>
+<name>Стул Leset 7312</name>
+<vendor>Leset</vendor>
+<description>Стул на хромированном металлокаркасе. Надежная посадка. Идеальная по наклону и высоте мягкая спинка, из прочной экокожи.</description>
+<param name="Размеры" unit="ШхГхВ">400x390x960</param>
+<param name="Допустимая нагрузка"></param>
+<param name="Размер упаковки"></param>
+<param name="Вес изделия"></param>
+<param name="Вес" unit="kg">5.70000000</param>
+</offer>
+<offer id="1501" available="true" >
+<url>http://com.mebelimpex.ru/index.php?route=product/product&amp;path=&amp;product_id=1501</url>
+<price>3590.00</price>
+<currencyId>RUB</currencyId>
+<categoryId>133</categoryId>
+<picture>http://com.mebelimpex.ru/image/catalog/Obedennye_gruppy/Stulja/leset_7312/leset_7312_korichnevyi_krokodil.jpg</picture>
+<picture>http://com.mebelimpex.ru/image/catalog/Obedennye_gruppy/Stulja/leset_7312/leset_7312_korichnevyi_krokodil.jpg</picture>
+<delivery></delivery>
+<cpa>0</cpa>
+<name>Стул Leset 7312</name>
+<vendor>Leset</vendor>
+<description>Стул на хромированном металлокаркасе. Надежная посадка. Идеальная по наклону и высоте мягкая спинка, из прочной экокожи.</description>
+<param name="Допустимая нагрузка">120</param>
+<param name="Длина" unit="см">40</param>
+<param name="Ширина" unit="см">39</param>
+<param name="Высота" unit="см">96</param>
+<param name="Материал обивки">экокожа</param>
+<param name="Цвет обивки">коричневый крокодил</param>
+<param name="Глубина упаковки" unit="мм">коробка 1: 670
+коробка 2: 400</param>
+<param name="Высота упаковки" unit="мм">коробка 1: 220
+коробка 2: 400</param>
+<param name="Вес упаковки" unit="кг">24</param>
+<param name="Страна производителя">Россия</param>
+<param name="Ширина упаковки" unit="мм">коробка 1: 590
+коробка 2: 200</param>
+<param name="Вес" unit="kg">5.70000000</param>
+</offer>
+<offer id="1502" available="true" >
+<url>http://com.mebelimpex.ru/index.php?route=product/product&amp;path=&amp;product_id=1502</url>
+<price>3590.00</price>
+<currencyId>RUB</currencyId>
+<categoryId>133</categoryId>
+<picture>http://com.mebelimpex.ru/image/catalog/Obedennye_gruppy/Stulja/leset_7312/leset_7312_chernyi_krokodil.jpg</picture>
+<picture>http://com.mebelimpex.ru/image/catalog/Obedennye_gruppy/Stulja/leset_7312/leset_7312_chernyi_krokodil.jpg</picture>
+<delivery></delivery>
+<cpa>0</cpa>
+<name>Стул Leset 7312</name>
+<vendor>Leset</vendor>
+<description>Стул на хромированном металлокаркасе. Надежная посадка. Идеальная по наклону и высоте мягкая спинка, из прочной экокожи.</description>
+<param name="Допустимая нагрузка">120</param>
+<param name="Длина" unit="см">40</param>
+<param name="Ширина" unit="см">39</param>
+<param name="Высота" unit="см">96</param>
+<param name="Материал обивки">экокожа</param>
+<param name="Цвет обивки">черный крокодил</param>
+<param name="Глубина упаковки" unit="мм">коробка 1: 670
+коробка 2: 400</param>
+<param name="Высота упаковки" unit="мм">коробка 1: 220
+коробка 2: 400</param>
+<param name="Вес упаковки" unit="кг">24</param>
+<param name="Страна производителя">Россия</param>
+<param name="Ширина упаковки" unit="мм">коробка 1: 590
+коробка 2: 200</param>
+<param name="Вес" unit="kg">5.70000000</param>
+</offer>
+<offer id="1503" available="true" >
+<url>http://com.mebelimpex.ru/index.php?route=product/product&amp;path=&amp;product_id=1503</url>
+<price>3590.00</price>
+<currencyId>RUB</currencyId>
+<categoryId>133</categoryId>
+<picture>http://com.mebelimpex.ru/image/catalog/Obedennye_gruppy/Stulja/leset_7312/leset_7312_bezhevyi.jpg</picture>
+<picture>http://com.mebelimpex.ru/image/catalog/Obedennye_gruppy/Stulja/leset_7312/leset_7312_bezhevyi.jpg</picture>
+<delivery></delivery>
+<cpa>0</cpa>
+<name>Стул Leset 7312</name>
+<vendor>Leset</vendor>
+<description>Стул на хромированном металлокаркасе. Надежная посадка. Идеальная по наклону и высоте мягкая спинка, из прочной экокожи.</description>
+<param name="Допустимая нагрузка">120</param>
+<param name="Длина" unit="см">40</param>
+<param name="Ширина" unit="см">39</param>
+<param name="Высота" unit="см">96</param>
+<param name="Материал обивки">экокожа</param>
+<param name="Цвет обивки">бежевый</param>
+<param name="Глубина упаковки" unit="мм">коробка 1: 670
+коробка 2: 400</param>
+<param name="Высота упаковки" unit="мм">коробка 1: 220
+коробка 2: 400</param>
+<param name="Вес упаковки" unit="кг">24</param>
+<param name="Страна производителя">Россия</param>
+<param name="Ширина упаковки" unit="мм">коробка 1: 590
+коробка 2: 200</param>
+<param name="Вес" unit="kg">5.70000000</param>
+</offer>
+<offer id="1504" available="true" >
+<url>http://com.mebelimpex.ru/index.php?route=product/product&amp;path=&amp;product_id=1504</url>
+<price>3590.00</price>
+<currencyId>RUB</currencyId>
+<categoryId>133</categoryId>
+<picture>http://com.mebelimpex.ru/image/cache/catalog/Obedennye_gruppy/Stulja/leset_7312/leset_7312_belyi-600x600.jpg</picture>
+<picture>http://com.mebelimpex.ru/image/cache/catalog/Obedennye_gruppy/Stulja/leset_7312/leset_7312_belyi-600x600.jpg</picture>
+<delivery></delivery>
+<cpa>0</cpa>
+<name>Стул Leset 7312</name>
+<vendor>Leset</vendor>
+<description>Стул на хромированном металлокаркасе. Надежная посадка. Идеальная по наклону и высоте мягкая спинка, из прочной экокожи.</description>
+<param name="Допустимая нагрузка">120</param>
+<param name="Длина" unit="см">40</param>
+<param name="Ширина" unit="см">39</param>
+<param name="Высота" unit="см">96</param>
+<param name="Материал обивки">экокожа</param>
+<param name="Цвет обивки">белый</param>
+<param name="Глубина упаковки" unit="мм">коробка 1: 670
+коробка 2: 400</param>
+<param name="Высота упаковки" unit="мм">коробка 1: 220
+коробка 2: 400</param>
+<param name="Вес упаковки" unit="кг">24</param>
+<param name="Страна производителя">Россия</param>
+<param name="Ширина упаковки" unit="мм">коробка 1: 590
+коробка 2: 200</param>
+<param name="Вес" unit="kg">5.70000000</param>
+</offer>
+<offer id="1505" available="true" >
+<url>http://com.mebelimpex.ru/index.php?route=product/product&amp;path=&amp;product_id=1505</url>
+<price>3590.00</price>
+<currencyId>RUB</currencyId>
+<categoryId>133</categoryId>
+<picture>http://com.mebelimpex.ru/image/catalog/Obedennye_gruppy/Stulja/leset_7312/leset_7312_korichnevyi.jpg</picture>
+<picture>http://com.mebelimpex.ru/image/catalog/Obedennye_gruppy/Stulja/leset_7312/leset_7312_korichnevyi.jpg</picture>
+<delivery></delivery>
+<cpa>0</cpa>
+<name>Стул Leset 7312</name>
+<vendor>Leset</vendor>
+<description>Стул на хромированном металлокаркасе. Надежная посадка. Идеальная по наклону и высоте мягкая спинка, из прочной экокожи.</description>
+<param name="Допустимая нагрузка">120</param>
+<param name="Длина" unit="см">40</param>
+<param name="Ширина" unit="см">39</param>
+<param name="Высота" unit="см">96</param>
+<param name="Материал обивки">экокожа</param>
+<param name="Цвет обивки">коричневый</param>
+<param name="Глубина упаковки" unit="мм">коробка 1: 670
+коробка 2: 400</param>
+<param name="Высота упаковки" unit="мм">коробка 1: 220
+коробка 2: 400</param>
+<param name="Вес упаковки" unit="кг">24</param>
+<param name="Страна производителя">Россия</param>
+<param name="Ширина упаковки" unit="мм">коробка 1: 590
+коробка 2: 200</param>
+<param name="Вес" unit="kg">5.70000000</param>
+</offer>
+<offer id="1506" available="true" >
+<url>http://com.mebelimpex.ru/index.php?route=product/product&amp;path=&amp;product_id=1506</url>
+<price>3590.00</price>
+<currencyId>RUB</currencyId>
+<categoryId>133</categoryId>
+<picture>http://com.mebelimpex.ru/image/cache/catalog/Obedennye_gruppy/Stulja/leset_7312/leset_7312_chernyi-600x600.jpg</picture>
+<picture>http://com.mebelimpex.ru/image/cache/catalog/Obedennye_gruppy/Stulja/leset_7312/leset_7312_chernyi-600x600.jpg</picture>
+<delivery></delivery>
+<cpa>0</cpa>
+<name>Стул Leset 7312</name>
+<vendor>Leset</vendor>
+<description>Стул на хромированном металлокаркасе. Надежная посадка. Идеальная по наклону и высоте мягкая спинка, из прочной экокожи.
+
+	Высота: 960 мм
+
+	Ширина: 400 мм
+
+	Глубина: 390 мм
+
+	Высота сидения:&amp;nbsp;
+
+	Толщина сидения:&amp;nbsp;
+Каркас: металл/хром</description>
+<param name="Допустимая нагрузка">120</param>
+<param name="Длина" unit="см">40</param>
+<param name="Ширина" unit="см">39</param>
+<param name="Высота" unit="см">96</param>
+<param name="Материал обивки">экокожа</param>
+<param name="Цвет обивки">черный</param>
+<param name="Глубина упаковки" unit="мм">коробка 1: 670
+коробка 2: 400</param>
+<param name="Высота упаковки" unit="мм">коробка 1: 220
+коробка 2: 400</param>
+<param name="Вес упаковки" unit="кг">24</param>
+<param name="Страна производителя">Россия</param>
+<param name="Ширина упаковки" unit="мм">коробка 1: 590
+коробка 2: 200</param>
+<param name="Вес" unit="kg">5.70000000</param>
+</offer>
+<offer id="1507" available="true" >
+<url>http://com.mebelimpex.ru/index.php?route=product/product&amp;path=&amp;product_id=1507</url>
+<price>1990.00</price>
+<currencyId>RUB</currencyId>
+<categoryId>133</categoryId>
+<picture>http://com.mebelimpex.ru/image/catalog/Obedennye_gruppy/Stulja/stul_leset_bisho/leset_Bisho_belyi_%281%29.jpg</picture>
+<picture>http://com.mebelimpex.ru/image/catalog/Obedennye_gruppy/Stulja/stul_leset_bisho/leset_Bisho_belyi_%282%29.jpg</picture>
+<delivery></delivery>
+<cpa>0</cpa>
+<name>Стул Leset Бишо</name>
+<vendor>Leset</vendor>
+<description>Классический практичный для дома или офиса. Стул на металлическом каркасе. Сидение и спинка стула мягкие, обитые экокожей, с горизонтальными прострочками. Универсален, удобен в использовании, неприхотлив в уходе, достаточно износостоек.</description>
+<param name="Допустимая нагрузка">120</param>
+<param name="Длина" unit="см">45</param>
+<param name="Ширина" unit="см">39</param>
+<param name="Высота" unit="см">94</param>
+<param name="Материал обивки">экокожа</param>
+<param name="Цвет обивки">белый</param>
+<param name="Глубина упаковки" unit="мм">320</param>
+<param name="Высота упаковки" unit="мм">450</param>
+<param name="Вес упаковки" unit="кг">5,9</param>
+<param name="Страна производителя">Россия</param>
+<param name="Ширина упаковки" unit="мм">520</param>
+<param name="Вес" unit="kg">5.40000000</param>
+</offer>
+<offer id="1508" available="true" >
+<url>http://com.mebelimpex.ru/index.php?route=product/product&amp;path=&amp;product_id=1508</url>
+<price>1990.00</price>
+<currencyId>RUB</currencyId>
+<categoryId>133</categoryId>
+<picture>http://com.mebelimpex.ru/image/catalog/Obedennye_gruppy/Stulja/stul_leset_bisho/leset_Bisho_crem_%281%29.jpg</picture>
+<picture>http://com.mebelimpex.ru/image/catalog/Obedennye_gruppy/Stulja/stul_leset_bisho/leset_Bisho_crem_%282%29.jpg</picture>
+<delivery></delivery>
+<cpa>0</cpa>
+<name>Стул Leset Бишо</name>
+<vendor>Leset</vendor>
+<description>Классический практичный для дома или офиса. Стул на металлическом каркасе. Сидение и спинка стула мягкие, обитые экокожей, с горизонтальными прострочками. Универсален, удобен в использовании, неприхотлив в уходе, достаточно износостоек.</description>
+<param name="Допустимая нагрузка">120</param>
+<param name="Длина" unit="см">45</param>
+<param name="Ширина" unit="см">39</param>
+<param name="Высота" unit="см">94</param>
+<param name="Материал обивки">экокожа</param>
+<param name="Цвет обивки">кремовый</param>
+<param name="Глубина упаковки" unit="мм">320</param>
+<param name="Высота упаковки" unit="мм">450</param>
+<param name="Вес упаковки" unit="кг">5,9</param>
+<param name="Страна производителя">Россия</param>
+<param name="Ширина упаковки" unit="мм">520</param>
+<param name="Вес" unit="kg">5.40000000</param>
+</offer>
+<offer id="1509" available="true" >
+<url>http://com.mebelimpex.ru/index.php?route=product/product&amp;path=&amp;product_id=1509</url>
+<price>2580.00</price>
+<currencyId>RUB</currencyId>
+<categoryId>133</categoryId>
+<picture>http://com.mebelimpex.ru/image/catalog/Obedennye_gruppy/Stulja/stul_leset_bri/leset_stul_Bri_belyi.jpg</picture>
+<picture>http://com.mebelimpex.ru/image/catalog/Obedennye_gruppy/Stulja/stul_leset_bri/leset_stul_Bri_belyi.jpg</picture>
+<delivery></delivery>
+<cpa>0</cpa>
+<name>Стул Leset Бри</name>
+<vendor>Leset</vendor>
+<description>Разборная конструкция, изготовлен из стальной трубы 22 мм, в изготовлении использованы материалы высокого качества. Обивка – импортная экокожа, дизайн лаконичный. Спинка имеет анатомическую форму, обеспечивая высокий уровень комфорта при сидении. Ножки стула оснащены заглушками во избежание повреждения напольных покрытий.</description>
+<param name="Допустимая нагрузка">120</param>
+<param name="Длина" unit="см">52</param>
+<param name="Ширина" unit="см">42</param>
+<param name="Высота" unit="см">96</param>
+<param name="Материал обивки">экокожа</param>
+<param name="Цвет обивки">белый</param>
+<param name="Глубина упаковки" unit="мм">320</param>
+<param name="Высота упаковки" unit="мм">450</param>
+<param name="Вес упаковки" unit="кг">5,7</param>
+<param name="Страна производителя">Россия</param>
+<param name="Ширина упаковки" unit="мм">520</param>
+<param name="Вес" unit="kg">5.30000000</param>
+</offer>
+<offer id="1510" available="true" >
+<url>http://com.mebelimpex.ru/index.php?route=product/product&amp;path=&amp;product_id=1510</url>
+<price>2580.00</price>
+<currencyId>RUB</currencyId>
+<categoryId>133</categoryId>
+<picture>http://com.mebelimpex.ru/image/catalog/Obedennye_gruppy/Stulja/stul_leset_bri/leset_stul_Bri_crem.jpg</picture>
+<picture>http://com.mebelimpex.ru/image/catalog/Obedennye_gruppy/Stulja/stul_leset_bri/leset_stul_Bri_crem.jpg</picture>
+<delivery></delivery>
+<cpa>0</cpa>
+<name>Стул Leset Бри</name>
+<vendor>Leset</vendor>
+<description>Разборная конструкция, изготовлен из стальной трубы 22 мм, в изготовлении использованы материалы высокого качества. Обивка – импортная экокожа, дизайн лаконичный. Спинка имеет анатомическую форму, обеспечивая высокий уровень комфорта при сидении. Ножки стула оснащены заглушками во избежание повреждения напольных покрытий.</description>
+<param name="Допустимая нагрузка">120</param>
+<param name="Длина" unit="см">52</param>
+<param name="Ширина" unit="см">42</param>
+<param name="Высота" unit="см">96</param>
+<param name="Материал обивки">экокожа</param>
+<param name="Цвет обивки">кремовый</param>
+<param name="Глубина упаковки" unit="мм">320</param>
+<param name="Высота упаковки" unit="мм">450</param>
+<param name="Вес упаковки" unit="кг">5,7</param>
+<param name="Страна производителя">Россия</param>
+<param name="Ширина упаковки" unit="мм">520</param>
+<param name="Вес" unit="kg">5.30000000</param>
+</offer>
+<offer id="1511" available="true" >
+<url>http://com.mebelimpex.ru/index.php?route=product/product&amp;path=&amp;product_id=1511</url>
+<price>6200.00</price>
+<currencyId>RUB</currencyId>
+<categoryId>133</categoryId>
+<picture>http://com.mebelimpex.ru/image/catalog/Obedennye_gruppy/Stulja/stul_leset_california/leset_California_oreh_romb_korichnevyj.jpg</picture>
+<picture>http://com.mebelimpex.ru/image/catalog/Obedennye_gruppy/Stulja/stul_leset_california/leset_California_oreh_romb_korichnevyj.jpg</picture>
+<delivery></delivery>
+<cpa>0</cpa>
+<name>Стул Leset Калифорния</name>
+<vendor>Leset</vendor>
+<description>Современный и надежный стул, выполнен из массива прочного бука. Для приверженцев образцового и строгого стиля.</description>
+<param name="Допустимая нагрузка">120</param>
+<param name="Длина" unit="см">47</param>
+<param name="Ширина" unit="см">45</param>
+<param name="Высота" unit="см">104</param>
+<param name="Материал обивки">ткань жаккард</param>
+<param name="Цвет обивки">ромб коричневый</param>
+<param name="Глубина упаковки" unit="мм">550</param>
+<param name="Высота упаковки" unit="мм">470</param>
+<param name="Вес упаковки" unit="кг">6</param>
+<param name="Страна производителя">Россия</param>
+<param name="Ширина упаковки" unit="мм">700</param>
+<param name="Вес" unit="kg">6.50000000</param>
+</offer>
+<offer id="1512" available="true" >
+<url>http://com.mebelimpex.ru/index.php?route=product/product&amp;path=&amp;product_id=1512</url>
+<price>5700.00</price>
+<currencyId>RUB</currencyId>
+<categoryId>133</categoryId>
+<picture>http://com.mebelimpex.ru/image/catalog/Obedennye_gruppy/Stulja/stul_leset_Kentucky/leset_stul_Kentukki_belyi_kz514_%281%29.jpg</picture>
+<picture>http://com.mebelimpex.ru/image/catalog/Obedennye_gruppy/Stulja/stul_leset_Kentucky/leset_stul_Kentukki_belyi_kz514_%282%29.jpg</picture>
+<delivery></delivery>
+<cpa>0</cpa>
+<name>Стул Leset Кентукки</name>
+<vendor>Leset</vendor>
+<description>Стильный стул Кентукки, выполнен из массива бука, обладающего однородной структурой и высокой твердостью. Клееный каркас стула обеспечивает наибольшую прочность и, соответственно, больший срок службы.</description>
+<param name="Допустимая нагрузка">120</param>
+<param name="Длина" unit="см">45</param>
+<param name="Ширина" unit="см">42</param>
+<param name="Высота" unit="см">101</param>
+<param name="Материал обивки">массив бука</param>
+<param name="Цвет обивки">коричневый</param>
+<param name="Глубина упаковки" unit="мм">555</param>
+<param name="Высота упаковки" unit="мм">600</param>
+<param name="Вес упаковки" unit="кг">7</param>
+<param name="Страна производителя">Россия</param>
+<param name="Ширина упаковки" unit="мм">490</param>
+<param name="Вес" unit="kg">5.60000000</param>
+</offer>
+<offer id="1513" available="true" >
+<url>http://com.mebelimpex.ru/index.php?route=product/product&amp;path=&amp;product_id=1513</url>
+<price>5700.00</price>
+<currencyId>RUB</currencyId>
+<categoryId>133</categoryId>
+<picture>http://com.mebelimpex.ru/image/catalog/Obedennye_gruppy/Stulja/stul_leset_Kentucky/leset_stul_Kentukki_venge_belyi_kz527.jpg</picture>
+<picture>http://com.mebelimpex.ru/image/catalog/Obedennye_gruppy/Stulja/stul_leset_Kentucky/leset_stul_Kentukki_venge_belyi_kz527.jpg</picture>
+<delivery></delivery>
+<cpa>0</cpa>
+<name>Стул Leset Кентукки</name>
+<vendor>Leset</vendor>
+<description>Стильный стул Кентукки, выполнен из массива бука, обладающего однородной структурой и высокой твердостью. Клееный каркас стула обеспечивает наибольшую прочность и, соответственно, больший срок службы.</description>
+<param name="Допустимая нагрузка">120</param>
+<param name="Длина" unit="см">45</param>
+<param name="Ширина" unit="см">42</param>
+<param name="Высота" unit="см">101</param>
+<param name="Материал обивки">массив бука</param>
+<param name="Цвет обивки">белый</param>
+<param name="Глубина упаковки" unit="мм">555</param>
+<param name="Высота упаковки" unit="мм">600</param>
+<param name="Вес упаковки" unit="кг">7</param>
+<param name="Страна производителя">Россия</param>
+<param name="Ширина упаковки" unit="мм">490</param>
+<param name="Вес" unit="kg">5.60000000</param>
+</offer>
+<offer id="1514" available="true" >
+<url>http://com.mebelimpex.ru/index.php?route=product/product&amp;path=&amp;product_id=1514</url>
+<price>5700.00</price>
+<currencyId>RUB</currencyId>
+<categoryId>133</categoryId>
+<picture>http://com.mebelimpex.ru/image/catalog/Obedennye_gruppy/Stulja/stul_leset_Kentucky/leset_stul_Kentukki_venge_rogojka226_%281%29.jpg</picture>
+<picture>http://com.mebelimpex.ru/image/catalog/Obedennye_gruppy/Stulja/stul_leset_Kentucky/leset_stul_Kentukki_venge_rogojka226_%282%29.jpg</picture>
+<delivery></delivery>
+<cpa>0</cpa>
+<name>Стул Leset Кентукки</name>
+<vendor>Leset</vendor>
+<description>Стильный стул Кентукки, выполнен из массива бука, обладающего однородной структурой и высокой твердостью. Клееный каркас стула обеспечивает наибольшую прочность и, соответственно, больший срок службы.</description>
+<param name="Допустимая нагрузка">120</param>
+<param name="Длина" unit="см">45</param>
+<param name="Ширина" unit="см">42</param>
+<param name="Высота" unit="см">101</param>
+<param name="Материал обивки">массив бука</param>
+<param name="Цвет обивки">светло-серый</param>
+<param name="Глубина упаковки" unit="мм">555</param>
+<param name="Высота упаковки" unit="мм">600</param>
+<param name="Вес упаковки" unit="кг">7</param>
+<param name="Страна производителя">Россия</param>
+<param name="Ширина упаковки" unit="мм">490</param>
+<param name="Вес" unit="kg">5.60000000</param>
+</offer>
+<offer id="1515" available="true" >
+<url>http://com.mebelimpex.ru/index.php?route=product/product&amp;path=&amp;product_id=1515</url>
+<price>6900.00</price>
+<currencyId>RUB</currencyId>
+<categoryId>133</categoryId>
+<picture>http://com.mebelimpex.ru/image/catalog/Obedennye_gruppy/Stulja/stul_leset_Montana/leset_stul_Montana_belyi_jakkard_romb_koritsa_%281%29.jpg</picture>
+<picture>http://com.mebelimpex.ru/image/catalog/Obedennye_gruppy/Stulja/stul_leset_Montana/leset_stul_Montana_belyi_jakkard_romb_koritsa_%282%29.jpg</picture>
+<delivery></delivery>
+<cpa>0</cpa>
+<name>Стул Leset Монтана</name>
+<vendor>Leset</vendor>
+<description>Стулья Leset Монтана мягкие и удобные, отлично подойдут для гостиной классического стиля. Они станут хорошим дополнением и для тихого ужина, и для пышного приема.
+
+
+	Для&amp;nbsp; транспортировки: в 1 упаковке = 2 стула</description>
+<param name="Допустимая нагрузка">120</param>
+<param name="Длина" unit="см">47</param>
+<param name="Ширина" unit="см">47</param>
+<param name="Высота" unit="см">100</param>
+<param name="Материал обивки">ткань</param>
+<param name="Цвет обивки">серый</param>
+<param name="Глубина упаковки" unit="мм">550</param>
+<param name="Высота упаковки" unit="мм">470</param>
+<param name="Вес упаковки" unit="кг">3,5</param>
+<param name="Страна производителя">Россия</param>
+<param name="Ширина упаковки" unit="мм">700</param>
+<param name="Вес" unit="kg">3.00000000</param>
+</offer>
+<offer id="1516" available="true" >
+<url>http://com.mebelimpex.ru/index.php?route=product/product&amp;path=&amp;product_id=1516</url>
+<price>6900.00</price>
+<currencyId>RUB</currencyId>
+<categoryId>133</categoryId>
+<picture>http://com.mebelimpex.ru/image/catalog/Obedennye_gruppy/Stulja/stul_leset_Montana/leset_stul_Montana_slkost_lozanna_shery%20%281%29.jpg</picture>
+<picture>http://com.mebelimpex.ru/image/catalog/Obedennye_gruppy/Stulja/stul_leset_Montana/leset_stul_Montana_slkost_lozanna_shery%20%283%29.jpg</picture>
+<delivery></delivery>
+<cpa>0</cpa>
+<name>Стул Leset Монтана</name>
+<vendor>Leset</vendor>
+<description>Стулья Leset Монтана мягкие и удобные, отлично подойдут для гостиной классического стиля. Они станут хорошим дополнением и для тихого ужина, и для пышного приема.
+
+
+	Для&amp;nbsp; транспортировки: в 1 упаковке = 2 стула</description>
+<param name="Допустимая нагрузка">120</param>
+<param name="Длина" unit="см">47</param>
+<param name="Ширина" unit="см">47</param>
+<param name="Высота" unit="см">100</param>
+<param name="Материал обивки">ткань</param>
+<param name="Цвет обивки">жёлтый</param>
+<param name="Глубина упаковки" unit="мм">550</param>
+<param name="Высота упаковки" unit="мм">470</param>
+<param name="Вес упаковки" unit="кг">3,5</param>
+<param name="Страна производителя">Россия</param>
+<param name="Ширина упаковки" unit="мм">700</param>
+<param name="Вес" unit="kg">3.00000000</param>
+</offer>
+<offer id="1517" available="true" >
+<url>http://com.mebelimpex.ru/index.php?route=product/product&amp;path=&amp;product_id=1517</url>
+<price>6900.00</price>
+<currencyId>RUB</currencyId>
+<categoryId>133</categoryId>
+<picture>http://com.mebelimpex.ru/image/catalog/Obedennye_gruppy/Stulja/stul_leset_Montana/leset_stul_Montana_oreh_shokoloadnyi_jakkard_romb_korichnevyi_%281%29.jpg</picture>
+<picture>http://com.mebelimpex.ru/image/catalog/Obedennye_gruppy/Stulja/stul_leset_Montana/leset_stul_Montana_oreh_shokoloadnyi_jakkard_romb_korichnevyi_%283%29.jpg</picture>
+<delivery></delivery>
+<cpa>0</cpa>
+<name>Стул Leset Монтана</name>
+<vendor>Leset</vendor>
+<description>Стулья Leset Монтана мягкие и удобные, отлично подойдут для гостиной классического стиля. Они станут хорошим дополнением и для тихого ужина, и для пышного приема.
+
+
+	Для&amp;nbsp; транспортировки: в 1 упаковке = 2 стула</description>
+<param name="Допустимая нагрузка">120</param>
+<param name="Длина" unit="см">47</param>
+<param name="Ширина" unit="см">47</param>
+<param name="Высота" unit="см">100</param>
+<param name="Материал обивки">ткань</param>
+<param name="Цвет обивки">коричневый</param>
+<param name="Глубина упаковки" unit="мм">550</param>
+<param name="Высота упаковки" unit="мм">470</param>
+<param name="Вес упаковки" unit="кг">3,5</param>
+<param name="Страна производителя">Россия</param>
+<param name="Ширина упаковки" unit="мм">700</param>
+<param name="Вес" unit="kg">3.00000000</param>
+</offer>
+<offer id="1518" available="true" >
+<url>http://com.mebelimpex.ru/index.php?route=product/product&amp;path=&amp;product_id=1518</url>
+<price>6200.00</price>
+<currencyId>RUB</currencyId>
+<categoryId>133</categoryId>
+<picture>http://com.mebelimpex.ru/image/catalog/Obedennye_gruppy/Stulja/stul_leset_Nevada/leset_stul_Nevada_oreh_chokoladnyi_palermo_karamel_%281%29.jpg</picture>
+<picture>http://com.mebelimpex.ru/image/catalog/Obedennye_gruppy/Stulja/stul_leset_Nevada/leset_stul_Nevada_oreh_chokoladnyi_palermo_karamel_%283%29.jpg</picture>
+<delivery></delivery>
+<cpa>0</cpa>
+<name>Стул Leset Невада</name>
+<vendor>Leset</vendor>
+<description>Стулья Leset Невада мягкие и удобные, отлично подойдут для гостиной классического стиля. Они станут хорошим дополнением и для тихого ужина, и для пышного приема.
+
+
+	Для&amp;nbsp; транспортировки: в 1 упаковке = 2 стула</description>
+<param name="Допустимая нагрузка">120</param>
+<param name="Длина" unit="см">49</param>
+<param name="Ширина" unit="см">47</param>
+<param name="Высота" unit="см">97</param>
+<param name="Материал обивки">ткань</param>
+<param name="Цвет обивки">коричневый</param>
+<param name="Глубина упаковки" unit="мм">550</param>
+<param name="Высота упаковки" unit="мм">470</param>
+<param name="Вес упаковки" unit="кг">4,75</param>
+<param name="Страна производителя">Россия</param>
+<param name="Ширина упаковки" unit="мм">700</param>
+<param name="Вес" unit="kg">4.00000000</param>
+</offer>
+<offer id="1519" available="true" >
+<url>http://com.mebelimpex.ru/index.php?route=product/product&amp;path=&amp;product_id=1519</url>
+<price>6200.00</price>
+<currencyId>RUB</currencyId>
+<categoryId>133</categoryId>
+<picture>http://com.mebelimpex.ru/image/catalog/Obedennye_gruppy/Stulja/stul_leset_Nevada/leset_stul_Nevada_slkost_atina_zolotoj_%281%29.jpg</picture>
+<picture>http://com.mebelimpex.ru/image/catalog/Obedennye_gruppy/Stulja/stul_leset_Nevada/leset_stul_Nevada_slkost_atina_zolotoj_%283%29.jpg</picture>
+<delivery></delivery>
+<cpa>0</cpa>
+<name>Стул Leset Невада</name>
+<vendor>Leset</vendor>
+<description>Стулья Leset Невада мягкие и удобные, отлично подойдут для гостиной классического стиля. Они станут хорошим дополнением и для тихого ужина, и для пышного приема.
+
+
+	Для&amp;nbsp; транспортировки: в 1 упаковке = 2 стула</description>
+<param name="Допустимая нагрузка">120</param>
+<param name="Длина" unit="см">49</param>
+<param name="Ширина" unit="см">47</param>
+<param name="Высота" unit="см">97</param>
+<param name="Материал обивки">ткань жаккард</param>
+<param name="Цвет обивки">золотой</param>
+<param name="Глубина упаковки" unit="мм">550</param>
+<param name="Высота упаковки" unit="мм">470</param>
+<param name="Вес упаковки" unit="кг">4,75</param>
+<param name="Страна производителя">Россия</param>
+<param name="Ширина упаковки" unit="мм">700</param>
+<param name="Вес" unit="kg">4.00000000</param>
+</offer>
+<offer id="1520" available="true" >
+<url>http://com.mebelimpex.ru/index.php?route=product/product&amp;path=&amp;product_id=1520</url>
+<price>5300.00</price>
+<currencyId>RUB</currencyId>
+<categoryId>133</categoryId>
+<picture>http://com.mebelimpex.ru/image/catalog/Obedennye_gruppy/Stulja/stul_leset_Oregon/leset_stul_Oregon_oreh_chokoladnyi_velur_glans_tviddl_shokolad_%281%29.jpg</picture>
+<picture>http://com.mebelimpex.ru/image/catalog/Obedennye_gruppy/Stulja/stul_leset_Oregon/leset_stul_Oregon_oreh_chokoladnyi_velur_glans_tviddl_shokolad_%282%29.jpg</picture>
+<delivery></delivery>
+<cpa>0</cpa>
+<name>Стул Leset Орегон</name>
+<vendor>Leset</vendor>
+<description>Стулья Leset Орегон мягкие и удобные, отлично подойдут для гостиной классического стиля. Они станут хорошим дополнением и для тихого ужина, и для пышного приема.
+
+
+	Для&amp;nbsp; транспортировки: в 1 упаковке = 2 стула</description>
+<param name="Допустимая нагрузка">120</param>
+<param name="Длина" unit="см">44</param>
+<param name="Ширина" unit="см">44</param>
+<param name="Высота" unit="см">95</param>
+<param name="Материал обивки">ткань жаккард</param>
+<param name="Цвет обивки">коричневый</param>
+<param name="Глубина упаковки" unit="мм">550</param>
+<param name="Высота упаковки" unit="мм">470</param>
+<param name="Вес упаковки" unit="кг">3,75</param>
+<param name="Страна производителя">Россия</param>
+<param name="Ширина упаковки" unit="мм">700</param>
+<param name="Вес" unit="kg">5.60000000</param>
+</offer>
+<offer id="1521" available="true" >
+<url>http://com.mebelimpex.ru/index.php?route=product/product&amp;path=&amp;product_id=1521</url>
+<price>5300.00</price>
+<currencyId>RUB</currencyId>
+<categoryId>133</categoryId>
+<picture>http://com.mebelimpex.ru/image/catalog/Obedennye_gruppy/Stulja/stul_leset_Oregon/leset_stul_Oregon_slkost_lozannashery_%281%29.jpg</picture>
+<picture>http://com.mebelimpex.ru/image/catalog/Obedennye_gruppy/Stulja/stul_leset_Oregon/leset_stul_Oregon_slkost_lozannashery_%282%29.jpg</picture>
+<delivery></delivery>
+<cpa>0</cpa>
+<name>Стул Leset Орегон</name>
+<vendor>Leset</vendor>
+<description>Стулья Leset Орегон мягкие и удобные, отлично подойдут для гостиной классического стиля. Они станут хорошим дополнением и для тихого ужина, и для пышного приема.
+
+
+	Для&amp;nbsp; транспортировки: в 1 упаковке = 2 стула</description>
+<param name="Допустимая нагрузка">120</param>
+<param name="Длина" unit="см">44</param>
+<param name="Ширина" unit="см">44</param>
+<param name="Высота" unit="см">95</param>
+<param name="Материал обивки">ткань жаккард</param>
+<param name="Цвет обивки">желтый</param>
+<param name="Глубина упаковки" unit="мм">550</param>
+<param name="Высота упаковки" unit="мм">470</param>
+<param name="Вес упаковки" unit="кг">3,75</param>
+<param name="Страна производителя">Россия</param>
+<param name="Ширина упаковки" unit="мм">700</param>
+<param name="Вес" unit="kg">5.60000000</param>
+</offer>
+<offer id="1522" available="true" >
+<url>http://com.mebelimpex.ru/index.php?route=product/product&amp;path=&amp;product_id=1522</url>
+<price>5300.00</price>
+<currencyId>RUB</currencyId>
+<categoryId>133</categoryId>
+<picture>http://com.mebelimpex.ru/image/catalog/Obedennye_gruppy/Stulja/stul_leset_Oregon/leset_stul_Oregon_belyi9003_selena_belyi_%281%29.jpg</picture>
+<picture>http://com.mebelimpex.ru/image/catalog/Obedennye_gruppy/Stulja/stul_leset_Oregon/leset_stul_Oregon_belyi9003_selena_belyi_%282%29.jpg</picture>
+<delivery></delivery>
+<cpa>0</cpa>
+<name>Стул Leset Орегон</name>
+<vendor>Leset</vendor>
+<description>Стулья Leset Орегон мягкие и удобные, отлично подойдут для гостиной классического стиля. Они станут хорошим дополнением и для тихого ужина, и для пышного приема.
+
+
+	Для&amp;nbsp; транспортировки: в 1 упаковке = 2 стула</description>
+<param name="Допустимая нагрузка">120</param>
+<param name="Длина" unit="см">44</param>
+<param name="Ширина" unit="см">44</param>
+<param name="Высота" unit="см">95</param>
+<param name="Материал обивки">экокожа</param>
+<param name="Цвет обивки">белый</param>
+<param name="Глубина упаковки" unit="мм">550</param>
+<param name="Высота упаковки" unit="мм">470</param>
+<param name="Вес упаковки" unit="кг">3,75</param>
+<param name="Страна производителя">Россия</param>
+<param name="Ширина упаковки" unit="мм">700</param>
+<param name="Вес" unit="kg">5.60000000</param>
+</offer>
+<offer id="1524" available="true" >
+<url>http://com.mebelimpex.ru/index.php?route=product/product&amp;path=&amp;product_id=1524</url>
+<price>6130.00</price>
+<currencyId>RUB</currencyId>
+<categoryId>133</categoryId>
+<picture>http://com.mebelimpex.ru/image/catalog/Obedennye_gruppy/Stulja/stul_leset_Ostin/leset_stul_Ostin_belyi_jakkardFlora_%281%29.jpg</picture>
+<picture>http://com.mebelimpex.ru/image/catalog/Obedennye_gruppy/Stulja/stul_leset_Ostin/leset_stul_Ostin_belyi_jakkardFlora_%281%29.jpg</picture>
+<delivery></delivery>
+<cpa>0</cpa>
+<name>Стул Leset Остин</name>
+<vendor>Leset</vendor>
+<description>Классический
+стул Остин выполнен из массива бука, обладающего однородной структурой и
+высокой твердостью. Клееный каркас стула обеспечивает
+наибольшую прочность и, соответственно, больший срок службы. Наполнитель
+сиденья ППУ.</description>
+<param name="Допустимая нагрузка">120</param>
+<param name="Длина" unit="см">50</param>
+<param name="Ширина" unit="см">44</param>
+<param name="Высота" unit="см">95</param>
+<param name="Материал обивки">ткань</param>
+<param name="Цвет обивки">коричневый</param>
+<param name="Глубина упаковки" unit="мм">535</param>
+<param name="Высота упаковки" unit="мм">750</param>
+<param name="Вес упаковки" unit="кг">7,15</param>
+<param name="Страна производителя">Россия</param>
+<param name="Ширина упаковки" unit="мм">520</param>
+<param name="Вес" unit="kg">5.95000000</param>
+</offer>
+<offer id="1525" available="true" >
+<url>http://com.mebelimpex.ru/index.php?route=product/product&amp;path=&amp;product_id=1525</url>
+<price>6130.00</price>
+<currencyId>RUB</currencyId>
+<categoryId>133</categoryId>
+<picture>http://com.mebelimpex.ru/image/catalog/Obedennye_gruppy/Stulja/stul_leset_Ostin/leset_stul_Ostin_slkost_shenill017_%281%29.jpg</picture>
+<picture>http://com.mebelimpex.ru/image/catalog/Obedennye_gruppy/Stulja/stul_leset_Ostin/leset_stul_Ostin_slkost_shenill017_%282%29.jpg</picture>
+<delivery></delivery>
+<cpa>0</cpa>
+<name>Стул Leset Остин</name>
+<vendor>Leset</vendor>
+<description>Классический
+стул Остин выполнен из массива бука, обладающего однородной структурой и
+высокой твердостью. Клееный каркас стула обеспечивает
+наибольшую прочность и, соответственно, больший срок службы. Наполнитель
+сиденья ППУ.</description>
+<param name="Допустимая нагрузка">120</param>
+<param name="Длина" unit="см">50</param>
+<param name="Ширина" unit="см">44</param>
+<param name="Высота" unit="см">95</param>
+<param name="Материал обивки">ткань</param>
+<param name="Цвет обивки">слоновая кость</param>
+<param name="Глубина упаковки" unit="мм">535</param>
+<param name="Высота упаковки" unit="мм">750</param>
+<param name="Вес упаковки" unit="кг">7,15</param>
+<param name="Страна производителя">Россия</param>
+<param name="Ширина упаковки" unit="мм">520</param>
+<param name="Вес" unit="kg">5.95000000</param>
+</offer>
+<offer id="1526" available="true" >
+<url>http://com.mebelimpex.ru/index.php?route=product/product&amp;path=&amp;product_id=1526</url>
+<price>7000.00</price>
+<currencyId>RUB</currencyId>
+<categoryId>133</categoryId>
+<picture>http://com.mebelimpex.ru/image/catalog/Obedennye_gruppy/Stulja/stul_leset_Florida/leset_stul_Florida_oreh_chokoladnyi_patina_zoloto_jakkard_palermo_karamel_%281%29.jpg</picture>
+<picture>http://com.mebelimpex.ru/image/catalog/Obedennye_gruppy/Stulja/stul_leset_Florida/leset_stul_Florida_oreh_chokoladnyi_patina_zoloto_jakkard_palermo_karamel_%281%29.jpg</picture>
+<delivery></delivery>
+<cpa>0</cpa>
+<name>Стул Leset Флорида</name>
+<vendor>Leset</vendor>
+<description>Стулья Leset Флорида мягкие и удобные, отлично подойдут для гостиной классического стиля. Они станут хорошим дополнением и для тихого ужина, и для пышного приема.</description>
+<param name="Допустимая нагрузка">120</param>
+<param name="Длина" unit="см">47</param>
+<param name="Ширина" unit="см">47</param>
+<param name="Высота" unit="см">103</param>
+<param name="Материал обивки">ткань жаккард</param>
+<param name="Цвет обивки">коричневый</param>
+<param name="Глубина упаковки" unit="мм">550</param>
+<param name="Высота упаковки" unit="мм">470</param>
+<param name="Вес упаковки" unit="кг">4</param>
+<param name="Страна производителя">Россия</param>
+<param name="Ширина упаковки" unit="мм">700</param>
+<param name="Вес" unit="kg">5.90000000</param>
+</offer>
+<offer id="1527" available="true" >
+<url>http://com.mebelimpex.ru/index.php?route=product/product&amp;path=&amp;product_id=1527</url>
+<price>7000.00</price>
+<currencyId>RUB</currencyId>
+<categoryId>133</categoryId>
+<picture>http://com.mebelimpex.ru/image/catalog/Obedennye_gruppy/Stulja/stul_leset_Florida/leset_stul_Florida_slkost_patina_zoloto_jakkard_atina_zolotoy_%281%29.jpg</picture>
+<picture>http://com.mebelimpex.ru/image/catalog/Obedennye_gruppy/Stulja/stul_leset_Florida/leset_stul_Florida_slkost_patina_zoloto_jakkard_atina_zolotoy_%283%29.jpg</picture>
+<delivery></delivery>
+<cpa>0</cpa>
+<name>Стул Leset Флорида</name>
+<vendor>Leset</vendor>
+<description>Стулья Leset Флорида мягкие и удобные, отлично подойдут для гостиной классического стиля. Они станут хорошим дополнением и для тихого ужина, и для пышного приема.
+
+	&amp;nbsp;</description>
+<param name="Допустимая нагрузка">120</param>
+<param name="Длина" unit="см">47</param>
+<param name="Ширина" unit="см">47</param>
+<param name="Высота" unit="см">103</param>
+<param name="Материал обивки">ткань жаккард</param>
+<param name="Цвет обивки">жёлтый</param>
+<param name="Глубина упаковки" unit="мм">550</param>
+<param name="Высота упаковки" unit="мм">470</param>
+<param name="Вес упаковки" unit="кг">4</param>
+<param name="Страна производителя">Россия</param>
+<param name="Ширина упаковки" unit="мм">700</param>
+<param name="Вес" unit="kg">5.90000000</param>
+</offer>
+<offer id="1528" available="true" >
+<url>http://com.mebelimpex.ru/index.php?route=product/product&amp;path=&amp;product_id=1528</url>
+<price>5700.00</price>
+<currencyId>RUB</currencyId>
+<categoryId>133</categoryId>
+<picture>http://com.mebelimpex.ru/image/catalog/Obedennye_gruppy/Stulja/stul_leset_Hyston/leset_stul_hyston_belyi_lak_kz526.jpg</picture>
+<picture>http://com.mebelimpex.ru/image/catalog/Obedennye_gruppy/Stulja/stul_leset_Hyston/leset_stul_hyston_belyi_lak_kz526.jpg</picture>
+<delivery></delivery>
+<cpa>0</cpa>
+<name>Стул Leset Хьюстон</name>
+<vendor>Leset</vendor>
+<description>Оригинальный стул Хьюстон
+выполнен из массива бука, обладающего однородной структурой и высокой
+твердостью.&amp;nbsp;Клееный
+каркас стула обеспечивает наибольшую прочность и, соответственно, больший срок службы.&amp;nbsp;Наполнитель
+сиденья ППУ.</description>
+<param name="Допустимая нагрузка">120</param>
+<param name="Длина" unit="см">51</param>
+<param name="Ширина" unit="см">47</param>
+<param name="Высота" unit="см">93</param>
+<param name="Материал обивки">экокожа</param>
+<param name="Цвет обивки">серо-коричневый</param>
+<param name="Глубина упаковки" unit="мм">555</param>
+<param name="Высота упаковки" unit="мм">600</param>
+<param name="Вес упаковки" unit="кг">6,9</param>
+<param name="Страна производителя">Россия</param>
+<param name="Ширина упаковки" unit="мм">490</param>
+<param name="Вес" unit="kg">5.60000000</param>
+</offer>
+<offer id="1529" available="true" >
+<url>http://com.mebelimpex.ru/index.php?route=product/product&amp;path=&amp;product_id=1529</url>
+<price>5700.00</price>
+<currencyId>RUB</currencyId>
+<categoryId>133</categoryId>
+<picture>http://com.mebelimpex.ru/image/catalog/Obedennye_gruppy/Stulja/stul_leset_Hyston/leset_stul_Hyston_capuchino_kz514_%281%29.jpg</picture>
+<picture>http://com.mebelimpex.ru/image/catalog/Obedennye_gruppy/Stulja/stul_leset_Hyston/leset_stul_Hyston_capuchino_kz514_%282%29.jpg</picture>
+<delivery></delivery>
+<cpa>0</cpa>
+<name>Стул Leset Хьюстон</name>
+<vendor>Leset</vendor>
+<description>Оригинальный стул Хьюстон
+выполнен из массива бука, обладающего однородной структурой и высокой
+твердостью.&amp;nbsp;Клееный
+каркас стула обеспечивает наибольшую прочность и, соответственно, больший срок службы.&amp;nbsp;Наполнитель
+сиденья ППУ.
+
+	&amp;nbsp;</description>
+<param name="Допустимая нагрузка">120</param>
+<param name="Длина" unit="см">51</param>
+<param name="Ширина" unit="см">47</param>
+<param name="Высота" unit="см">93</param>
+<param name="Материал обивки">экокожа</param>
+<param name="Цвет обивки">коричневый</param>
+<param name="Глубина упаковки" unit="мм">555</param>
+<param name="Высота упаковки" unit="мм">600</param>
+<param name="Вес упаковки" unit="кг">6,9</param>
+<param name="Страна производителя">Россия</param>
+<param name="Ширина упаковки" unit="мм">490</param>
+<param name="Вес" unit="kg">5.60000000</param>
+</offer>
+<offer id="1530" available="true" >
+<url>http://com.mebelimpex.ru/index.php?route=product/product&amp;path=&amp;product_id=1530</url>
+<price>6900.00</price>
+<currencyId>RUB</currencyId>
+<categoryId>133</categoryId>
+<picture>http://com.mebelimpex.ru/image/catalog/Obedennye_gruppy/Stulja/stul_leset_Uta/leset_stul_Uta_belyi_patina_romb_koritsa_%281%29.jpg</picture>
+<picture>http://com.mebelimpex.ru/image/catalog/Obedennye_gruppy/Stulja/stul_leset_Uta/leset_stul_Uta_belyi_patina_romb_koritsa_%283%29.jpg</picture>
+<delivery></delivery>
+<cpa>0</cpa>
+<name>Стул Leset Юта</name>
+<vendor>Leset</vendor>
+<description>Стулья Leset Юта мягкие и удобные, отлично подойдут для гостиной классического стиля. Они станут хорошим дополнением и для тихого ужина, и для пышного приема.</description>
+<param name="Допустимая нагрузка">120</param>
+<param name="Длина" unit="см">47</param>
+<param name="Ширина" unit="см">47</param>
+<param name="Высота" unit="см">100</param>
+<param name="Материал обивки">ткань</param>
+<param name="Цвет обивки">серый + коричневый ромб</param>
+<param name="Глубина упаковки" unit="мм">550</param>
+<param name="Высота упаковки" unit="мм">470</param>
+<param name="Вес упаковки" unit="кг">4</param>
+<param name="Страна производителя">Россия</param>
+<param name="Ширина упаковки" unit="мм">700</param>
+<param name="Вес" unit="kg">5.90000000</param>
+</offer>
+<offer id="1531" available="true" >
+<url>http://com.mebelimpex.ru/index.php?route=product/product&amp;path=&amp;product_id=1531</url>
+<price>6900.00</price>
+<currencyId>RUB</currencyId>
+<categoryId>133</categoryId>
+<picture>http://com.mebelimpex.ru/image/catalog/Obedennye_gruppy/Stulja/stul_leset_Uta/leset_stul_Uta_slkost_zolotaya_patina_%281%29.jpg</picture>
+<picture>http://com.mebelimpex.ru/image/catalog/Obedennye_gruppy/Stulja/stul_leset_Uta/leset_stul_Uta_slkost_zolotaya_patina_%283%29.jpg</picture>
+<delivery></delivery>
+<cpa>0</cpa>
+<name>Стул Leset Юта</name>
+<vendor>Leset</vendor>
+<description>Стулья Leset Юта мягкие и удобные, отлично подойдут для гостиной классического стиля. Они станут хорошим дополнением и для тихого ужина, и для пышного приема.</description>
+<param name="Допустимая нагрузка">120</param>
+<param name="Длина" unit="см">47</param>
+<param name="Ширина" unit="см">47</param>
+<param name="Высота" unit="см">100</param>
+<param name="Материал обивки">ткань</param>
+<param name="Цвет обивки">золотой</param>
+<param name="Глубина упаковки" unit="мм">550</param>
+<param name="Высота упаковки" unit="мм">470</param>
+<param name="Вес упаковки" unit="кг">4</param>
+<param name="Страна производителя">Россия</param>
+<param name="Ширина упаковки" unit="мм">700</param>
+<param name="Вес" unit="kg">5.90000000</param>
+</offer>
+<offer id="1532" available="true" >
+<url>http://com.mebelimpex.ru/index.php?route=product/product&amp;path=&amp;product_id=1532</url>
+<price>6900.00</price>
+<currencyId>RUB</currencyId>
+<categoryId>133</categoryId>
+<picture>http://com.mebelimpex.ru/image/catalog/Obedennye_gruppy/Stulja/stul_leset_Uta/leset_Uta_white_romb_zolotoj.jpg</picture>
+<picture>http://com.mebelimpex.ru/image/catalog/Obedennye_gruppy/Stulja/stul_leset_Uta/leset_Uta_white_romb_zolotoj.jpg</picture>
+<delivery></delivery>
+<cpa>0</cpa>
+<name>Стул Leset Юта</name>
+<vendor>Leset</vendor>
+<description>Стулья Leset Юта мягкие и удобные, отлично подойдут для гостиной классического стиля. Они станут хорошим дополнением и для тихого ужина, и для пышного приема.</description>
+<param name="Допустимая нагрузка">120</param>
+<param name="Длина" unit="см">47</param>
+<param name="Ширина" unit="см">47</param>
+<param name="Высота" unit="см">100</param>
+<param name="Материал обивки">ткань</param>
+<param name="Цвет обивки">ромб золотой</param>
+<param name="Глубина упаковки" unit="мм">550</param>
+<param name="Высота упаковки" unit="мм">470</param>
+<param name="Вес упаковки" unit="кг">4</param>
+<param name="Страна производителя">Россия</param>
+<param name="Ширина упаковки" unit="мм">700</param>
+<param name="Вес" unit="kg">5.90000000</param>
+</offer>
+</offers>
+</shop></yml_catalog>
